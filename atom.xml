@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[dreamer's blog]]></title>
+  <subtitle><![CDATA[一步一个脚印。做现实的理想主义者]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="hhttp://dreamer2008.github.io/"/>
+  <updated>2015-12-12T05:49:37.000Z</updated>
+  <id>hhttp://dreamer2008.github.io/</id>
+  
+  <author>
+    <name><![CDATA[dreamer]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[英语系列简介]]></title>
+    <link href="hhttp://dreamer2008.github.io/2015/12/06/english/index/"/>
+    <id>hhttp://dreamer2008.github.io/2015/12/06/english/index/</id>
+    <published>2015-12-06T09:42:30.000Z</published>
+    <updated>2015-12-12T05:49:37.000Z</updated>
+    <content type="html"><![CDATA[<image src="/images/english/english.jpg" width="200" height="180">
+
+<p><strong>NOTE:</strong> 本人虽然是理工技术男，但对英语/外语特别感兴趣。</p>
+<p>英语系列将包括以下几个方面的内容。</p>
+<ul>
+<li>英语学习方法探讨</li>
+<li>本人学习英语，特别是口语的经历</li>
+<li>本人用英语写的资料和其他相关资料</li>
+<li>其他语言的学习</li>
+</ul>
+<p>欢迎大家留言和交流，共同学习，共同进步！</p>
+</image>]]></content>
+    <summary type="html">
+    <![CDATA[<image src="/images/english/english.jpg" width="200" height="180">
+
+<p><strong>NOTE:</strong> 本人虽然是理工技术男，但对英语/外语特别感兴趣。</p>
+<p>英语系列将包括以下几个方面的]]>
+    </summary>
+    
+      <category term="English" scheme="hhttp://dreamer2008.github.io/categories/English/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[互联网巨头 Internet Giants]]></title>
+    <link href="hhttp://dreamer2008.github.io/2015/04/20/internet/internet-giants/"/>
+    <id>hhttp://dreamer2008.github.io/2015/04/20/internet/internet-giants/</id>
+    <published>2015-04-20T13:42:30.000Z</published>
+    <updated>2015-12-05T08:33:23.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="u5168_u740310_u5927_u4E92_u8054_u7F51_u516C_u53F8"><a href="#u5168_u740310_u5927_u4E92_u8054_u7F51_u516C_u53F8" class="headerlink" title="全球10大互联网公司"></a>全球10大互联网公司</h2><p>首先，祝贺大京东成功跻身全球前10互联网公司。而且前10名中，我朝竟然独占4席，可喜可贺。<br>（以市值排序，2015年4月12日）</p>
+<p><img src="http://i.imgur.com/JFM2bu7.png" alt="全球10大互联网公司"></p>
+<p>更多参考：</p>
+<ul>
+<li><a href="http://www.56lem.com/news/show-633.html" target="_blank" rel="external">2014全球十大互联网公司</a></li>
+<li><a href="http://www.hongjier.cn/news_268.htm" target="_blank" rel="external">世界十大互联网公司中国占四位！</a></li>
+<li><a href="http://finance.ifeng.com/a/20140917/13121077_0.shtml" target="_blank" rel="external">盘点全球十大市值最高互联网公司</a></li>
+</ul>
+<h2 id="GAF_VS_BAT"><a href="#GAF_VS_BAT" class="headerlink" title="GAF VS BAT"></a>GAF VS BAT</h2><p>我还以为是我首创了GAF/GAAF这个缩写，原来早就有了。不过我也算是独立发明的吧。[嘻嘻]</p>
+<p>GAF是Google,Amazon,Facebook三大互联网巨头，加上苹果之后算是”<a href="http://archives.guao.hk/posts/eric-schmidts-gang-of-four-google-apple-amazon-and-facebook.html" target="_blank" rel="external">新四大金刚</a>”-GAAF。</p>
+<p>GAF和BAT正好一一对应，分别是搜索、电商和社交三大领域的巨头，并且都在建立自己的生态系统，都想扩大自己的势力范围。</p>
+<p>更多参考：</p>
+<ul>
+<li><a href="http://36kr.com/p/102774.html" target="_blank" rel="external">六大生态系统的崛</a></li>
+<li><a href="http://www.zhihu.com/question/27104799" target="_blank" rel="external">知乎上的讨论</a></li>
+<li><a href="http://edu.163.com/15/0413/09/AN2QLI4E00294MA1.html" target="_blank" rel="external">巨头前路占卜</a></li>
+<li><a href="http://www.csdn.net/article/2013-04-01/2814733-scalability-lessons-from-google-7-compannies" target="_blank" rel="external">7大知名互联网的系统扩展经验</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="u5168_u740310_u5927_u4E92_u8054_u7F51_u516C_u53F8"><a href="#u5168_u740310_u5927_u4E92_u8054_u7F51_u516C_u53F8" class="headerlink" t]]>
+    </summary>
+    
+      <category term="Internet" scheme="hhttp://dreamer2008.github.io/tags/Internet/"/>
+    
+      <category term="京东" scheme="hhttp://dreamer2008.github.io/tags/%E4%BA%AC%E4%B8%9C/"/>
+    
+      <category term="互联网" scheme="hhttp://dreamer2008.github.io/categories/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[做现实的理想主义者]]></title>
+    <link href="hhttp://dreamer2008.github.io/2015/04/20/essay/realistic-idealist/"/>
+    <id>hhttp://dreamer2008.github.io/2015/04/20/essay/realistic-idealist/</id>
+    <published>2015-04-19T16:05:00.000Z</published>
+    <updated>2015-12-06T11:12:17.000Z</updated>
+    <content type="html"><![CDATA[<p>世界不属于理想主义者，因为他们懦弱，没有勇气面对真相; </p>
+<p>世界也不属于现实主义者，因为他们只是在重复别人的生活。 </p>
+<p>世界属于我们这样的现实的理想主义者。因为他们深深的知道，梦想越纯粹，手段就越要现实。</p>
+<p>世界越不看好你，你就要越看好自己。环境越冷清，我们就越要笑得怒力！我们就是这样改变世界！</p>
+<p><img src="http://www.xjy.cn/wp-content/uploads/2012/08/4b09eac0t7a5ec1a9f402690.jpg" alt="dreamer"></p>
+<p>— 节选自<a href="http://www.zreading.cn/archives/3178.html" title="做现实的理想主义者" target="_blank" rel="external">做现实的理想主义者</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>世界不属于理想主义者，因为他们懦弱，没有勇气面对真相; </p>
+<p>世界也不属于现实主义者，因为他们只是在重复别人的生活。 </p>
+<p>世界属于我们这样的现实的理想主义者。因为他们深深的知道，梦想越纯粹，手段就越要现实。</p>
+<p>世界越不看好你，你就要越看好自]]>
+    </summary>
+    
+      <category term="随笔" scheme="hhttp://dreamer2008.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Github Blogging with Hexo]]></title>
+    <link href="hhttp://dreamer2008.github.io/2015/04/19/tech/github-blogging-with-hexo/"/>
+    <id>hhttp://dreamer2008.github.io/2015/04/19/tech/github-blogging-with-hexo/</id>
+    <published>2015-04-19T13:42:30.000Z</published>
+    <updated>2015-12-05T08:30:51.000Z</updated>
+    <content type="html"><![CDATA[<p>  现在github非常火，很多人（包括很多非程序猿）都在上面开博了。推荐一篇文章：<a href="http://zhuanlan.zhihu.com/cnfeat/19743861" target="_blank" rel="external">为什么你要写博客？</a></p>
+<p>  工具方面，从基于Ruby的Jekyll，Octopress，到基于Python的Pelican，再到基于Node.js的Hexo。经过试用，我最终选择了Hexo。更多的工具，请看<a href="http://www.tuicool.com/articles/rmyuEnm" target="_blank" rel="external">这里</a>。</p>
+<h2 id="Hexo__u7B80_u4ECB"><a href="#Hexo__u7B80_u4ECB" class="headerlink" title="Hexo 简介"></a>Hexo 简介</h2><p>  Hexo 出自一个台湾大学生<a href="https://github.com/tommy351" target="_blank" rel="external">tommy351</a>之手（原来我们大中华区也有世界级的编程牛人啊。赞一个！）。<a href="http://hexo.io/" target="_blank" rel="external">这里</a>是官网。</p>
+<p>  Hexo是一个快速的、强大的Blog框架，主要是由 Node.js 构建出来的。同时支持多线程生成，上百个文件只需要花数秒中就能生成。</p>
+<p>  Hexo还支持GitHub Flavored Markdown 和所有的 Octopress 插件和 高兼容 Jekyll/Octopress。</p>
+<h2 id="Hexo__u5B89_u88C5"><a href="#Hexo__u5B89_u88C5" class="headerlink" title="Hexo 安装"></a>Hexo 安装</h2><p>  Hexo 是一个轻量的静态博客框架。通过Hexo可以快速生成一个静态博客框架,仅需要几条命令就可以完成,相当方便。</p>
+<ul>
+<li><p>安装Git和Node.js</p>
+</li>
+<li><p>安装和配置Hexo</p>
+</li>
+<li><p>申请github账号</p>
+</li>
+<li><p>编写和发布博客</p>
+<p>具体可以参考这几篇文章：</p>
+</li>
+<li><p><a href="http://www.jianshu.com/p/05289a4bc8b2" target="_blank" rel="external">如何搭建一个独立博客</a></p>
+</li>
+<li><p><a href="http://www.jianshu.com/p/73779eacb494" target="_blank" rel="external">Hexo 3.0 静态博客使用指南</a></p>
+</li>
+<li><a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">hexo你的博客</a></li>
+<li><p><a href="http://zipperary.com/2013/05/28/hexo-guide-2/" target="_blank" rel="external">hexo系列教程</a></p>
+<a id="more"></a>
+<h2 id="u95EE_u9898_u53CA_u5176_u89E3_u51B3"><a href="#u95EE_u9898_u53CA_u5176_u89E3_u51B3" class="headerlink" title="问题及其解决"></a>问题及其解决</h2><h3 id="npm_install_u8FD0_u884C_u7F13_u6162_u6216_u5931_u8D25"><a href="#npm_install_u8FD0_u884C_u7F13_u6162_u6216_u5931_u8D25" class="headerlink" title="npm install运行缓慢或失败"></a>npm install运行缓慢或失败</h3><p>可以指定国内的镜像网站，请参考<a href="https://cnodejs.org/topic/4f9904f9407edba21468f31e" target="_blank" rel="external">这里</a></p>
+<h3 id="u4E2D_u6587_u7684_u652F_u6301_u95EE_u9898"><a href="#u4E2D_u6587_u7684_u652F_u6301_u95EE_u9898" class="headerlink" title="中文的支持问题"></a>中文的支持问题</h3></li>
+<li><p>在根目录的_config.yml中配置中文</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">language: zh-CN</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>保存文件的时候，要确保文件是UTF-8编码</p>
+<h3 id="u5176_u4ED6_u95EE_u9898"><a href="#u5176_u4ED6_u95EE_u9898" class="headerlink" title="其他问题"></a>其他问题</h3><p>请参考：<a href="http://wp.huangshiyang.com/hexo常见问题解决方案" target="_blank" rel="external">http://wp.huangshiyang.com/hexo常见问题解决方案</a></p>
+<h2 id="Hexo_u5E38_u7528_u547D_u4EE4"><a href="#Hexo_u5E38_u7528_u547D_u4EE4" class="headerlink" title="Hexo常用命令"></a>Hexo常用命令</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">hexo n ==  hexo new</span><br><span class="line"></span><br><span class="line">hexo g ==  hexo generate</span><br><span class="line"></span><br><span class="line">hexo d ==  hexo deploy</span><br><span class="line"></span><br><span class="line">hexo s ==  hexo server</span><br></pre></td></tr></table></figure>
+<p>其他常用命令，请参考<a href="http://segmentfault.com/a/1190000002632530" target="_blank" rel="external">这里</a>。</p>
+<h2 id="github_u57DF_u540D_u7ED1_u5B9A_u95EE_u9898"><a href="#github_u57DF_u540D_u7ED1_u5B9A_u95EE_u9898" class="headerlink" title="github域名绑定问题"></a>github域名绑定问题</h2><p>请参考前面的文章。</p>
+<h2 id="Hexo_u7684Theme_uFF08_u4E3B_u9898/_u76AE_u80A4_uFF09"><a href="#Hexo_u7684Theme_uFF08_u4E3B_u9898/_u76AE_u80A4_uFF09" class="headerlink" title="Hexo的Theme（主题/皮肤）"></a>Hexo的Theme（主题/皮肤）</h2><p>定制皮肤需要一定的Web前端基础（HTML/DIV/CSS/JavaScript）。<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">更多主题，总有一款适合你</a>。</p>
+<h2 id="Markdown_u8BED_u6CD5"><a href="#Markdown_u8BED_u6CD5" class="headerlink" title="Markdown语法"></a>Markdown语法</h2><p>.md文件用纯文本软件编辑即可。这里有几个入门教程：</p>
+</li>
+<li><p><a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="external">Markdown</a></p>
+</li>
+<li><p><a href="http://sspai.com/25137" target="_blank" rel="external">认识与入门 Markdown</a></p>
+</li>
+<li><p><a href="http://www.jianshu.com/p/q81RER" target="_blank" rel="external">献给写作者的 Markdown</a></p>
+</li>
+<li><p><a href="http://wowubuntu.com/markdown/" target="_blank" rel="external">Markdown语法说明</a></p>
+</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>  现在github非常火，很多人（包括很多非程序猿）都在上面开博了。推荐一篇文章：<a href="http://zhuanlan.zhihu.com/cnfeat/19743861">为什么你要写博客？</a></p>
+<p>  工具方面，从基于Ruby的Jekyll，Octopress，到基于Python的Pelican，再到基于Node.js的Hexo。经过试用，我最终选择了Hexo。更多的工具，请看<a href="http://www.tuicool.com/articles/rmyuEnm">这里</a>。</p>
+<h2 id="Hexo__u7B80_u4ECB"><a href="#Hexo__u7B80_u4ECB" class="headerlink" title="Hexo 简介"></a>Hexo 简介</h2><p>  Hexo 出自一个台湾大学生<a href="https://github.com/tommy351">tommy351</a>之手（原来我们大中华区也有世界级的编程牛人啊。赞一个！）。<a href="http://hexo.io/">这里</a>是官网。</p>
+<p>  Hexo是一个快速的、强大的Blog框架，主要是由 Node.js 构建出来的。同时支持多线程生成，上百个文件只需要花数秒中就能生成。</p>
+<p>  Hexo还支持GitHub Flavored Markdown 和所有的 Octopress 插件和 高兼容 Jekyll/Octopress。</p>
+<h2 id="Hexo__u5B89_u88C5"><a href="#Hexo__u5B89_u88C5" class="headerlink" title="Hexo 安装"></a>Hexo 安装</h2><p>  Hexo 是一个轻量的静态博客框架。通过Hexo可以快速生成一个静态博客框架,仅需要几条命令就可以完成,相当方便。</p>
+<ul>
+<li><p>安装Git和Node.js</p>
+</li>
+<li><p>安装和配置Hexo</p>
+</li>
+<li><p>申请github账号</p>
+</li>
+<li><p>编写和发布博客</p>
+<p>具体可以参考这几篇文章：</p>
+</li>
+<li><p><a href="http://www.jianshu.com/p/05289a4bc8b2">如何搭建一个独立博客</a></p>
+</li>
+<li><p><a href="http://www.jianshu.com/p/73779eacb494">Hexo 3.0 静态博客使用指南</a></p>
+</li>
+<li><a href="http://ibruce.info/2013/11/22/hexo-your-blog/">hexo你的博客</a></li>
+<li><p><a href="http://zipperary.com/2013/05/28/hexo-guide-2/">hexo系列教程</a></p>]]>
+    
+    </summary>
+    
+      <category term="Hexo" scheme="hhttp://dreamer2008.github.io/tags/Hexo/"/>
+    
+      <category term="Markdown" scheme="hhttp://dreamer2008.github.io/tags/Markdown/"/>
+    
+      <category term="git" scheme="hhttp://dreamer2008.github.io/tags/git/"/>
+    
+      <category term="github" scheme="hhttp://dreamer2008.github.io/tags/github/"/>
+    
+      <category term="工具" scheme="hhttp://dreamer2008.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Git 10岁了！]]></title>
+    <link href="hhttp://dreamer2008.github.io/2015/04/19/tech/git-ten-years/"/>
+    <id>hhttp://dreamer2008.github.io/2015/04/19/tech/git-ten-years/</id>
+    <published>2015-04-19T12:40:14.000Z</published>
+    <updated>2015-12-08T00:52:10.000Z</updated>
+    <content type="html"><![CDATA[<p>Git已经10岁了。如果你还没玩git，那就真的out了。</p>
+<p><a href="http://www.admin10000.com/document/6162.html" target="_blank" rel="external">原文</a> <a href="http://www.linux.com/news/featured-blogs/185-jennifer-cloer/821541-10-years-of-git-an-interview-with-git-creator-linus-torvalds" target="_blank" rel="external">英文原文</a></p>
+<p><a href="http://www.ruanyifeng.com/blog/2015/08/git-use-process.html" target="_blank" rel="external">Git入门教程</a></p>
+<p>PS: Linus大侠也老了，有木有？原来这哥们除了发明了Linux，还“顺带”发明了Git。膜拜ing。。。</p>
+<p><img src="http://www.admin10000.com/UploadFiles/Document/201504/09/20150409095125928274.JPG" height="320" width="280"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Git已经10岁了。如果你还没玩git，那就真的out了。</p>
+<p><a href="http://www.admin10000.com/document/6162.html" target="_blank" rel="external">原文</a> <a href]]>
+    </summary>
+    
+      <category term="git" scheme="hhttp://dreamer2008.github.io/tags/git/"/>
+    
+      <category term="互联网" scheme="hhttp://dreamer2008.github.io/categories/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="hhttp://dreamer2008.github.io/2015/04/18/misc/hello-world/"/>
+    <id>hhttp://dreamer2008.github.io/2015/04/18/misc/hello-world/</id>
+    <published>2015-04-18T13:42:30.000Z</published>
+    <updated>2015-12-12T05:53:41.000Z</updated>
+    <content type="html"><![CDATA[<image src="/images/misc/helloworld.png" width="300" height="360">
+
+<p><strong>NOTE:</strong> This is just a default demo. For hexo, please refer to <a href="http://dreamer2008.github.io/2015/04/19/github-blogging-with-hexo/" title="hexo">my blog here</a>.</p>
+<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start"><a href="#Quick_Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create_a_new_post"><a href="#Create_a_new_post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server"><a href="#Run_server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files"><a href="#Generate_static_files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites"><a href="#Deploy_to_remote_sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+</image>]]></content>
+    <summary type="html">
+    <![CDATA[<image src="/images/misc/helloworld.png" width="300" height="360">
+
+<p><strong>NOTE:</strong> This is just a default demo. For hexo, please ]]>
+    </summary>
+    
+      <category term="其他" scheme="hhttp://dreamer2008.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    
+  </entry>
+  
+</feed>
