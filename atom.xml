@@ -4,7 +4,7 @@
   <subtitle><![CDATA[一步一个脚印。做现实的理想主义者]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="hhttp://dreamer2008.github.io/"/>
-  <updated>2015-12-31T14:48:06.000Z</updated>
+  <updated>2016-01-03T14:09:03.000Z</updated>
   <id>hhttp://dreamer2008.github.io/</id>
   
   <author>
@@ -15,23 +15,54 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[2015年个人总结]]></title>
+    <link href="hhttp://dreamer2008.github.io/2016/01/03/essay/summary_2015/"/>
+    <id>hhttp://dreamer2008.github.io/2016/01/03/essay/summary_2015/</id>
+    <published>2016-01-03T11:56:29.000Z</published>
+    <updated>2016-01-03T14:09:03.000Z</updated>
+    <content type="html"><![CDATA[<p>2015年对我来说，是不平常的一年。因为我回到了3年前离开的公司 —— 京东商城。希望这是我这辈子唯一的一次。呵呵。</p>
+<p>2015年4月份，我离开了Demandforce(an Intuit company)团队。坦白讲，我自己感觉被忽悠了。因为面谈的时候说好的SaaS云平台，在我入职半年多以后就被放弃了。看来，被收购的公司，命运从被收购的那一刻就注定不被自己掌握了。既然高大上的SaaS不做了，就只能维护好的代码了。其实我一直惊讶于如此陈旧、垃圾的代码，还能继续存活着，为投资者赚取利润。我也没想到，美国硅谷公司里，也有这么垃圾的代码。业务逻辑，直接写在JSP里面，想必国内的程序员大部分也没见识过。而且，我竟然坚持了两年，简直不是我的个性。呵呵。</p>
+<p>回顾过去的两年，我在技术上，确实没有大的进步。一方面，是因为日常工作中确实没用到牛叉的技术，另一方面，我把业余时间用在了别的事情上，比如英语、吉他、年会唱歌。尤其是英语，我发起了ELP(English Learning Program)，现学现卖，反响很好。从此以后，我也可以张口飚英语了。呵呵。</p>
+<p>另外，我有幸认识了一些有趣的人。<br><a href="https://cn.linkedin.com/in/yuen-nam-choi-33335838/zh-cn" target="_blank" rel="external">Yuen</a>, a charming lady and professional product manager with amazing personalities, which includes straightness and gentleness. She was the first one that has international background I’ve met. She always smiles to everyone around her and was also very patient and her sense of humor impressed me a lot(although in a US way many times) . I enjoyed working with her in the past two years.</p>
+<p>The other guy was <a href="https://cn.linkedin.com/in/helix-guan-00b5b636/zh-cn" target="_blank" rel="external">Helix</a>. He is a System Administrator. But, more importantly, he is very versatile and has diverse hobbies,like,reading different books,playing pingpong and many other games, playing several musical instruments, and speaking several foreign languages in a strange and funny way. I’ve never seen such a kowledgeable man ever before. In a way, he is the ideal version of me. Her negative attitude to overworking also impressed me. (just like 陈皓。哈哈)</p>
+<p>2015年5月，我回到了曾经战斗过的地方-京东POP。三年河东，三年河西。三年之后的今天，早已物是人非。新面孔，新业务，新技术迎面扑来，虽然核心的概念，我仍然了然于胸，但仍然感觉变化好大。到目前为止，POP商品组的大部分系统我都参与过了。其中两个系统，基本上是我独立开发的。但是，显然，在架构设计方面，我还有很长的路要走。希望，在新的一年，能有大的进步，从读书计划开始。</p>
+<p>2016, I’m coming. Onwards and upwards!</p>
+<p><img src="/images/essay/2016.jpg" width="220" height="200"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>2015年对我来说，是不平常的一年。因为我回到了3年前离开的公司 —— 京东商城。希望这是我这辈子唯一的一次。呵呵。</p>
+<p>2015年4月份，我离开了Demandforce(an Intuit company)团队。坦白讲，我自己感觉被忽悠了。因为面谈的时候说好的S]]>
+    </summary>
+    
+      <category term="2015" scheme="hhttp://dreamer2008.github.io/tags/2015/"/>
+    
+      <category term="总结" scheme="hhttp://dreamer2008.github.io/tags/%E6%80%BB%E7%BB%93/"/>
+    
+      <category term="随笔" scheme="hhttp://dreamer2008.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Happy 2016]]></title>
     <link href="hhttp://dreamer2008.github.io/2015/12/31/essay/happy2016/"/>
     <id>hhttp://dreamer2008.github.io/2015/12/31/essay/happy2016/</id>
     <published>2015-12-31T14:36:50.000Z</published>
-    <updated>2015-12-31T14:48:06.000Z</updated>
+    <updated>2016-01-03T14:16:13.000Z</updated>
     <content type="html"><![CDATA[<p>2015年，我回到了三年前战斗过的地方-京东POP，重新踏上互联网的征程。</p>
-<p>2016年，我最大的希望是，能在技术和职业发展上找到新的突破点。</p>
+<p>2016年，我最大的希望是，能在技术和职业发展上找到新的突破点，更加快乐地工作、进步！</p>
 <p>自助者天助。加油，2016！</p>
+<p><img src="http://pic.58pic.com/58pic/11/06/47/62Z58PICjtk.jpg" width="650" height="281"></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>2015年，我回到了三年前战斗过的地方-京东POP，重新踏上互联网的征程。</p>
-<p>2016年，我最大的希望是，能在技术和职业发展上找到新的突破点。</p>
+<p>2016年，我最大的希望是，能在技术和职业发展上找到新的突破点，更加快乐地工作、进步！</p>
 <p>自助者天助。加油，2016！</p>
-]]>
+<p><img src="http://pi]]>
     </summary>
     
       <category term="2016" scheme="hhttp://dreamer2008.github.io/tags/2016/"/>
+    
+      <category term="京东" scheme="hhttp://dreamer2008.github.io/tags/%E4%BA%AC%E4%B8%9C/"/>
     
       <category term="随笔" scheme="hhttp://dreamer2008.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
