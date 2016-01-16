@@ -4,7 +4,7 @@
   <subtitle><![CDATA[一步一个脚印。做现实的理想主义者]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="hhttp://dreamer2008.github.io/"/>
-  <updated>2016-01-11T14:09:55.000Z</updated>
+  <updated>2016-01-16T09:27:38.000Z</updated>
   <id>hhttp://dreamer2008.github.io/</id>
   
   <author>
@@ -13,6 +13,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[(InfoQ) 一种为前端提供服务的后端模式]]></title>
+    <link href="hhttp://dreamer2008.github.io/2016/01/16/english/backend-serving-frontend/"/>
+    <id>hhttp://dreamer2008.github.io/2016/01/16/english/backend-serving-frontend/</id>
+    <published>2016-01-16T09:15:30.000Z</published>
+    <updated>2016-01-16T09:27:38.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>摘要</strong>：由于移动设备更小的屏幕、有限的数据计划和对更少请求的需求，移动端的Web体验与桌面端Web浏览器的体验在很多方面都有差异。移动设备需要更少但经常同时也是和桌面端不同的数据，可能会提供其他的交互，例如：通过条形码读码器。这就意味着，为了支持移动设备，我们需要为我们的API后端提供额外的功能。Sam Newman在一篇博客中这样解释到。</p>
+<p>由于移动设备更小的屏幕、有限的数据计划和对更少请求的需求，移动端的Web体验与桌面端Web浏览器的体验在很多方面都有差异。移动设备需要更少但经常同时也是和桌面端不同的数据，可能会提供其他的交互，例如：通过条形码读码器。这就意味着，为了支持移动设备，我们需要为我们的API后端提供额外的功能。<a href="http://samnewman.io/about/" target="_blank" rel="external">Sam Newman</a>在一篇博客中这样解释到。这篇博客描述了<a href="http://samnewman.io/patterns/architectural/bff/" target="_blank" rel="external">一种API后端的模式</a>，用来处理这种不同用户体验的设备之间的这种不协调。</p>
+<p>正如这位Thoughtworks的开发者Newman所言，一种解决方案是构建一个为所有用户界面服务的通用的API后端。然而正是由于上述的不同需求，这种方案在实践中意味着后端功能和复杂度的增加。同时，为了支持所有设备而做的变动也可能导致该方案成为拖累部署流程的瓶颈。使用这种通用后端——尤其是Newman所经历过的后端的方式工作时，有时会导致一个特殊团队的出现，而导致上述问题增加。这种情况下，前端团队会有一个单独的团队需要去沟通，同时，这个单独的团队需要从其他团队确定需求的优先级。</p>
+<p>Newman发现另外一种实际在用的方案是为每种用户体验提供一套API后端。<br>于是，从理论上讲，一个面向用户的应用会有两个组件组成，客户端组件和服务端组件，后端为前端提供服务（Backend For Frontend）。为此，<a href="http://philcalcado.com/about/" target="_blank" rel="external">Phil Calçado</a>在SoundCloud工作的时候还发明了一个术语：BFF。</p>
+<p>当使用BFF架构工作的时候，前后端由同一个团队来维护，后端很自然地会和某种特定的用户界面紧耦合。当处理同种类型的用户体验，但是不同的平台（例如Android和iOS），Newman描述了两种不同的处理方式：每个平台提供一套BFF和每种类型用户界面提供一套BFF。</p>
+<p>Newman更倾向于严格模式下为每个平台提供一套BFF。这种方式的一个关注点是不同平台的BFF之间大量重复的东西会导致风险，例如：相同类型的聚合或者与下游服务交互的相似代码。但是，他并不太担心这个，因为这种重复是跨进程的。恰恰相反，合并成一种通用的聚合Edge API服务才是他想警告的。因为事实已经反复证明，这种模式会导致高度膨胀的代码。</p>
+<p>为每种类型的客户端分别提供一套BFF（即，Android和iOS各一套），是他在SoundCound看到的实际使用中的方式。他对这种方式的担心就是，更多类型的客户端会导致BFF个数膨胀的风险增加。</p>
+<p>同样在Thoughtworks工作的<a href="https://www.thoughtworks.com/profiles/lukasz-plotnicki" target="_blank" rel="external">Lukasz Plotnicki</a>，最近写了一篇博客，专门论述了在从单体的Rails应用转向微服务的过程中<a href="https://www.thoughtworks.com/insights/blog/bff-soundcloud" target="_blank" rel="external">SoundCloud使用BFF的工作</a>。</p>
+<p>在Thoughtworks最近的Technology Radar中，<a href="https://www.thoughtworks.com/radar/techniques/bff-backend-for-frontends" target="_blank" rel="external">BFF作为值得追求的技术而被提及</a>。</p>
+<p>参考英文原文：<a href="http://www.infoq.com/news/2015/12/bff-backend-frontend-pattern" target="_blank" rel="external">A Pattern for API Backends Serving Frontends</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>摘要</strong>：由于移动设备更小的屏幕、有限的数据计划和对更少请求的需求，移动端的Web体验与桌面端Web浏览器的体验在很多方面都有差异。移动设备需要更少但经常同时也是和桌面端不同的数据，可能会提供其他的交互，例如：通过条形码读码器。这就意味着，为了]]>
+    </summary>
+    
+      <category term="BFF" scheme="hhttp://dreamer2008.github.io/tags/BFF/"/>
+    
+      <category term="InfoQ" scheme="hhttp://dreamer2008.github.io/tags/InfoQ/"/>
+    
+      <category term="microservice" scheme="hhttp://dreamer2008.github.io/tags/microservice/"/>
+    
+      <category term="mobile" scheme="hhttp://dreamer2008.github.io/tags/mobile/"/>
+    
+      <category term="English" scheme="hhttp://dreamer2008.github.io/categories/English/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[2015年个人总结]]></title>
@@ -70,24 +103,23 @@
     <link href="hhttp://dreamer2008.github.io/2015/12/06/english/index/"/>
     <id>hhttp://dreamer2008.github.io/2015/12/06/english/index/</id>
     <published>2015-12-06T09:42:30.000Z</published>
-    <updated>2015-12-12T05:49:37.000Z</updated>
-    <content type="html"><![CDATA[<image src="/images/english/english.jpg" width="200" height="180">
+    <updated>2016-01-16T09:30:54.000Z</updated>
+    <content type="html"><![CDATA[<image src="/images/english/english.jpg" width="300" height="270">
 
-<p><strong>NOTE:</strong> 本人虽然是理工技术男，但对英语/外语特别感兴趣。</p>
+<p><strong>NOTE:</strong> 本人虽然是理工技术男，但对学习外语特别感兴趣。</p>
 <p>英语系列将包括以下几个方面的内容。</p>
 <ul>
-<li>英语学习方法探讨</li>
-<li>本人学习英语，特别是口语的经历</li>
-<li>本人用英语写的资料和其他相关资料</li>
+<li>英语学习方法探讨，包括听说读写译</li>
+<li>本人用英语原创或者翻译的资料</li>
 <li>其他语言的学习</li>
 </ul>
 <p>欢迎大家留言和交流，共同学习，共同进步！</p>
 </image>]]></content>
     <summary type="html">
-    <![CDATA[<image src="/images/english/english.jpg" width="200" height="180">
+    <![CDATA[<image src="/images/english/english.jpg" width="300" height="270">
 
-<p><strong>NOTE:</strong> 本人虽然是理工技术男，但对英语/外语特别感兴趣。</p>
-<p>英语系列将包括以下几个方面的]]>
+<p><strong>NOTE:</strong> 本人虽然是理工技术男，但对学习外语特别感兴趣。</p>
+<p>英语系列将包括以下几个方面的内]]>
     </summary>
     
       <category term="English" scheme="hhttp://dreamer2008.github.io/categories/English/"/>
@@ -162,7 +194,7 @@
     <link href="hhttp://dreamer2008.github.io/2015/04/19/tech/github-blogging-with-hexo/"/>
     <id>hhttp://dreamer2008.github.io/2015/04/19/tech/github-blogging-with-hexo/</id>
     <published>2015-04-19T13:42:30.000Z</published>
-    <updated>2016-01-11T14:19:09.000Z</updated>
+    <updated>2016-01-16T03:44:06.000Z</updated>
     <content type="html"><![CDATA[<p>  现在github非常火，很多人（包括很多非程序猿）都在上面开博了。推荐一篇文章：<a href="http://zhuanlan.zhihu.com/cnfeat/19743861" target="_blank" rel="external">为什么你要写博客？</a></p>
 <p>  工具方面，从基于Ruby的Jekyll，Octopress，到基于Python的Pelican，再到基于Node.js的Hexo。经过试用，我最终选择了Hexo。更多的工具，请看<a href="http://www.tuicool.com/articles/rmyuEnm" target="_blank" rel="external">这里</a>。</p>
 <h2 id="Hexo__u7B80_u4ECB"><a href="#Hexo__u7B80_u4ECB" class="headerlink" title="Hexo 简介"></a>Hexo 简介</h2><p>  Hexo 出自一个台湾大学生<a href="https://github.com/tommy351" target="_blank" rel="external">tommy351</a>之手（原来我们大中华区也有世界级的编程牛人啊。赞一个！）。<a href="http://hexo.io/" target="_blank" rel="external">这里</a>是官网。</p>
@@ -200,6 +232,8 @@
 <h2 id="Markdown_u8BED_u6CD5"><a href="#Markdown_u8BED_u6CD5" class="headerlink" title="Markdown语法"></a>Markdown语法</h2><p>.md文件用纯文本软件编辑即可。这里有几个入门教程：</p>
 </li>
 <li><p><a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="external">Markdown</a></p>
+</li>
+<li><p><a href="http://www.oschina.net/news/28122/reasons-we-should-learn-markdown" target="_blank" rel="external">为什么我们要学习 Markdown 的三个理由</a></p>
 </li>
 <li><p><a href="http://sspai.com/25137" target="_blank" rel="external">认识与入门 Markdown</a></p>
 </li>
