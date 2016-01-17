@@ -4,7 +4,7 @@
   <subtitle><![CDATA[一步一个脚印。做现实的理想主义者]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="hhttp://dreamer2008.github.io/"/>
-  <updated>2016-01-17T09:51:48.000Z</updated>
+  <updated>2016-01-17T14:49:01.000Z</updated>
   <id>hhttp://dreamer2008.github.io/</id>
   
   <author>
@@ -15,28 +15,91 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[personal_brand]]></title>
-    <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/architecture/personal-brand/"/>
-    <id>hhttp://dreamer2008.github.io/2016/01/17/tech/architecture/personal-brand/</id>
-    <published>2016-01-17T09:42:22.000Z</published>
-    <updated>2016-01-17T09:51:48.000Z</updated>
-    <content type="html"></content>
+    <title><![CDATA[Python学习笔记（一）]]></title>
+    <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/languages/python-note/"/>
+    <id>hhttp://dreamer2008.github.io/2016/01/17/tech/languages/python-note/</id>
+    <published>2016-01-17T14:05:50.000Z</published>
+    <updated>2016-01-17T14:49:01.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="Python_u5165_u95E8"><a href="#Python_u5165_u95E8" class="headerlink" title="Python入门"></a>Python入门</h1><h2 id="Python_u7B80_u4ECB"><a href="#Python_u7B80_u4ECB" class="headerlink" title="Python简介"></a>Python简介</h2><p>脚本语言。解释语言。默认的解释器CPython。<br>Python之父—荷兰人Guido van Rossum。诞生于1989年。第一个公开发行版发行于1991年</p>
+<h2 id="Python_u7528_u9014"><a href="#Python_u7528_u9014" class="headerlink" title="Python用途"></a>Python用途</h2><ol>
+<li>是网络应用，包括网站、后台服务等等；</li>
+<li>其次是许多日常需要的小工具，包括系统管理员需要的脚本任务等等；</li>
+<li>另外就是把其他语言开发的程序再包装起来，方便使用</li>
+</ol>
+<h2 id="Python_u4F18_u7F3A_u70B9"><a href="#Python_u4F18_u7F3A_u70B9" class="headerlink" title="Python优缺点"></a>Python优缺点</h2><ul>
+<li>性能差</li>
+<li>源码不能加密</li>
+</ul>
+<h2 id="Python_2-x_vs_3-x"><a href="#Python_2-x_vs_3-x" class="headerlink" title="Python 2.x vs 3.x"></a>Python 2.x vs 3.x</h2><p>2008年, Python3发布。最大的变化是源码文件默认使用utf-8编码</p>
+<ul>
+<li>更多区别：<a href="http://www.admin10000.com/document/144.html" target="_blank" rel="external">http://www.admin10000.com/document/144.html</a><h1 id="u7B2C_u4E00_u4E2APython_u7A0B_u5E8F"><a href="#u7B2C_u4E00_u4E2APython_u7A0B_u5E8F" class="headerlink" title="第一个Python程序"></a>第一个Python程序</h1></li>
+</ul>
+]]></content>
     <summary type="html">
-    
+    <![CDATA[<h1 id="Python_u5165_u95E8"><a href="#Python_u5165_u95E8" class="headerlink" title="Python入门"></a>Python入门</h1><h2 id="Python_u7B80_u4ECB"><]]>
     </summary>
     
-      <category term="architecture" scheme="hhttp://dreamer2008.github.io/tags/architecture/"/>
+      <category term="python" scheme="hhttp://dreamer2008.github.io/tags/python/"/>
     
-      <category term="架构" scheme="hhttp://dreamer2008.github.io/categories/%E6%9E%B6%E6%9E%84/"/>
+      <category term="编程语言" scheme="hhttp://dreamer2008.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
     
   </entry>
   
   <entry>
-    <title><![CDATA[InfoQ相关的文章]]></title>
-    <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/infoq-articles/"/>
-    <id>hhttp://dreamer2008.github.io/2016/01/17/tech/infoq-articles/</id>
+    <title><![CDATA[打造个人品牌]]></title>
+    <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/personal-brand/"/>
+    <id>hhttp://dreamer2008.github.io/2016/01/17/tech/personal-brand/</id>
+    <published>2016-01-17T09:42:22.000Z</published>
+    <updated>2016-01-17T10:56:57.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="u6458_u8981"><a href="#u6458_u8981" class="headerlink" title="摘要"></a>摘要</h1><p>最近几年，“个人品牌”、“个人影响力”逐渐被人提及。然而他们真的那么重要吗？我们又应该如何打造呢？</p>
+<h1 id="u6B63_u6587"><a href="#u6B63_u6587" class="headerlink" title="正文"></a>正文</h1><p>首先是一篇泼冷水的文章，发人深省，引以为戒。</p>
+<p><a href="http://www.fortunechina.com/career/c/2014-11/11/content_227415.htm" target="_blank" rel="external">打造个人品牌的重要性被高估了</a></p>
+<p>其中的摘要，清晰直白地表达了该文作者的观点：</p>
+<blockquote>
+<p>关键在于先干出成绩，然后再打造个人品牌，否则就是本末倒置。然而，许多创业者把时间都花在面子工程上，结果盛名之下，其实难副。</p>
+</blockquote>
+<p>不过，虽然如此，其他几篇文章中介绍的方法仍然有参考价值。罗列如下。 </p>
+<ul>
+<li><p><a href="https://github.com/phodal/developer/blob/master/entries/impact.md" target="_blank" rel="external">如何提高影响力，为自己代言</a></p>
+</li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=400165803&amp;idx=1&amp;sn=0f0db61d52b5c7b716ea0e071f91e02e&amp;scene=21#wechat_redirect" target="_blank" rel="external">『1024』这个程序员节，聊聊程序员的自我进阶 </a></p>
+</li>
+<li><p><a href="http://www.infoq.com/cn/news/2014/02/building-programmer-brand" target="_blank" rel="external">打造你自己的程序员品牌</a></p>
+</li>
+<li><p><a href="http://4526621.blog.51cto.com/4516621/1718964" target="_blank" rel="external">程序员如何打造个人品牌</a></p>
+</li>
+</ul>
+<p>总结下来，有以下几点。</p>
+<ul>
+<li>应该先干出一定成绩，然后再打造个人品牌，至少不应该急于求成</li>
+<li>最好在各个网络平台用同一个ID标示自己。（这个有时候也比较难）</li>
+<li>主要途径：<ol>
+<li>写博客（包括微博、传统博客、微信公众号等）、写书</li>
+<li>做视频、办公开课</li>
+<li>做网站、开发APP或者其他软件</li>
+<li>参与开源、参加各种技术交流和分享</li>
+<li>参与创业</li>
+<li>持续Impact</li>
+</ol>
+</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="u6458_u8981"><a href="#u6458_u8981" class="headerlink" title="摘要"></a>摘要</h1><p>最近几年，“个人品牌”、“个人影响力”逐渐被人提及。然而他们真的那么重要吗？我们又应该如何打造呢？</p]]>
+    </summary>
+    
+      <category term="tech" scheme="hhttp://dreamer2008.github.io/tags/tech/"/>
+    
+      <category term="技术" scheme="hhttp://dreamer2008.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[InfoQ文章集]]></title>
+    <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/infoq/infoq-articles/"/>
+    <id>hhttp://dreamer2008.github.io/2016/01/17/tech/infoq/infoq-articles/</id>
     <published>2016-01-17T03:18:20.000Z</published>
-    <updated>2016-01-17T03:28:10.000Z</updated>
+    <updated>2016-01-17T14:52:11.000Z</updated>
     <content type="html"><![CDATA[<h1 id="u8BD1_u6587"><a href="#u8BD1_u6587" class="headerlink" title="译文"></a>译文</h1><h2 id="2016_u5E74"><a href="#2016_u5E74" class="headerlink" title="2016年"></a>2016年</h2><ul>
 <li><a href="https://zybuluo.com/dtstudy/note/269716" target="_blank" rel="external">A Pattern for API Backends Serving Frontends</a></li>
 </ul>
@@ -64,7 +127,7 @@
     <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/architecture/my-view-on-architecture/"/>
     <id>hhttp://dreamer2008.github.io/2016/01/17/tech/architecture/my-view-on-architecture/</id>
     <published>2016-01-17T01:41:19.000Z</published>
-    <updated>2016-01-17T09:50:58.000Z</updated>
+    <updated>2016-01-17T10:54:14.000Z</updated>
     <content type="html"><![CDATA[<p><img src="/images/tech/architect.jpg" width="600" height="400" onerror="this.src='http://static.oschina.net/uploads/space/2012/0709/172424_x5hu_28.jpg'"></p>
 <h1 id="u4EC0_u4E48_u662F_u8F6F_u4EF6_u67B6_u6784_28Software_Architecture_29"><a href="#u4EC0_u4E48_u662F_u8F6F_u4EF6_u67B6_u6784_28Software_Architecture_29" class="headerlink" title="什么是软件架构(Software Architecture)"></a>什么是软件架构(Software Architecture)</h1><h2 id="u5B9A_u4E49"><a href="#u5B9A_u4E49" class="headerlink" title="定义"></a>定义</h2><blockquote>
 <p><strong>软件架构</strong>是有关软件整体结构与组件的抽象描述，用于指导大型软件系统各个方面的设计。（原文：(<a href="https://zh.wikipedia.org/wiki/软件架构)）" target="_blank" rel="external">https://zh.wikipedia.org/wiki/软件架构)）</a></p>
@@ -132,9 +195,8 @@
     <link href="hhttp://dreamer2008.github.io/2015/12/06/english/index/"/>
     <id>hhttp://dreamer2008.github.io/2015/12/06/english/index/</id>
     <published>2015-12-06T09:42:30.000Z</published>
-    <updated>2016-01-16T09:30:54.000Z</updated>
-    <content type="html"><![CDATA[<image src="/images/english/english.jpg" width="300" height="270">
-
+    <updated>2016-01-17T14:59:56.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="/images/english/english.jpg" alt="dreamer"></p>
 <p><strong>NOTE:</strong> 本人虽然是理工技术男，但对学习外语特别感兴趣。</p>
 <p>英语系列将包括以下几个方面的内容。</p>
 <ul>
@@ -143,12 +205,12 @@
 <li>其他语言的学习</li>
 </ul>
 <p>欢迎大家留言和交流，共同学习，共同进步！</p>
-</image>]]></content>
+]]></content>
     <summary type="html">
-    <![CDATA[<image src="/images/english/english.jpg" width="300" height="270">
-
+    <![CDATA[<p><img src="/images/english/english.jpg" alt="dreamer"></p>
 <p><strong>NOTE:</strong> 本人虽然是理工技术男，但对学习外语特别感兴趣。</p>
-<p>英语系列将包括以下几个方面的内]]>
+<p>英语系列将包括以下几个方面的内容。</p>
+]]>
     </summary>
     
       <category term="English" scheme="hhttp://dreamer2008.github.io/categories/English/"/>
@@ -157,8 +219,8 @@
   
   <entry>
     <title><![CDATA[互联网巨头]]></title>
-    <link href="hhttp://dreamer2008.github.io/2015/04/20/internet/internet-giants/"/>
-    <id>hhttp://dreamer2008.github.io/2015/04/20/internet/internet-giants/</id>
+    <link href="hhttp://dreamer2008.github.io/2015/04/20/tech/internet/internet-giants/"/>
+    <id>hhttp://dreamer2008.github.io/2015/04/20/tech/internet/internet-giants/</id>
     <published>2015-04-20T13:42:30.000Z</published>
     <updated>2016-01-14T14:25:32.000Z</updated>
     <content type="html"><![CDATA[<h2 id="u5168_u740310_u5927_u4E92_u8054_u7F51_u516C_u53F8"><a href="#u5168_u740310_u5927_u4E92_u8054_u7F51_u516C_u53F8" class="headerlink" title="全球10大互联网公司"></a>全球10大互联网公司</h2><p>首先，祝贺大京东成功跻身全球前10互联网公司。而且前10名中，我朝竟然独占4席，可喜可贺。<br>（以市值排序，2015年4月12日）</p>
@@ -197,19 +259,17 @@
     <link href="hhttp://dreamer2008.github.io/2015/04/20/essay/realistic-idealist/"/>
     <id>hhttp://dreamer2008.github.io/2015/04/20/essay/realistic-idealist/</id>
     <published>2015-04-19T16:05:00.000Z</published>
-    <updated>2016-01-11T14:08:15.000Z</updated>
-    <content type="html"><![CDATA[<p>世界不属于理想主义者，因为他们懦弱，没有勇气面对真相; </p>
+    <updated>2016-01-17T14:51:31.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://www.xjy.cn/wp-content/uploads/2012/08/4b09eac0t7a5ec1a9f402690.jpg" alt="dreamer"></p>
+<p>— 节选自<a href="http://www.zreading.cn/archives/3178.html" title="做现实的理想主义者" target="_blank" rel="external">做现实的理想主义者</a></p>
+<p>世界不属于理想主义者，因为他们懦弱，没有勇气面对真相; </p>
 <p>世界也不属于现实主义者，因为他们只是在重复别人的生活。 </p>
 <p>世界属于我们这样的现实的理想主义者。因为他们深深的知道，梦想越纯粹，手段就越要现实。</p>
 <p>世界越不看好你，你就要越看好自己。环境越冷清，我们就越要笑得怒力！我们就是这样改变世界！</p>
-<p><img src="http://www.xjy.cn/wp-content/uploads/2012/08/4b09eac0t7a5ec1a9f402690.jpg" alt="dreamer"></p>
-<p>— 节选自<a href="http://www.zreading.cn/archives/3178.html" title="做现实的理想主义者" target="_blank" rel="external">做现实的理想主义者</a></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>世界不属于理想主义者，因为他们懦弱，没有勇气面对真相; </p>
-<p>世界也不属于现实主义者，因为他们只是在重复别人的生活。 </p>
-<p>世界属于我们这样的现实的理想主义者。因为他们深深的知道，梦想越纯粹，手段就越要现实。</p>
-<p>世界越不看好你，你就要越看好自]]>
+    <![CDATA[<p><img src="http://www.xjy.cn/wp-content/uploads/2012/08/4b09eac0t7a5ec1a9f402690.jpg" alt="dreamer"></p>
+<p>— 节选自<a href="http://www.zread]]>
     </summary>
     
       <category term="essay" scheme="hhttp://dreamer2008.github.io/tags/essay/"/>
@@ -220,8 +280,8 @@
   
   <entry>
     <title><![CDATA[Github Blogging with Hexo]]></title>
-    <link href="hhttp://dreamer2008.github.io/2015/04/19/tech/github-blogging-with-hexo/"/>
-    <id>hhttp://dreamer2008.github.io/2015/04/19/tech/github-blogging-with-hexo/</id>
+    <link href="hhttp://dreamer2008.github.io/2015/04/19/tech/github/github-blogging-with-hexo/"/>
+    <id>hhttp://dreamer2008.github.io/2015/04/19/tech/github/github-blogging-with-hexo/</id>
     <published>2015-04-19T13:42:30.000Z</published>
     <updated>2016-01-16T03:44:06.000Z</updated>
     <content type="html"><![CDATA[<p>  现在github非常火，很多人（包括很多非程序猿）都在上面开博了。推荐一篇文章：<a href="http://zhuanlan.zhihu.com/cnfeat/19743861" target="_blank" rel="external">为什么你要写博客？</a></p>
@@ -312,8 +372,8 @@
   
   <entry>
     <title><![CDATA[Git 10岁了！]]></title>
-    <link href="hhttp://dreamer2008.github.io/2015/04/19/tech/git-ten-years/"/>
-    <id>hhttp://dreamer2008.github.io/2015/04/19/tech/git-ten-years/</id>
+    <link href="hhttp://dreamer2008.github.io/2015/04/19/tech/tool/git-ten-years/"/>
+    <id>hhttp://dreamer2008.github.io/2015/04/19/tech/tool/git-ten-years/</id>
     <published>2015-04-19T12:40:14.000Z</published>
     <updated>2015-12-08T00:52:10.000Z</updated>
     <content type="html"><![CDATA[<p>Git已经10岁了。如果你还没玩git，那就真的out了。</p>
