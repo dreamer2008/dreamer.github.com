@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[dreamer's blog]]></title>
+  <title><![CDATA[dreamer2008's blog]]></title>
   <subtitle><![CDATA[一步一个脚印。做现实的理想主义者]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="hhttp://dreamer2008.github.io/"/>
@@ -8,7 +8,7 @@
   <id>hhttp://dreamer2008.github.io/</id>
   
   <author>
-    <name><![CDATA[dreamer]]></name>
+    <name><![CDATA[dreamer2008]]></name>
     
   </author>
   
