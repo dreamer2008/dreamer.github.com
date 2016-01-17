@@ -4,7 +4,7 @@
   <subtitle><![CDATA[一步一个脚印。做现实的理想主义者]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="hhttp://dreamer2008.github.io/"/>
-  <updated>2016-01-17T03:28:10.000Z</updated>
+  <updated>2016-01-17T09:51:48.000Z</updated>
   <id>hhttp://dreamer2008.github.io/</id>
   
   <author>
@@ -13,6 +13,23 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[personal_brand]]></title>
+    <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/architecture/personal-brand/"/>
+    <id>hhttp://dreamer2008.github.io/2016/01/17/tech/architecture/personal-brand/</id>
+    <published>2016-01-17T09:42:22.000Z</published>
+    <updated>2016-01-17T09:51:48.000Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="architecture" scheme="hhttp://dreamer2008.github.io/tags/architecture/"/>
+    
+      <category term="架构" scheme="hhttp://dreamer2008.github.io/categories/%E6%9E%B6%E6%9E%84/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[InfoQ相关的文章]]></title>
@@ -44,10 +61,10 @@
   
   <entry>
     <title><![CDATA[架构师之我见]]></title>
-    <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/my-view-on-architecture/"/>
-    <id>hhttp://dreamer2008.github.io/2016/01/17/tech/my-view-on-architecture/</id>
+    <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/architecture/my-view-on-architecture/"/>
+    <id>hhttp://dreamer2008.github.io/2016/01/17/tech/architecture/my-view-on-architecture/</id>
     <published>2016-01-17T01:41:19.000Z</published>
-    <updated>2016-01-17T03:34:30.000Z</updated>
+    <updated>2016-01-17T09:50:58.000Z</updated>
     <content type="html"><![CDATA[<p><img src="/images/tech/architect.jpg" width="600" height="400" onerror="this.src='http://static.oschina.net/uploads/space/2012/0709/172424_x5hu_28.jpg'"></p>
 <h1 id="u4EC0_u4E48_u662F_u8F6F_u4EF6_u67B6_u6784_28Software_Architecture_29"><a href="#u4EC0_u4E48_u662F_u8F6F_u4EF6_u67B6_u6784_28Software_Architecture_29" class="headerlink" title="什么是软件架构(Software Architecture)"></a>什么是软件架构(Software Architecture)</h1><h2 id="u5B9A_u4E49"><a href="#u5B9A_u4E49" class="headerlink" title="定义"></a>定义</h2><blockquote>
 <p><strong>软件架构</strong>是有关软件整体结构与组件的抽象描述，用于指导大型软件系统各个方面的设计。（原文：(<a href="https://zh.wikipedia.org/wiki/软件架构)）" target="_blank" rel="external">https://zh.wikipedia.org/wiki/软件架构)）</a></p>
@@ -61,7 +78,7 @@
 </blockquote>
 <h2 id="u4EFB_u804C_u8981_u6C42"><a href="#u4EFB_u804C_u8981_u6C42" class="headerlink" title="任职要求"></a>任职要求</h2><p>0、架构师要有良好的沟通能力，跟技术团队、产品团队、业务团队等等都有良好的沟通</p>
 <p>1、知识、技能方面<br>1）架构师必须是优秀的程序员，必须有足够的设计经验、编程经验（个人认为至少3年，“天才”可以例外）<br>2）架构师需要有广博的知识面，深刻理解各种原理。通晓软硬件、操作系统、网络等各种知识</p>
-<p>2、思维方式、能力方面<br>1）抽象思维能力、逻辑推理能力、快速理解产品需求的能力<br>2）全局观、系统性思维<br>系统性思维、要理解整个系统的本质和关键点（重点、难点、容易变化的点、潜在的风险、最大的挑战和瓶颈）<br>3）要发展地看问题，要拥抱变化，但不要完美主义<br>不要企图一开始就设计一个完美的架构。优先考虑的应该是用较低的成本满足当前需求，并且保证一定的前瞻性就够了</p>
+<p>2、思维方式、能力方面<br>1）抽象思维能力、逻辑推理能力、快速理解产品需求的能力<br>2）全局观、系统性思维<br>系统性思维、要理解整个系统的本质和关键点（重点、难点、容易变化的点、潜在的风险、最大的挑战和瓶颈）<br>3）要有技术前瞻性，要拥抱变化，但不要完美主义<br>不要企图一开始就设计一个完美的架构。优先考虑的应该是用较低的成本满足当前需求，并且保证一定的前瞻性就够了</p>
 <p>3、演讲和分享<br>1）多在内部分享，帮助团队提升和成长<br>2）善于走出去，多分享交流，不断为团队注入新鲜血液，同时提升自己的水平和提高个人的影响力</p>
 <h1 id="u9996_u5E2D_u67B6_u6784_u5E08_28CAO_2CChief_Architecture_Officer_29"><a href="#u9996_u5E2D_u67B6_u6784_u5E08_28CAO_2CChief_Architecture_Officer_29" class="headerlink" title="首席架构师(CAO,Chief Architecture Officer)"></a>首席架构师(CAO,Chief Architecture Officer)</h1><p>恩。等你先成为一名合格的架构师再说吧。CAO这个缩写也是醉了</p>
 <h2 id="u66F4_u591A_u53C2_u8003"><a href="#u66F4_u591A_u53C2_u8003" class="headerlink" title="更多参考"></a>更多参考</h2><p><a href="http://vipnews.csdn.net/newscontent.aspx?pointid=2008_05_30_150239242" target="_blank" rel="external">做人、做事，做架构师——架构师能力模型解析</a></p>
@@ -74,9 +91,11 @@
     
       <category term="architecture" scheme="hhttp://dreamer2008.github.io/tags/architecture/"/>
     
+      <category term="tech" scheme="hhttp://dreamer2008.github.io/tags/tech/"/>
+    
       <category term="wikipedia" scheme="hhttp://dreamer2008.github.io/tags/wikipedia/"/>
     
-      <category term="技术" scheme="hhttp://dreamer2008.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="架构" scheme="hhttp://dreamer2008.github.io/categories/%E6%9E%B6%E6%9E%84/"/>
     
   </entry>
   
