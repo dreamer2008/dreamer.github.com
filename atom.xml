@@ -4,7 +4,7 @@
   <subtitle><![CDATA[一步一个脚印。做现实的理想主义者]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="hhttp://dreamer2008.github.io/"/>
-  <updated>2016-01-16T09:34:57.000Z</updated>
+  <updated>2016-01-17T03:28:10.000Z</updated>
   <id>hhttp://dreamer2008.github.io/</id>
   
   <author>
@@ -15,35 +15,68 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[(InfoQ) 一种为前端提供服务的后端模式]]></title>
-    <link href="hhttp://dreamer2008.github.io/2016/01/16/english/backend-serving-frontend/"/>
-    <id>hhttp://dreamer2008.github.io/2016/01/16/english/backend-serving-frontend/</id>
-    <published>2016-01-16T09:15:30.000Z</published>
-    <updated>2016-01-16T09:34:57.000Z</updated>
-    <content type="html"><![CDATA[<h3 id="u6458_u8981"><a href="#u6458_u8981" class="headerlink" title="摘要"></a>摘要</h3><p>由于移动设备更小的屏幕、有限的数据计划和对更少请求的需求，移动端的Web体验与桌面端Web浏览器的体验在很多方面都有差异。移动设备需要更少但经常同时也是和桌面端不同的数据，可能会提供其他的交互，例如：通过条形码读码器。这就意味着，为了支持移动设备，我们需要为我们的API后端提供额外的功能。Sam Newman在一篇博客中这样解释到。</p>
-<h3 id="u6B63_u6587"><a href="#u6B63_u6587" class="headerlink" title="正文"></a>正文</h3><p>由于移动设备更小的屏幕、有限的数据计划和对更少请求的需求，移动端的Web体验与桌面端Web浏览器的体验在很多方面都有差异。移动设备需要更少但经常同时也是和桌面端不同的数据，可能会提供其他的交互，例如：通过条形码读码器。这就意味着，为了支持移动设备，我们需要为我们的API后端提供额外的功能。<a href="http://samnewman.io/about/" target="_blank" rel="external">Sam Newman</a>在一篇博客中这样解释到。这篇博客描述了<a href="http://samnewman.io/patterns/architectural/bff/" target="_blank" rel="external">一种API后端的模式</a>，用来处理这种不同用户体验的设备之间的这种不协调。</p>
-<p>正如这位Thoughtworks的开发者Newman所言，一种解决方案是构建一个为所有用户界面服务的通用的API后端。然而正是由于上述的不同需求，这种方案在实践中意味着后端功能和复杂度的增加。同时，为了支持所有设备而做的变动也可能导致该方案成为拖累部署流程的瓶颈。使用这种通用后端——尤其是Newman所经历过的后端的方式工作时，有时会导致一个特殊团队的出现，而导致上述问题增加。这种情况下，前端团队会有一个单独的团队需要去沟通，同时，这个单独的团队需要从其他团队确定需求的优先级。</p>
-<p>Newman发现另外一种实际在用的方案是为每种用户体验提供一套API后端。<br>于是，从理论上讲，一个面向用户的应用会有两个组件组成，客户端组件和服务端组件，后端为前端提供服务（Backend For Frontend）。为此，<a href="http://philcalcado.com/about/" target="_blank" rel="external">Phil Calçado</a>在SoundCloud工作的时候还发明了一个术语：BFF。</p>
-<p>当使用BFF架构工作的时候，前后端由同一个团队来维护，后端很自然地会和某种特定的用户界面紧耦合。当处理同种类型的用户体验，但是不同的平台（例如Android和iOS），Newman描述了两种不同的处理方式：每个平台提供一套BFF和每种类型用户界面提供一套BFF。</p>
-<p>Newman更倾向于严格模式下为每个平台提供一套BFF。这种方式的一个关注点是不同平台的BFF之间大量重复的东西会导致风险，例如：相同类型的聚合或者与下游服务交互的相似代码。但是，他并不太担心这个，因为这种重复是跨进程的。恰恰相反，合并成一种通用的聚合Edge API服务才是他想警告的。因为事实已经反复证明，这种模式会导致高度膨胀的代码。</p>
-<p>为每种类型的客户端分别提供一套BFF（即，Android和iOS各一套），是他在SoundCound看到的实际使用中的方式。他对这种方式的担心就是，更多类型的客户端会导致BFF个数膨胀的风险增加。</p>
-<p>同样在Thoughtworks工作的<a href="https://www.thoughtworks.com/profiles/lukasz-plotnicki" target="_blank" rel="external">Lukasz Plotnicki</a>，最近写了一篇博客，专门论述了在从单体的Rails应用转向微服务的过程中<a href="https://www.thoughtworks.com/insights/blog/bff-soundcloud" target="_blank" rel="external">SoundCloud使用BFF的工作</a>。</p>
-<p>在Thoughtworks最近的Technology Radar中，<a href="https://www.thoughtworks.com/radar/techniques/bff-backend-for-frontends" target="_blank" rel="external">BFF作为值得追求的技术而被提及</a>。</p>
-<p>参考英文原文：<a href="http://www.infoq.com/news/2015/12/bff-backend-frontend-pattern" target="_blank" rel="external">A Pattern for API Backends Serving Frontends</a></p>
-]]></content>
+    <title><![CDATA[InfoQ相关的文章]]></title>
+    <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/infoq-articles/"/>
+    <id>hhttp://dreamer2008.github.io/2016/01/17/tech/infoq-articles/</id>
+    <published>2016-01-17T03:18:20.000Z</published>
+    <updated>2016-01-17T03:28:10.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="u8BD1_u6587"><a href="#u8BD1_u6587" class="headerlink" title="译文"></a>译文</h1><h2 id="2016_u5E74"><a href="#2016_u5E74" class="headerlink" title="2016年"></a>2016年</h2><ul>
+<li><a href="https://zybuluo.com/dtstudy/note/269716" target="_blank" rel="external">A Pattern for API Backends Serving Frontends</a></li>
+</ul>
+<h1 id="u4E2D_u6587_u539F_u521B"><a href="#u4E2D_u6587_u539F_u521B" class="headerlink" title="中文原创"></a>中文原创</h1><h2 id="2016_u5E74-1"><a href="#2016_u5E74-1" class="headerlink" title="2016年"></a>2016年</h2><h1 id="Original_in_English"><a href="#Original_in_English" class="headerlink" title="Original in English"></a>Original in English</h1><h2 id="2016"><a href="#2016" class="headerlink" title="2016"></a>2016</h2>]]></content>
     <summary type="html">
-    <![CDATA[<h3 id="u6458_u8981"><a href="#u6458_u8981" class="headerlink" title="摘要"></a>摘要</h3><p>由于移动设备更小的屏幕、有限的数据计划和对更少请求的需求，移动端的Web体验与桌面端Web浏览器的体验在]]>
+    <![CDATA[<h1 id="u8BD1_u6587"><a href="#u8BD1_u6587" class="headerlink" title="译文"></a>译文</h1><h2 id="2016_u5E74"><a href="#2016_u5E74" class="header]]>
     </summary>
+    
+      <category term="2016" scheme="hhttp://dreamer2008.github.io/tags/2016/"/>
     
       <category term="BFF" scheme="hhttp://dreamer2008.github.io/tags/BFF/"/>
     
       <category term="InfoQ" scheme="hhttp://dreamer2008.github.io/tags/InfoQ/"/>
     
-      <category term="microservice" scheme="hhttp://dreamer2008.github.io/tags/microservice/"/>
+      <category term="architecture" scheme="hhttp://dreamer2008.github.io/tags/architecture/"/>
     
       <category term="mobile" scheme="hhttp://dreamer2008.github.io/tags/mobile/"/>
     
-      <category term="English" scheme="hhttp://dreamer2008.github.io/categories/English/"/>
+      <category term="技术" scheme="hhttp://dreamer2008.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[架构师之我见]]></title>
+    <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/my-view-on-architecture/"/>
+    <id>hhttp://dreamer2008.github.io/2016/01/17/tech/my-view-on-architecture/</id>
+    <published>2016-01-17T01:41:19.000Z</published>
+    <updated>2016-01-17T03:28:43.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="/images/tech/architect.jpg" width="600" height="400" onerror="this.src='http://static.oschina.net/uploads/space/2012/0709/172424_x5hu_28.jpg'"></p>
+<h1 id="u4EC0_u4E48_u662F_u8F6F_u4EF6_u67B6_u6784_28Software_Architecture_29"><a href="#u4EC0_u4E48_u662F_u8F6F_u4EF6_u67B6_u6784_28Software_Architecture_29" class="headerlink" title="什么是软件架构(Software Architecture)"></a>什么是软件架构(Software Architecture)</h1><h2 id="u5B9A_u4E49"><a href="#u5B9A_u4E49" class="headerlink" title="定义"></a>定义</h2><blockquote>
+<p><strong>软件架构</strong>是有关软件整体结构与组件的抽象描述，用于指导大型软件系统各个方面的设计。（原文：(<a href="https://zh.wikipedia.org/wiki/软件架构)）" target="_blank" rel="external">https://zh.wikipedia.org/wiki/软件架构)）</a></p>
+</blockquote>
+<h2 id="u8D77_u6E90"><a href="#u8D77_u6E90" class="headerlink" title="起源"></a>起源</h2><p>1960年代，Dijkstra（别告诉我你不知道他是谁）等人就已提出这个概念。1990年代以来，由于Rational和Microsoft内部的相关活动，逐渐开始流行起来。</p>
+<h1 id="u4EC0_u4E48_u662F_u67B6_u6784_u5E08_28Architect_29"><a href="#u4EC0_u4E48_u662F_u67B6_u6784_u5E08_28Architect_29" class="headerlink" title="什么是架构师(Architect)"></a>什么是架构师(Architect)</h1><h2 id="u7CFB_u7EDF_u67B6_u6784_u5E08_28System_Architect_29"><a href="#u7CFB_u7EDF_u67B6_u6784_u5E08_28System_Architect_29" class="headerlink" title="系统架构师(System Architect)"></a>系统架构师(System Architect)</h2><p>其实，<a href="https://zh.wikipedia.org/wiki/系统架构师" target="_blank" rel="external">系统架构师</a>分为很多种，企业架构师、软件架构师、硬件架构师、网络架构师、解决方案架构师等等。更多请参见：<a href="https://en.wikipedia.org/wiki/Software_architect" target="_blank" rel="external">https://en.wikipedia.org/wiki/Software_architect</a>.</p>
+<p>当然本文的重点是关注软件架构师，尤其是互联网软件架构师</p>
+<h2 id="u8F6F_u4EF6_u67B6_u6784_u5E08"><a href="#u8F6F_u4EF6_u67B6_u6784_u5E08" class="headerlink" title="软件架构师"></a>软件架构师</h2><p>软件架构师当然就是负责设计上面所说的软件架构的人了。（这不废话嘛。呵呵）</p>
+<h1 id="u6211_u5BF9_u67B6_u6784_u5E08_u7684_u7406_u89E3"><a href="#u6211_u5BF9_u67B6_u6784_u5E08_u7684_u7406_u89E3" class="headerlink" title="我对架构师的理解"></a>我对架构师的理解</h1><h2 id="u5DE5_u4F5C_u804C_u8D23"><a href="#u5DE5_u4F5C_u804C_u8D23" class="headerlink" title="工作职责"></a>工作职责</h2><blockquote>
+<p>系统架构师，是技术的长期演进的远见，和主持系统各个部分的集成整合。职责是架构可否顺利实施、对核心部分质量的承担和框架搭建。 (原文：<a href="https://zh.wikipedia.org/wiki/系统架构师" target="_blank" rel="external">https://zh.wikipedia.org/wiki/系统架构师</a>)</p>
+</blockquote>
+<h2 id="u4EFB_u804C_u8981_u6C42"><a href="#u4EFB_u804C_u8981_u6C42" class="headerlink" title="任职要求"></a>任职要求</h2><p>0、架构师要有良好的沟通能力，跟技术团队、产品团队、业务团队等等都有良好的沟通</p>
+<p>1、知识、技能方面<br>1）架构师必须是优秀的程序员，必须有足够的设计经验、编程经验（个人认为至少3年，“天才”可以例外）<br>2）架构师需要有广博的知识面，深刻理解各种原理。通晓软硬件、操作系统、网络等各种知识</p>
+<p>2、思维方式、能力方面<br>1）抽象思维能力、逻辑推理能力、快速理解产品需求的能力<br>2）全局观、系统性思维<br>系统性思维、要理解整个系统的本质和关键点（重点、难点、容易变化的点、潜在的风险、最大的挑战和瓶颈）<br>3）要发展地看问题，要拥抱变化，但不要完美主义<br>不要企图一开始就设计一个完美的架构。优先考虑的应该是用较低的成本满足当前需求，并且保证一定的前瞻性就够了</p>
+<p>3、演讲和分享<br>1）多在内部分享，帮助团队提升和成长<br>2）善于走出去，多分享交流，不断为团队注入新鲜血液，同时提升自己的水平和提高个人的影响力</p>
+<h1 id="u9996_u5E2D_u67B6_u6784_u5E08_28CAO_2CChief_Architecture_Officer_29"><a href="#u9996_u5E2D_u67B6_u6784_u5E08_28CAO_2CChief_Architecture_Officer_29" class="headerlink" title="首席架构师(CAO,Chief Architecture Officer)"></a>首席架构师(CAO,Chief Architecture Officer)</h1><p>恩。等你先成为一名合格的架构师再说吧。CAO这个缩写也是醉了</p>
+<h2 id="u66F4_u591A_u53C2_u8003"><a href="#u66F4_u591A_u53C2_u8003" class="headerlink" title="更多参考"></a>更多参考</h2><p><a href="http://vipnews.csdn.net/newscontent.aspx?pointid=2008_05_30_150239242" target="_blank" rel="external">做人、做事，做架构师——架构师能力模型解析</a></p>
+<p><a href="http://www.cnblogs.com/keely/archive/2010/05/24/1742537.html" target="_blank" rel="external">软件架构师的工作</a></p>
+<h1 id="u7ED3_u8BED"><a href="#u7ED3_u8BED" class="headerlink" title="结语"></a>结语</h1><p>So, for me, at this moment, I got a long way to go. Fighting!</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="/images/tech/architect.jpg" width="600" height="400" onerror="this.src='http://static.oschina.net/uploads/space/2012/0709/17242]]>
+    </summary>
+    
+      <category term="archicture" scheme="hhttp://dreamer2008.github.io/tags/archicture/"/>
+    
+      <category term="wikipedia" scheme="hhttp://dreamer2008.github.io/tags/wikipedia/"/>
+    
+      <category term="技术" scheme="hhttp://dreamer2008.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
@@ -52,7 +85,7 @@
     <link href="hhttp://dreamer2008.github.io/2016/01/03/essay/summary_2015/"/>
     <id>hhttp://dreamer2008.github.io/2016/01/03/essay/summary_2015/</id>
     <published>2016-01-03T11:56:29.000Z</published>
-    <updated>2016-01-11T14:09:55.000Z</updated>
+    <updated>2016-01-17T03:05:09.000Z</updated>
     <content type="html"><![CDATA[<p><img src="/images/essay/2016.jpg" width="507" height="338"></p>
 <p>2015年对我来说，是不平常的一年。因为我回到了3年前离开的公司 —— 京东商城。希望这是我这辈子唯一的一次”二进宫”。呵呵。</p>
 <p>2015年4月份，我离开了Demandforce(an Intuit company)中国团队。坦白讲，我自己感觉被忽悠了。因为面谈的时候说好的SaaS云平台，在我入职半年多以后就被放弃了。看来，被收购的公司，命运从被收购的那一刻就注定不被自己掌握了。既然高大上的SaaS不做了，就只能维护老代码了。从看到代码的第一眼，我就一直惊讶于如此陈旧、垃圾的代码，还能继续存活着，为投资者赚取利润。我也没想到，美国硅谷公司里，也有这么垃圾的代码。业务逻辑，直接写在JSP里面，想必国内的程序员大部分也没见识过。而且，我竟然坚持了两年，简直不是我的个性。</p>
@@ -60,6 +93,7 @@
 <p>另外，我有幸认识了一些有趣的人。<br><a href="https://cn.linkedin.com/in/yuen-nam-choi-33335838/zh-cn" target="_blank" rel="external">Yuen</a>, a charming lady and professional product manager with amazing personalities, which includes straightness and gentleness. She was the first one that has international background I’ve met. She always smiles to everyone around her and was also very patient and her sense of humor impressed me a lot(although in a US way many times) . I enjoyed working with her in the past two years.</p>
 <p>The other guy was <a href="https://cn.linkedin.com/in/helix-guan-00b5b636/zh-cn" target="_blank" rel="external">Helix</a>. He is a System Administrator. But, more importantly, he is very versatile and has diverse hobbies,like,reading different books,playing pingpong and many other games, playing several musical instruments, and speaking several foreign languages in a strange and funny way. I’ve never seen such a kowledgeable man ever before. In a way, he is the ideal version of me. Her negative attitude to overworking also impressed me. (just like <a href="http://coolshell.cn/haoel" target="_blank" rel="external">陈皓</a>。哈哈)</p>
 <p>2015年5月，我回到了曾经战斗过的地方-京东POP。三年河东，三年河西。三年之后的今天，早已物是人非。新面孔，新业务，新技术迎面扑来，虽然核心的概念，我仍然了然于胸，但仍然感觉变化好大。到目前为止，POP商品组的大部分系统我都参与过了。其中两个系统，基本上是我独立开发的。但是，显然，在架构设计方面，我还有很长的路要走。希望，在新的一年，能有大的进步，从读书计划开始。</p>
+<p>2016年，我最大的希望是，能在技术和职业发展上找到新的突破点，更加快乐地工作、进步、成长！</p>
 <p>2016, I’m coming. Onwards and upwards!</p>
 ]]></content>
     <summary type="html">
@@ -68,33 +102,9 @@
 <p]]>
     </summary>
     
-      <category term="个人总结" scheme="hhttp://dreamer2008.github.io/tags/%E4%B8%AA%E4%BA%BA%E6%80%BB%E7%BB%93/"/>
+      <category term="京东" scheme="hhttp://dreamer2008.github.io/tags/%E4%BA%AC%E4%B8%9C/"/>
     
-      <category term="随笔" scheme="hhttp://dreamer2008.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Happy 2016]]></title>
-    <link href="hhttp://dreamer2008.github.io/2015/12/31/essay/happy2016/"/>
-    <id>hhttp://dreamer2008.github.io/2015/12/31/essay/happy2016/</id>
-    <published>2015-12-31T14:36:50.000Z</published>
-    <updated>2016-01-11T14:09:52.000Z</updated>
-    <content type="html"><![CDATA[<p>2015年，我回到了三年前战斗过的地方-京东POP，重新踏上互联网的征程。</p>
-<p>2016年，我最大的希望是，能在技术和职业发展上找到新的突破点，更加快乐地工作、进步！</p>
-<p>自助者天助。加油，2016！</p>
-<p><img src="http://pic.58pic.com/58pic/11/06/47/62Z58PICjtk.jpg" width="650" height="280"></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>2015年，我回到了三年前战斗过的地方-京东POP，重新踏上互联网的征程。</p>
-<p>2016年，我最大的希望是，能在技术和职业发展上找到新的突破点，更加快乐地工作、进步！</p>
-<p>自助者天助。加油，2016！</p>
-<p><img src="http://pi]]>
-    </summary>
-    
-      <category term="个人总结" scheme="hhttp://dreamer2008.github.io/tags/%E4%B8%AA%E4%BA%BA%E6%80%BB%E7%BB%93/"/>
-    
-      <category term="随笔" scheme="hhttp://dreamer2008.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="总结" scheme="hhttp://dreamer2008.github.io/categories/%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
