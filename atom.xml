@@ -4,7 +4,7 @@
   <subtitle><![CDATA[做懂架构的程序员和写代码的架构师]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="hhttp://dreamer2008.github.io/"/>
-  <updated>2016-01-23T14:08:14.000Z</updated>
+  <updated>2016-01-23T15:23:42.000Z</updated>
   <id>hhttp://dreamer2008.github.io/</id>
   
   <author>
@@ -13,6 +13,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[我的书单]]></title>
+    <link href="hhttp://dreamer2008.github.io/2016/01/23/tech/reading-list/"/>
+    <id>hhttp://dreamer2008.github.io/2016/01/23/tech/reading-list/</id>
+    <published>2016-01-23T14:51:35.000Z</published>
+    <updated>2016-01-23T15:23:42.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="u6280_u672F_u7C7B"><a href="#u6280_u672F_u7C7B" class="headerlink" title="技术类"></a>技术类</h1><h2 id="2016_u5E74_u4E4B_u524D"><a href="#2016_u5E74_u4E4B_u524D" class="headerlink" title="2016年之前"></a>2016年之前</h2><ul>
+<li><a href="http://item.jd.com/10058902.html" target="_blank" rel="external">Effective Java中文版（第2版）</a></li>
+</ul>
+<h2 id="2016_u5E74"><a href="#2016_u5E74" class="headerlink" title="2016年"></a>2016年</h2><ul>
+<li><p><a href="http://item.jd.com/11020839.html" target="_blank" rel="external">编写可读代码的艺术</a></p>
+</li>
+<li><p><a href="http://item.jd.com/10064006.html" target="_blank" rel="external">代码整洁之道</a></p>
+</li>
+</ul>
+<h1 id="IT_u53F2_u8BDD_u7C7B"><a href="#IT_u53F2_u8BDD_u7C7B" class="headerlink" title="IT史话类"></a>IT史话类</h1><h1 id="u7ECF_u7BA1_u7C7B"><a href="#u7ECF_u7BA1_u7C7B" class="headerlink" title="经管类"></a>经管类</h1><h1 id="u6570_u5B66_u7C7B"><a href="#u6570_u5B66_u7C7B" class="headerlink" title="数学类"></a>数学类</h1>]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="u6280_u672F_u7C7B"><a href="#u6280_u672F_u7C7B" class="headerlink" title="技术类"></a>技术类</h1><h2 id="2016_u5E74_u4E4B_u524D"><a href="]]>
+    </summary>
+    
+      <category term="about" scheme="hhttp://dreamer2008.github.io/tags/about/"/>
+    
+      <category term="tech" scheme="hhttp://dreamer2008.github.io/tags/tech/"/>
+    
+      <category term="读书" scheme="hhttp://dreamer2008.github.io/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="读书" scheme="hhttp://dreamer2008.github.io/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[代码设计原则]]></title>
