@@ -4,7 +4,7 @@
   <subtitle><![CDATA[做懂架构的程序员和写代码的架构师]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="hhttp://dreamer2008.github.io/"/>
-  <updated>2016-01-23T08:08:16.000Z</updated>
+  <updated>2016-01-23T14:08:14.000Z</updated>
   <id>hhttp://dreamer2008.github.io/</id>
   
   <author>
@@ -19,83 +19,92 @@
     <link href="hhttp://dreamer2008.github.io/2016/01/22/tech/architecture/principles-of-design/"/>
     <id>hhttp://dreamer2008.github.io/2016/01/22/tech/architecture/principles-of-design/</id>
     <published>2016-01-22T12:55:24.000Z</published>
-    <updated>2016-01-23T08:08:16.000Z</updated>
-    <content type="html"><![CDATA[<h3 id="u57FA_u672C_u539F_u5219"><a href="#u57FA_u672C_u539F_u5219" class="headerlink" title="基本原则"></a>基本原则</h3><ol>
+    <updated>2016-01-23T14:08:14.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="u7B80_u5355_u539F_u5219"><a href="#u7B80_u5355_u539F_u5219" class="headerlink" title="简单原则"></a>简单原则</h3><ul>
 <li>避免重复原则（DRY - Don’t repeat yourself）</li>
-</ol>
+</ul>
 <p>又叫一次且仅一次（once and only once，简称OAOO)。编程的最基本原则是避免重复。在程序代码中总会有很多结构体，如循环、函数、类等等。一旦你重复某个语句或概念，就会很容易形成一个抽象体。</p>
-<ol>
-<li>抽象原则（Abstraction Principle ）</li>
-</ol>
+<ul>
+<li>抽象原则（Abstraction Principle）</li>
+</ul>
 <p>与DRY原则相关。要记住，程序代码中每一个重要的功能，只能出现在源代码的一个位置。</p>
-<ol>
-<li>简单原则（Keep It Simple and Stupid ）</li>
-</ol>
+<ul>
+<li>简单原则（Keep It Simple and Stupid）</li>
+</ul>
 <p>简单是软件设计的目标，简单的代码占用时间少，漏洞少，并且易于修改。</p>
-<ol>
+<ul>
 <li>避免创建你不要的代码 Avoid Creating a YAGNI (You aren’t going to need it)</li>
-</ol>
+</ul>
 <p>除非你需要它，否则别创建新功能。</p>
-<ol>
+<ul>
 <li>尽可能做可运行的最简单的事（Do the simplest thing that could possibly work）</li>
-</ol>
+</ul>
 <p>尽可能做可运行的最简单的事。在编程中，一定要保持简单原则。作为一名程序员不断的反思“如何在工作中做到简化呢？”这将有助于在设计中保持简单的路径。</p>
-<ol>
-<li>别让我思考(Don’t make me think )</li>
-</ol>
+<ul>
+<li>别让我思考(Don’t make me think)</li>
+</ul>
 <p>这是Steve Krug一本书的标题，同时也和编程有关。所编写的代码一定要易于读易于理解，这样别人才会欣赏，也能够给你提出合理化的建议。相反，若是繁杂难解的程序，其他人总是会避而远之的。</p>
-<ol>
-<li><p>Rule of three 称为”三次原则”，指的是当某个功能第三次出现时，才进行”抽象化”。</p>
-</li>
-<li><p>代码维护(Write Code for the Maintainer)</p>
-</li>
-</ol>
+<ul>
+<li>Rule of three 称为”三次原则”</li>
+</ul>
+<p>指的是当某个功能第三次出现时，才进行”抽象化”。</p>
+<ul>
+<li>代码维护(Write Code for the Maintainer)</li>
+</ul>
 <p>一个优秀的代码，应当使本人或是他人在将来都能够对它继续编写或维护。代码维护时，或许本人会比较容易，但对他人却比较麻烦。因此你写的代码要尽可能保证他人能够容易维护。用书中原话说“如果一个维护者不再继续维护你的代码，很可能他就有想杀了你的冲动。”</p>
-<ol>
+<ul>
 <li>最小惊讶原则(Principle of least astonishment)</li>
-</ol>
+</ul>
 <p>最小惊讶原则通常是在用户界面方面引用，但同样适用于编写的代码。代码应该尽可能减少让读者惊喜。也就是说，你编写的代码只需按照项目的要求来编写。其他华丽的功能就不必了，以免弄巧成拙。</p>
-<ol>
+<ul>
 <li>隐藏实现细节（Hide Implementation Details）</li>
-</ol>
+</ul>
 <p>隐藏实现细节原则，当其他功能部分发生变化时，能够尽可能降低对其他组件的影响。</p>
-<ol>
+<ul>
 <li>避免过早优化(Avoid Premature Optimization)</li>
-</ol>
-<p>除非你的代码运行的比你想像中的要慢，否则别去优化。假如你真的想优化，就必须先想好如何用数据证明，它的速度变快了。</p>
-<p>“过早的优化是一切罪恶的根源”——Donald Knuth</p>
-<ol>
-<li>代码重用原则（Code Reuse is Good） </li>
-</ol>
+</ul>
+<p>除非你的代码运行的比你想像中的要慢，否则别去优化。假如你真的想优化，就必须先想好如何用数据证明，它的速度变快了。<br>“过早的优化是一切罪恶的根源”——Donald Knuth</p>
+<ul>
+<li>代码重用原则（Code Reuse is Good）</li>
+</ul>
 <p>重用代码能提高代码的可读性，缩短开发时间。</p>
-<ol>
+<ul>
 <li>关注点分离（Separation of Concerns）</li>
-</ol>
+</ul>
 <p>不同领域的功能，应该由不同的代码和最小重迭的模块组成。</p>
-<ol>
+<ul>
 <li>拥抱改变（Embrace Change）</li>
-</ol>
+</ul>
 <p>这是Kent Beck一本书的标题，同时也被认为是极限编程和敏捷方法的宗旨。</p>
 <p>许多其他原则都是基于这个概念的，即你应该积极面对变化。事实上，一些较老的编程原则如最小化耦合原则都是为了使代码能够容易变化。无论你是否是个极限编程者，基于这个原则去编写代码会让你的工作变得更有意义。</p>
-<h3 id="u8BBE_u8BA1_u539F_u5219"><a href="#u8BBE_u8BA1_u539F_u5219" class="headerlink" title="设计原则"></a>设计原则</h3><ol>
-<li>OCP(Open/Close Principle)</li>
-</ol>
+<h3 id="u8BBE_u8BA1_u6A21_u5F0F_u539F_u5219"><a href="#u8BBE_u8BA1_u6A21_u5F0F_u539F_u5219" class="headerlink" title="设计模式原则"></a>设计模式原则</h3><ul>
+<li>OCP(Open/Close Principle,开闭原则)</li>
+</ul>
 <p>你所编写的软件实体（类、模块、函数等）最好是开源的，这样别人可以拓展开发。不过，对于你的代码，得限定别人不得修改。换句话说，别人可以基于你的代码进行拓展编写，但却不能修改你的代码。</p>
-<p>OCP的全称是”Open Close Principle”的缩写，即开放封闭原则。<br>开闭原则就是说对扩展开放，对修改关闭。在程序需要进行拓展的时候，不能去修改原有的代码，实现一个热插拔的效果。所以一句话概括就是：为了使程序的扩展性好，易于维护和升级。想要达到这样的效果，我们需要使用接口和抽象类。</p>
-<ol>
-<li><p>SRP<br>SRP是”Single responsibility principle”的缩写，又叫单一职责原则。<br>一个类，只有一个引起它变化的原因。应该只有一个职责。每一个职责都是变化的一个轴线，如果一个类有一个以上的职责，这些职责就耦合在了一起。这会导致脆弱的设计。当一个职责发生变化时，可能会影响其它的职责。另外，多个职责耦合在一起，会影响复用性。例如：要实现逻辑和界面的分离。</p>
-</li>
-<li><p>LSP<br>里氏代换原则(Liskov Substitution Principle LSP)面向对象设计的基本原则之一。 里氏代换原则中说，任何基类可以出现的地方，子类一定可以出现。<br>LSP是继承复用的基石，只有当衍生类可以替换掉基类，软件单位的功能不受到影响时，基类才能真正被复用，而衍生类也能够在基类的基础上增加新的行为。<br>里氏代换原则是对“开-闭”原则的补充。实现“开-闭”原则的关键步骤就是抽象化。而基类与子类的继承关系就是抽象化的具体实现，所以里氏代换原则是对实现抽象化的具体步骤的规范。</p>
-</li>
-<li><p>DIP<br>所谓依赖倒置原则（Dependence Inversion Principle）就是要依赖于抽象，不要依赖于具体。简单的说就是要求对抽象进行编程，不要对实现进行编程，这样就降低了客户与实现模块间的耦合。<br>实现开闭原则的关键是抽象化，并且从抽象化导出具体化实现，如果说开闭原则是面向对象设计的目标的话，那么依赖倒转原则就是面向对象设计的主要手段。</p>
-</li>
-<li><p>ISP<br>Interface Segregation Principle，即接口隔离原则。<br>这个原则的意思是：使用多个隔离的接口，比使用单个接口要好。还是一个降低类之间的耦合度的意思，从这儿我们看出，其实设计模式就是一个软件的设计思想，从大型软件架构出发，为了升级和维护方便。所以上文中多次出现：降低依赖，降低耦合。</p>
-</li>
-<li><p>CRP<br>Composite Reuse Principle，合成复用原则。<br>合成复用原则就是指在一个新的对象里通过关联关系（包括组合关系和聚合关系）来使用一些已有的对象，使之成为新对象的一部分；新对象通过委派调用已有对象的方法达到复用其已有功能的目的。简言之：要尽量使用组合/聚合关系，少用继承。</p>
-</li>
-<li><p>迪米特法则<br>迪米特法则又叫最少知道原则。<br>为什么叫最少知道原则，就是说：一个实体应当尽量少的与其他实体之间发生相互作用，使得系统功能模块相对独立。也就是说一个软件实体应当尽可能少的与其他实体发生相互作用。这样，当一个模块修改时，就会尽量少的影响其他的模块，扩展会相对容易，这是对软件实体之间通信的限制，它要求限制软件实体之间通信的宽度和深度。</p>
-</li>
-</ol>
+<p>开闭原则就是说对扩展开放，对修改关闭。在程序需要进行拓展的时候，不能去修改原有的代码，实现一个热插拔的效果。所以一句话概括就是：为了使程序的扩展性好，易于维护和升级。想要达到这样的效果，我们需要使用接口和抽象类。</p>
+<ul>
+<li>SRP(Single responsibility principle，单一职责原则)</li>
+</ul>
+<p>一个类，只有一个引起它变化的原因。应该只有一个职责。每一个职责都是变化的一个轴线，如果一个类有一个以上的职责，这些职责就耦合在了一起。这会导致脆弱的设计。当一个职责发生变化时，可能会影响其它的职责。另外，多个职责耦合在一起，会影响复用性。例如：要实现逻辑和界面的分离。</p>
+<ul>
+<li>LSP(Liskov Substitution Principle LSP,里氏替换原则)</li>
+</ul>
+<p>面向对象设计的基本原则之一。 里氏代换原则中说，任何基类可以出现的地方，子类一定可以出现。<br>LSP是继承复用的基石，只有当衍生类可以替换掉基类，软件单位的功能不受到影响时，基类才能真正被复用，而衍生类也能够在基类的基础上增加新的行为。<br>里氏代换原则是对“开-闭”原则的补充。实现“开-闭”原则的关键步骤就是抽象化。而基类与子类的继承关系就是抽象化的具体实现，所以里氏代换原则是对实现抽象化的具体步骤的规范。</p>
+<ul>
+<li>DIP（Dependence Inversion Principle,依赖倒置原则）</li>
+</ul>
+<p>就是要依赖于抽象，不要依赖于具体。简单的说就是要求对抽象进行编程，不要对实现进行编程，这样就降低了客户与实现模块间的耦合。<br>实现开闭原则的关键是抽象化，并且从抽象化导出具体化实现，如果说开闭原则是面向对象设计的目标的话，那么依赖倒转原则就是面向对象设计的主要手段。</p>
+<ul>
+<li>ISP(Interface Segregation Principle，即接口隔离原则)</li>
+</ul>
+<p>这个原则的意思是：使用多个隔离的接口，比使用单个接口要好。还是一个降低类之间的耦合度的意思，从这儿我们看出，其实设计模式就是一个软件的设计思想，从大型软件架构出发，为了升级和维护方便。所以上文中多次出现：降低依赖，降低耦合。</p>
+<ul>
+<li>CRP(Composite Reuse Principle，合成复用原则)</li>
+</ul>
+<p>合成复用原则就是指在一个新的对象里通过关联关系（包括组合关系和聚合关系）来使用一些已有的对象，使之成为新对象的一部分；新对象通过委派调用已有对象的方法达到复用其已有功能的目的。简言之：要尽量使用组合/聚合关系，少用继承。</p>
+<ul>
+<li>迪米特法则(Law of Demeter)<br>又叫最少知道原则(Least Knowledge Principle)。<br>为什么叫最少知道原则，就是说：一个实体应当尽量少的与其他实体之间发生相互作用，使得系统功能模块相对独立。也就是说一个软件实体应当尽可能少的与其他实体发生相互作用。这样，当一个模块修改时，就会尽量少的影响其他的模块，扩展会相对容易，这是对软件实体之间通信的限制，它要求限制软件实体之间通信的宽度和深度。</li>
+</ul>
 <p>参考资料：</p>
 <ol>
 <li><p><a href="http://www.csdn.net/article/2011-07-29/302424" target="_blank" rel="external">优秀程序设计的18大原则</a></p>
@@ -105,7 +114,7 @@
 </ol>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h3 id="u57FA_u672C_u539F_u5219"><a href="#u57FA_u672C_u539F_u5219" class="headerlink" title="基本原则"></a>基本原则</h3><ol>
+    <![CDATA[<h3 id="u7B80_u5355_u539F_u5219"><a href="#u7B80_u5355_u539F_u5219" class="headerlink" title="简单原则"></a>简单原则</h3><ul>
 <li>避免重复原则（DRY - Don’t]]>
     </summary>
     
@@ -122,7 +131,7 @@
     <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/languages/python-note/"/>
     <id>hhttp://dreamer2008.github.io/2016/01/17/tech/languages/python-note/</id>
     <published>2016-01-17T14:05:50.000Z</published>
-    <updated>2016-01-17T14:49:01.000Z</updated>
+    <updated>2016-01-23T14:44:42.000Z</updated>
     <content type="html"><![CDATA[<h1 id="Python_u5165_u95E8"><a href="#Python_u5165_u95E8" class="headerlink" title="Python入门"></a>Python入门</h1><h2 id="Python_u7B80_u4ECB"><a href="#Python_u7B80_u4ECB" class="headerlink" title="Python简介"></a>Python简介</h2><p>脚本语言。解释语言。默认的解释器CPython。<br>Python之父—荷兰人Guido van Rossum。诞生于1989年。第一个公开发行版发行于1991年</p>
 <h2 id="Python_u7528_u9014"><a href="#Python_u7528_u9014" class="headerlink" title="Python用途"></a>Python用途</h2><ol>
 <li>是网络应用，包括网站、后台服务等等；</li>
@@ -144,7 +153,7 @@
     
       <category term="python" scheme="hhttp://dreamer2008.github.io/tags/python/"/>
     
-      <category term="编程语言" scheme="hhttp://dreamer2008.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+      <category term="Python" scheme="hhttp://dreamer2008.github.io/categories/Python/"/>
     
   </entry>
   
@@ -153,7 +162,7 @@
     <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/personal-brand/"/>
     <id>hhttp://dreamer2008.github.io/2016/01/17/tech/personal-brand/</id>
     <published>2016-01-17T09:42:22.000Z</published>
-    <updated>2016-01-17T10:56:57.000Z</updated>
+    <updated>2016-01-23T11:59:27.000Z</updated>
     <content type="html"><![CDATA[<h1 id="u6458_u8981"><a href="#u6458_u8981" class="headerlink" title="摘要"></a>摘要</h1><p>最近几年，“个人品牌”、“个人影响力”逐渐被人提及。然而他们真的那么重要吗？我们又应该如何打造呢？</p>
 <h1 id="u6B63_u6587"><a href="#u6B63_u6587" class="headerlink" title="正文"></a>正文</h1><p>首先是一篇泼冷水的文章，发人深省，引以为戒。</p>
 <p><a href="http://www.fortunechina.com/career/c/2014-11/11/content_227415.htm" target="_blank" rel="external">打造个人品牌的重要性被高估了</a></p>
@@ -171,15 +180,18 @@
 </li>
 <li><p><a href="http://4526621.blog.51cto.com/4516621/1718964" target="_blank" rel="external">程序员如何打造个人品牌</a></p>
 </li>
+<li><p><a href="http://www.admin10000.com/document/6709.html" target="_blank" rel="external">程序员如何经营个人品牌</a></p>
+</li>
 </ul>
 <p>总结下来，有以下几点。</p>
 <ul>
 <li>应该先干出一定成绩，然后再打造个人品牌，至少不应该急于求成</li>
 <li>最好在各个网络平台用同一个ID标示自己。（这个有时候也比较难）</li>
 <li>主要途径：<ol>
-<li>写博客（包括微博、传统博客、微信公众号等）、写书</li>
-<li>做视频、办公开课</li>
+<li>写博客（包括微博、传统博客、微信公众号等）</li>
+<li>写书、做视频、办公开课</li>
 <li>做网站、开发APP或者其他软件</li>
+<li>发表论文、发明、专利</li>
 <li>参与开源、参加各种技术交流和分享</li>
 <li>参与创业</li>
 <li>持续Impact</li>
@@ -361,8 +373,8 @@
     <link href="hhttp://dreamer2008.github.io/2015/04/20/essay/realistic-idealist/"/>
     <id>hhttp://dreamer2008.github.io/2015/04/20/essay/realistic-idealist/</id>
     <published>2015-04-19T16:05:00.000Z</published>
-    <updated>2016-01-17T14:51:31.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="http://www.xjy.cn/wp-content/uploads/2012/08/4b09eac0t7a5ec1a9f402690.jpg" alt="dreamer"></p>
+    <updated>2016-01-23T08:34:17.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://www.xjy.cn/wp-content/uploads/2012/08/4b09eac0t7a5ec1a9f402690.jpg" alt=""></p>
 <p>— 节选自<a href="http://www.zreading.cn/archives/3178.html" title="做现实的理想主义者" target="_blank" rel="external">做现实的理想主义者</a></p>
 <p>世界不属于理想主义者，因为他们懦弱，没有勇气面对真相; </p>
 <p>世界也不属于现实主义者，因为他们只是在重复别人的生活。 </p>
@@ -370,8 +382,8 @@
 <p>世界越不看好你，你就要越看好自己。环境越冷清，我们就越要笑得怒力！我们就是这样改变世界！</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p><img src="http://www.xjy.cn/wp-content/uploads/2012/08/4b09eac0t7a5ec1a9f402690.jpg" alt="dreamer"></p>
-<p>— 节选自<a href="http://www.zread]]>
+    <![CDATA[<p><img src="http://www.xjy.cn/wp-content/uploads/2012/08/4b09eac0t7a5ec1a9f402690.jpg" alt=""></p>
+<p>— 节选自<a href="http://www.zreading.cn/]]>
     </summary>
     
       <category term="essay" scheme="hhttp://dreamer2008.github.io/tags/essay/"/>
