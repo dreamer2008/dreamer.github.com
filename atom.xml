@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[dreamer2008's blog]]></title>
-  <subtitle><![CDATA[一步一个脚印。做现实的理想主义者]]></subtitle>
+  <title><![CDATA[追梦人的博客]]></title>
+  <subtitle><![CDATA[做懂架构的程序员和写代码的架构师]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="hhttp://dreamer2008.github.io/"/>
-  <updated>2016-01-17T14:49:01.000Z</updated>
+  <updated>2016-01-23T08:08:16.000Z</updated>
   <id>hhttp://dreamer2008.github.io/</id>
   
   <author>
@@ -13,6 +13,109 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[代码设计原则]]></title>
+    <link href="hhttp://dreamer2008.github.io/2016/01/22/tech/architecture/principles-of-design/"/>
+    <id>hhttp://dreamer2008.github.io/2016/01/22/tech/architecture/principles-of-design/</id>
+    <published>2016-01-22T12:55:24.000Z</published>
+    <updated>2016-01-23T08:08:16.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="u57FA_u672C_u539F_u5219"><a href="#u57FA_u672C_u539F_u5219" class="headerlink" title="基本原则"></a>基本原则</h3><ol>
+<li>避免重复原则（DRY - Don’t repeat yourself）</li>
+</ol>
+<p>又叫一次且仅一次（once and only once，简称OAOO)。编程的最基本原则是避免重复。在程序代码中总会有很多结构体，如循环、函数、类等等。一旦你重复某个语句或概念，就会很容易形成一个抽象体。</p>
+<ol>
+<li>抽象原则（Abstraction Principle ）</li>
+</ol>
+<p>与DRY原则相关。要记住，程序代码中每一个重要的功能，只能出现在源代码的一个位置。</p>
+<ol>
+<li>简单原则（Keep It Simple and Stupid ）</li>
+</ol>
+<p>简单是软件设计的目标，简单的代码占用时间少，漏洞少，并且易于修改。</p>
+<ol>
+<li>避免创建你不要的代码 Avoid Creating a YAGNI (You aren’t going to need it)</li>
+</ol>
+<p>除非你需要它，否则别创建新功能。</p>
+<ol>
+<li>尽可能做可运行的最简单的事（Do the simplest thing that could possibly work）</li>
+</ol>
+<p>尽可能做可运行的最简单的事。在编程中，一定要保持简单原则。作为一名程序员不断的反思“如何在工作中做到简化呢？”这将有助于在设计中保持简单的路径。</p>
+<ol>
+<li>别让我思考(Don’t make me think )</li>
+</ol>
+<p>这是Steve Krug一本书的标题，同时也和编程有关。所编写的代码一定要易于读易于理解，这样别人才会欣赏，也能够给你提出合理化的建议。相反，若是繁杂难解的程序，其他人总是会避而远之的。</p>
+<ol>
+<li><p>Rule of three 称为”三次原则”，指的是当某个功能第三次出现时，才进行”抽象化”。</p>
+</li>
+<li><p>代码维护(Write Code for the Maintainer)</p>
+</li>
+</ol>
+<p>一个优秀的代码，应当使本人或是他人在将来都能够对它继续编写或维护。代码维护时，或许本人会比较容易，但对他人却比较麻烦。因此你写的代码要尽可能保证他人能够容易维护。用书中原话说“如果一个维护者不再继续维护你的代码，很可能他就有想杀了你的冲动。”</p>
+<ol>
+<li>最小惊讶原则(Principle of least astonishment)</li>
+</ol>
+<p>最小惊讶原则通常是在用户界面方面引用，但同样适用于编写的代码。代码应该尽可能减少让读者惊喜。也就是说，你编写的代码只需按照项目的要求来编写。其他华丽的功能就不必了，以免弄巧成拙。</p>
+<ol>
+<li>隐藏实现细节（Hide Implementation Details）</li>
+</ol>
+<p>隐藏实现细节原则，当其他功能部分发生变化时，能够尽可能降低对其他组件的影响。</p>
+<ol>
+<li>避免过早优化(Avoid Premature Optimization)</li>
+</ol>
+<p>除非你的代码运行的比你想像中的要慢，否则别去优化。假如你真的想优化，就必须先想好如何用数据证明，它的速度变快了。</p>
+<p>“过早的优化是一切罪恶的根源”——Donald Knuth</p>
+<ol>
+<li>代码重用原则（Code Reuse is Good） </li>
+</ol>
+<p>重用代码能提高代码的可读性，缩短开发时间。</p>
+<ol>
+<li>关注点分离（Separation of Concerns）</li>
+</ol>
+<p>不同领域的功能，应该由不同的代码和最小重迭的模块组成。</p>
+<ol>
+<li>拥抱改变（Embrace Change）</li>
+</ol>
+<p>这是Kent Beck一本书的标题，同时也被认为是极限编程和敏捷方法的宗旨。</p>
+<p>许多其他原则都是基于这个概念的，即你应该积极面对变化。事实上，一些较老的编程原则如最小化耦合原则都是为了使代码能够容易变化。无论你是否是个极限编程者，基于这个原则去编写代码会让你的工作变得更有意义。</p>
+<h3 id="u8BBE_u8BA1_u539F_u5219"><a href="#u8BBE_u8BA1_u539F_u5219" class="headerlink" title="设计原则"></a>设计原则</h3><ol>
+<li>OCP(Open/Close Principle)</li>
+</ol>
+<p>你所编写的软件实体（类、模块、函数等）最好是开源的，这样别人可以拓展开发。不过，对于你的代码，得限定别人不得修改。换句话说，别人可以基于你的代码进行拓展编写，但却不能修改你的代码。</p>
+<p>OCP的全称是”Open Close Principle”的缩写，即开放封闭原则。<br>开闭原则就是说对扩展开放，对修改关闭。在程序需要进行拓展的时候，不能去修改原有的代码，实现一个热插拔的效果。所以一句话概括就是：为了使程序的扩展性好，易于维护和升级。想要达到这样的效果，我们需要使用接口和抽象类。</p>
+<ol>
+<li><p>SRP<br>SRP是”Single responsibility principle”的缩写，又叫单一职责原则。<br>一个类，只有一个引起它变化的原因。应该只有一个职责。每一个职责都是变化的一个轴线，如果一个类有一个以上的职责，这些职责就耦合在了一起。这会导致脆弱的设计。当一个职责发生变化时，可能会影响其它的职责。另外，多个职责耦合在一起，会影响复用性。例如：要实现逻辑和界面的分离。</p>
+</li>
+<li><p>LSP<br>里氏代换原则(Liskov Substitution Principle LSP)面向对象设计的基本原则之一。 里氏代换原则中说，任何基类可以出现的地方，子类一定可以出现。<br>LSP是继承复用的基石，只有当衍生类可以替换掉基类，软件单位的功能不受到影响时，基类才能真正被复用，而衍生类也能够在基类的基础上增加新的行为。<br>里氏代换原则是对“开-闭”原则的补充。实现“开-闭”原则的关键步骤就是抽象化。而基类与子类的继承关系就是抽象化的具体实现，所以里氏代换原则是对实现抽象化的具体步骤的规范。</p>
+</li>
+<li><p>DIP<br>所谓依赖倒置原则（Dependence Inversion Principle）就是要依赖于抽象，不要依赖于具体。简单的说就是要求对抽象进行编程，不要对实现进行编程，这样就降低了客户与实现模块间的耦合。<br>实现开闭原则的关键是抽象化，并且从抽象化导出具体化实现，如果说开闭原则是面向对象设计的目标的话，那么依赖倒转原则就是面向对象设计的主要手段。</p>
+</li>
+<li><p>ISP<br>Interface Segregation Principle，即接口隔离原则。<br>这个原则的意思是：使用多个隔离的接口，比使用单个接口要好。还是一个降低类之间的耦合度的意思，从这儿我们看出，其实设计模式就是一个软件的设计思想，从大型软件架构出发，为了升级和维护方便。所以上文中多次出现：降低依赖，降低耦合。</p>
+</li>
+<li><p>CRP<br>Composite Reuse Principle，合成复用原则。<br>合成复用原则就是指在一个新的对象里通过关联关系（包括组合关系和聚合关系）来使用一些已有的对象，使之成为新对象的一部分；新对象通过委派调用已有对象的方法达到复用其已有功能的目的。简言之：要尽量使用组合/聚合关系，少用继承。</p>
+</li>
+<li><p>迪米特法则<br>迪米特法则又叫最少知道原则。<br>为什么叫最少知道原则，就是说：一个实体应当尽量少的与其他实体之间发生相互作用，使得系统功能模块相对独立。也就是说一个软件实体应当尽可能少的与其他实体发生相互作用。这样，当一个模块修改时，就会尽量少的影响其他的模块，扩展会相对容易，这是对软件实体之间通信的限制，它要求限制软件实体之间通信的宽度和深度。</p>
+</li>
+</ol>
+<p>参考资料：</p>
+<ol>
+<li><p><a href="http://www.csdn.net/article/2011-07-29/302424" target="_blank" rel="external">优秀程序设计的18大原则</a></p>
+</li>
+<li><p><a href="http://www.jianshu.com/p/b8d10cb19d23" target="_blank" rel="external">代码设计原则</a></p>
+</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="u57FA_u672C_u539F_u5219"><a href="#u57FA_u672C_u539F_u5219" class="headerlink" title="基本原则"></a>基本原则</h3><ol>
+<li>避免重复原则（DRY - Don’t]]>
+    </summary>
+    
+      <category term="architecture" scheme="hhttp://dreamer2008.github.io/tags/architecture/"/>
+    
+      <category term="tech" scheme="hhttp://dreamer2008.github.io/tags/tech/"/>
+    
+      <category term="架构" scheme="hhttp://dreamer2008.github.io/categories/%E6%9E%B6%E6%9E%84/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Python学习笔记（一）]]></title>
@@ -99,16 +202,15 @@
     <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/infoq/infoq-articles/"/>
     <id>hhttp://dreamer2008.github.io/2016/01/17/tech/infoq/infoq-articles/</id>
     <published>2016-01-17T03:18:20.000Z</published>
-    <updated>2016-01-17T14:52:11.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="u8BD1_u6587"><a href="#u8BD1_u6587" class="headerlink" title="译文"></a>译文</h1><h2 id="2016_u5E74"><a href="#2016_u5E74" class="headerlink" title="2016年"></a>2016年</h2><ul>
-<li><a href="https://zybuluo.com/dtstudy/note/269716" target="_blank" rel="external">A Pattern for API Backends Serving Frontends</a></li>
+    <updated>2016-01-23T07:16:14.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="u8BD1_u6587"><a href="#u8BD1_u6587" class="headerlink" title="译文"></a>译文</h1><h2 id="2016_u5E74"><a href="#2016_u5E74" class="headerlink" title="2016年"></a>2016年</h2><h3 id="1_u6708"><a href="#1_u6708" class="headerlink" title="1月"></a>1月</h3><ul>
+<li><a href="https://zybuluo.com/dtstudy/note/269716" target="_blank" rel="external">A Pattern for API Backends Serving Frontends</a> 参考阅读：<a href="http://samnewman.io/patterns/architectural/bff/" target="_blank" rel="external">Pattern: Backends For Frontends</a></li>
+<li><a href="https://zybuluo.com/dtstudy/note/271763" target="_blank" rel="external">“Dear GitHub…” — An Open Letter to GitHub</a></li>
 </ul>
 <h1 id="u4E2D_u6587_u539F_u521B"><a href="#u4E2D_u6587_u539F_u521B" class="headerlink" title="中文原创"></a>中文原创</h1><h2 id="2016_u5E74-1"><a href="#2016_u5E74-1" class="headerlink" title="2016年"></a>2016年</h2><h1 id="Original_in_English"><a href="#Original_in_English" class="headerlink" title="Original in English"></a>Original in English</h1><h2 id="2016"><a href="#2016" class="headerlink" title="2016"></a>2016</h2>]]></content>
     <summary type="html">
     <![CDATA[<h1 id="u8BD1_u6587"><a href="#u8BD1_u6587" class="headerlink" title="译文"></a>译文</h1><h2 id="2016_u5E74"><a href="#2016_u5E74" class="header]]>
     </summary>
-    
-      <category term="2016" scheme="hhttp://dreamer2008.github.io/tags/2016/"/>
     
       <category term="BFF" scheme="hhttp://dreamer2008.github.io/tags/BFF/"/>
     
@@ -222,7 +324,7 @@
     <link href="hhttp://dreamer2008.github.io/2015/04/20/tech/internet/internet-giants/"/>
     <id>hhttp://dreamer2008.github.io/2015/04/20/tech/internet/internet-giants/</id>
     <published>2015-04-20T13:42:30.000Z</published>
-    <updated>2016-01-14T14:25:32.000Z</updated>
+    <updated>2016-01-22T13:24:18.000Z</updated>
     <content type="html"><![CDATA[<h2 id="u5168_u740310_u5927_u4E92_u8054_u7F51_u516C_u53F8"><a href="#u5168_u740310_u5927_u4E92_u8054_u7F51_u516C_u53F8" class="headerlink" title="全球10大互联网公司"></a>全球10大互联网公司</h2><p>首先，祝贺大京东成功跻身全球前10互联网公司。而且前10名中，我朝竟然独占4席，可喜可贺。<br>（以市值排序，2015年4月12日）</p>
 <p><img src="http://i.imgur.com/JFM2bu7.png" alt="全球10大互联网公司"></p>
 <p>更多参考：</p>
@@ -236,7 +338,7 @@
 <p>GAF和BAT正好一一对应，分别是搜索、电商和社交三大领域的巨头，并且都在建立自己的生态系统，都想扩大自己的势力范围。</p>
 <p>更多参考：</p>
 <ul>
-<li><a href="http://36kr.com/p/102774.html" target="_blank" rel="external">六大生态系统的崛</a></li>
+<li><a href="http://36kr.com/p/102774.html" target="_blank" rel="external">六大生态系统的崛起</a></li>
 <li><a href="http://www.zhihu.com/question/27104799" target="_blank" rel="external">知乎上的讨论</a></li>
 <li><a href="http://edu.163.com/15/0413/09/AN2QLI4E00294MA1.html" target="_blank" rel="external">巨头前路占卜</a></li>
 <li><a href="http://www.csdn.net/article/2013-04-01/2814733-scalability-lessons-from-google-7-compannies" target="_blank" rel="external">7大知名互联网的系统扩展经验</a></li>
@@ -398,9 +500,8 @@
     <link href="hhttp://dreamer2008.github.io/2015/04/18/misc/hello-world/"/>
     <id>hhttp://dreamer2008.github.io/2015/04/18/misc/hello-world/</id>
     <published>2015-04-18T13:42:30.000Z</published>
-    <updated>2016-01-11T14:18:49.000Z</updated>
-    <content type="html"><![CDATA[<image src="/images/misc/helloworld.png" width="300" height="360">
-
+    <updated>2016-01-17T15:04:17.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="/images/misc/helloworld.png" alt="hello world"></p>
 <p><strong>NOTE:</strong> This is just a default demo. For hexo, please refer to <a href="http://dreamer2008.github.io/2015/04/19/github-blogging-with-hexo/" title="hexo">my blog here</a>.</p>
 <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick_Start"><a href="#Quick_Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create_a_new_post"><a href="#Create_a_new_post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
@@ -411,11 +512,10 @@
 <p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
 <h3 id="Deploy_to_remote_sites"><a href="#Deploy_to_remote_sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-</image>]]></content>
+]]></content>
     <summary type="html">
-    <![CDATA[<image src="/images/misc/helloworld.png" width="300" height="360">
-
-<p><strong>NOTE:</strong> This is just a default demo. For hexo, please ]]>
+    <![CDATA[<p><img src="/images/misc/helloworld.png" alt="hello world"></p>
+<p><strong>NOTE:</strong> This is just a default demo. For hexo, please ref]]>
     </summary>
     
       <category term="misc" scheme="hhttp://dreamer2008.github.io/tags/misc/"/>
