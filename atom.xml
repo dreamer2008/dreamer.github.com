@@ -4,7 +4,7 @@
   <subtitle><![CDATA[做懂架构的程序员和写代码的架构师]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="hhttp://dreamer2008.github.io/"/>
-  <updated>2016-01-23T15:23:42.000Z</updated>
+  <updated>2016-01-23T14:08:14.000Z</updated>
   <id>hhttp://dreamer2008.github.io/</id>
   
   <author>
@@ -13,36 +13,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title><![CDATA[我的书单]]></title>
-    <link href="hhttp://dreamer2008.github.io/2016/01/23/tech/reading-list/"/>
-    <id>hhttp://dreamer2008.github.io/2016/01/23/tech/reading-list/</id>
-    <published>2016-01-23T14:51:35.000Z</published>
-    <updated>2016-01-23T15:23:42.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="u6280_u672F_u7C7B"><a href="#u6280_u672F_u7C7B" class="headerlink" title="技术类"></a>技术类</h1><h2 id="2016_u5E74_u4E4B_u524D"><a href="#2016_u5E74_u4E4B_u524D" class="headerlink" title="2016年之前"></a>2016年之前</h2><ul>
-<li><a href="http://item.jd.com/10058902.html" target="_blank" rel="external">Effective Java中文版（第2版）</a></li>
-</ul>
-<h2 id="2016_u5E74"><a href="#2016_u5E74" class="headerlink" title="2016年"></a>2016年</h2><ul>
-<li><p><a href="http://item.jd.com/11020839.html" target="_blank" rel="external">编写可读代码的艺术</a></p>
-</li>
-<li><p><a href="http://item.jd.com/10064006.html" target="_blank" rel="external">代码整洁之道</a></p>
-</li>
-</ul>
-<h1 id="IT_u53F2_u8BDD_u7C7B"><a href="#IT_u53F2_u8BDD_u7C7B" class="headerlink" title="IT史话类"></a>IT史话类</h1><h1 id="u7ECF_u7BA1_u7C7B"><a href="#u7ECF_u7BA1_u7C7B" class="headerlink" title="经管类"></a>经管类</h1><h1 id="u6570_u5B66_u7C7B"><a href="#u6570_u5B66_u7C7B" class="headerlink" title="数学类"></a>数学类</h1>]]></content>
-    <summary type="html">
-    <![CDATA[<h1 id="u6280_u672F_u7C7B"><a href="#u6280_u672F_u7C7B" class="headerlink" title="技术类"></a>技术类</h1><h2 id="2016_u5E74_u4E4B_u524D"><a href="]]>
-    </summary>
-    
-      <category term="about" scheme="hhttp://dreamer2008.github.io/tags/about/"/>
-    
-      <category term="tech" scheme="hhttp://dreamer2008.github.io/tags/tech/"/>
-    
-      <category term="读书" scheme="hhttp://dreamer2008.github.io/tags/%E8%AF%BB%E4%B9%A6/"/>
-    
-      <category term="读书" scheme="hhttp://dreamer2008.github.io/categories/%E8%AF%BB%E4%B9%A6/"/>
-    
-  </entry>
   
   <entry>
     <title><![CDATA[代码设计原则]]></title>
@@ -161,8 +131,9 @@
     <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/languages/python-note/"/>
     <id>hhttp://dreamer2008.github.io/2016/01/17/tech/languages/python-note/</id>
     <published>2016-01-17T14:05:50.000Z</published>
-    <updated>2016-01-23T14:44:42.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="Python_u5165_u95E8"><a href="#Python_u5165_u95E8" class="headerlink" title="Python入门"></a>Python入门</h1><h2 id="Python_u7B80_u4ECB"><a href="#Python_u7B80_u4ECB" class="headerlink" title="Python简介"></a>Python简介</h2><p>脚本语言。解释语言。默认的解释器CPython。<br>Python之父—荷兰人Guido van Rossum。诞生于1989年。第一个公开发行版发行于1991年</p>
+    <updated>2016-01-27T14:46:13.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://www.kandasoft.com/wp-content/uploads/2014/02/Python-Programming-Language.png" alt="Python"></p>
+<h1 id="Python_u5165_u95E8"><a href="#Python_u5165_u95E8" class="headerlink" title="Python入门"></a>Python入门</h1><h2 id="Python_u7B80_u4ECB"><a href="#Python_u7B80_u4ECB" class="headerlink" title="Python简介"></a>Python简介</h2><p>脚本语言。解释语言。默认的解释器CPython。<br>Python之父—荷兰人Guido van Rossum。诞生于1989年。第一个公开发行版发行于1991年</p>
 <h2 id="Python_u7528_u9014"><a href="#Python_u7528_u9014" class="headerlink" title="Python用途"></a>Python用途</h2><ol>
 <li>是网络应用，包括网站、后台服务等等；</li>
 <li>其次是许多日常需要的小工具，包括系统管理员需要的脚本任务等等；</li>
@@ -176,9 +147,15 @@
 <ul>
 <li>更多区别：<a href="http://www.admin10000.com/document/144.html" target="_blank" rel="external">http://www.admin10000.com/document/144.html</a><h1 id="u7B2C_u4E00_u4E2APython_u7A0B_u5E8F"><a href="#u7B2C_u4E00_u4E2APython_u7A0B_u5E8F" class="headerlink" title="第一个Python程序"></a>第一个Python程序</h1></li>
 </ul>
+<h1 id="u53C2_u8003_u8D44_u6599"><a href="#u53C2_u8003_u8D44_u6599" class="headerlink" title="参考资料"></a>参考资料</h1><ul>
+<li><a href="http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000" target="_blank" rel="external">廖雪峰Python3教程</a></li>
+<li><a href="http://www.runoob.com/python3/python3-tutorial.html" target="_blank" rel="external">Runoob Python3教程</a></li>
+<li><a href="http://www.phpxs.com/j/python" target="_blank" rel="external">PHPXS Python基础教程</a></li>
+</ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h1 id="Python_u5165_u95E8"><a href="#Python_u5165_u95E8" class="headerlink" title="Python入门"></a>Python入门</h1><h2 id="Python_u7B80_u4ECB"><]]>
+    <![CDATA[<p><img src="http://www.kandasoft.com/wp-content/uploads/2014/02/Python-Programming-Language.png" alt="Python"></p>
+<h1 id="Python_u5165_u95]]>
     </summary>
     
       <category term="python" scheme="hhttp://dreamer2008.github.io/tags/python/"/>
@@ -192,7 +169,7 @@
     <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/personal-brand/"/>
     <id>hhttp://dreamer2008.github.io/2016/01/17/tech/personal-brand/</id>
     <published>2016-01-17T09:42:22.000Z</published>
-    <updated>2016-01-23T11:59:27.000Z</updated>
+    <updated>2016-01-24T03:02:48.000Z</updated>
     <content type="html"><![CDATA[<h1 id="u6458_u8981"><a href="#u6458_u8981" class="headerlink" title="摘要"></a>摘要</h1><p>最近几年，“个人品牌”、“个人影响力”逐渐被人提及。然而他们真的那么重要吗？我们又应该如何打造呢？</p>
 <h1 id="u6B63_u6587"><a href="#u6B63_u6587" class="headerlink" title="正文"></a>正文</h1><p>首先是一篇泼冷水的文章，发人深省，引以为戒。</p>
 <p><a href="http://www.fortunechina.com/career/c/2014-11/11/content_227415.htm" target="_blank" rel="external">打造个人品牌的重要性被高估了</a></p>
@@ -202,12 +179,17 @@
 </blockquote>
 <p>不过，虽然如此，其他几篇文章中介绍的方法仍然有参考价值。罗列如下。 </p>
 <ul>
-<li><p><a href="https://github.com/phodal/developer/blob/master/entries/impact.md" target="_blank" rel="external">如何提高影响力，为自己代言</a></p>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=400165803&amp;idx=1&amp;sn=0f0db61d52b5c7b716ea0e071f91e02e&amp;scene=21#wechat_redirect" target="_blank" rel="external">『1024』这个程序员节，聊聊程序员的自我进阶 </a></li>
+</ul>
+<ul>
+<li><p><a href="http://devrel.qiniucdn.com/data/20150821144728/index.html" target="_blank" rel="external">听课总结：打造个人品牌的九个要点</a></p>
 </li>
-<li><p><a href="http://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=400165803&amp;idx=1&amp;sn=0f0db61d52b5c7b716ea0e071f91e02e&amp;scene=21#wechat_redirect" target="_blank" rel="external">『1024』这个程序员节，聊聊程序员的自我进阶 </a></p>
+<li><p><a href="https://github.com/phodal/developer/blob/master/entries/impact.md" target="_blank" rel="external">如何提高影响力，为自己代言</a></p>
 </li>
 <li><p><a href="http://www.infoq.com/cn/news/2014/02/building-programmer-brand" target="_blank" rel="external">打造你自己的程序员品牌</a></p>
 </li>
+</ul>
+<ul>
 <li><p><a href="http://4526621.blog.51cto.com/4516621/1718964" target="_blank" rel="external">程序员如何打造个人品牌</a></p>
 </li>
 <li><p><a href="http://www.admin10000.com/document/6709.html" target="_blank" rel="external">程序员如何经营个人品牌</a></p>
@@ -221,7 +203,7 @@
 <li>写博客（包括微博、传统博客、微信公众号等）</li>
 <li>写书、做视频、办公开课</li>
 <li>做网站、开发APP或者其他软件</li>
-<li>发表论文、发明、专利</li>
+<li>发表论文、持有发明、专利</li>
 <li>参与开源、参加各种技术交流和分享</li>
 <li>参与创业</li>
 <li>持续Impact</li>
