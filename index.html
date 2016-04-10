@@ -78,6 +78,133 @@
     <div class="outer">
       <section id="main">
   
+    <article id="post-tech/programming/readable-code" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/03/06/tech/programming/readable-code/" class="article-date">
+  <time datetime="2016-03-06T13:23:33.000Z" itemprop="datePublished">2016-03-06</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/读书/">读书</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/03/06/tech/programming/readable-code/">程序员系列（1）—— 程序员，你真的会写代码吗？</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><a alt="编写可读代码的艺术" href="http://item.jd.com/11020839.html" target="_blank"><img src="http://img14.360buyimg.com/n1/g5/M00/03/09/rBEDik_Zh6oIAAAAAAD30NgwDhkAAApCAC9qh0AAPfo079.jpg"></a></p>
+<blockquote>
+<p>可读性基本定理</p>
+<p>Code should be written to minimize the time it would take for someone else to understand it.</p>
+<p>代码的写法应当使别人理解它所需的时间最小化。</p>
+</blockquote>
+<h2 id="u5F15_u5B50"><a href="#u5F15_u5B50" class="headerlink" title="引子"></a>引子</h2><p>写代码是程序员的基本功。但是，程序员，你真的会写代码吗？今天，我们不谈什么高大上的“架构”，就谈谈怎么写代码。</p>
+<p>作为程序员，你看过、写过、改过、删过的代码可能不计其数。然而，回头想想，真正让你感到赏心悦目、拍手称快的次数又有多少呢？要知道，你读代码的时间远远大于你实际写代码的时间。如果代码可读性不好，你的工作效率肯定会大打折扣。特别是，对于一个团队来说，如果没有良好的、统一的代码规范，协同工作效率必然很受影响，造成不必要的时间浪费。</p>
+<p>《Clean Code》的作者Bob大叔认为“在代码阅读过程中人们说脏话的频率是衡量代码质量的唯一标准。” 哈哈。太TM经典了。</p>
+<p>书的目录如下： <img src="http://images.cnitblog.com/blog2015/449064/201505/141405470644668.jpg" alt="目录">（图片来源：<a href="http://www.cnblogs.com/xing901022/p/4503286.html" target="_blank" rel="external">xingoo</a>的博客）</p>
+<h2 id="u53EF_u8BFB_u6027_u4E3A_u4EC0_u4E48_u91CD_u8981"><a href="#u53EF_u8BFB_u6027_u4E3A_u4EC0_u4E48_u91CD_u8981" class="headerlink" title="可读性为什么重要"></a>可读性为什么重要</h2><h3 id="u4E66_u4E2D_u89C2_u70B9"><a href="#u4E66_u4E2D_u89C2_u70B9" class="headerlink" title="书中观点"></a>书中观点</h3><blockquote>
+<p>软件成本 = 开发成本 + 维护成本。往往，维护成本&gt;&gt;开发成本。这其中耗费的主要成本就是由于理解代码和修改代码造成的。</p>
+<p>——《Structured Design》</p>
+</blockquote>
+<h3 id="u4E2A_u4EBA_u89C2_u70B9"><a href="#u4E2A_u4EBA_u89C2_u70B9" class="headerlink" title="个人观点"></a>个人观点</h3><blockquote>
+<p>可读性永远是第一位的。代码的可读性与效率、架构、易于测试一点也不冲突。<br>代码可读性好、bug少是对程序员的基本要求。</p>
+</blockquote>
+<p>就我亲身经历而言。我”见识“过很多奇葩的代码。主要包括以下几种情形。</p>
+<ol>
+<li><p>职责划分不清</p>
+<ul>
+<li>一个方法超过一百行，一个类一两千行</li>
+<li>各种代码杂糅在一起，该抽取的不抽取，可复用性很低</li>
+<li>不使用MVC之类的模式，代码不分层，甚至所有代码逻辑都写在展示层</li>
+</ul>
+</li>
+<li><p>命名乱七八糟</p>
+<ul>
+<li>有的用英语单词，有的用汉语拼音</li>
+<li>有的方法明明是做更新，名称却是getXXX()</li>
+<li>缩写不规范，容易造成误解</li>
+<li>团队中没有统一的编码规范，每个人风格各异</li>
+</ul>
+</li>
+</ol>
+<h2 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a>前言</h2><blockquote>
+<p><strong>本书旨在帮助你把代码写得更好</strong> 。。。我们希望本书对你每天的编程工作有很多帮助，并且希望你把本书推荐给你团队中的每个人。</p>
+</blockquote>
+<h2 id="u5404_u7AE0_u603B_u7ED3"><a href="#u5404_u7AE0_u603B_u7ED3" class="headerlink" title="各章总结"></a>各章总结</h2><h3 id="u8868_u9762_u5C42_u6B21_u7684_u6539_u8FDB"><a href="#u8868_u9762_u5C42_u6B21_u7684_u6539_u8FDB" class="headerlink" title="表面层次的改进"></a>表面层次的改进</h3><ol>
+<li>一定要让命名可以“自解释”，尽量具体形象。不要用汉语拼音，也不要随便缩写，可读性比变量长短重要的多</li>
+<li>不要使用有二义性的词</li>
+<li>注意代码的美观：分段、锁紧、空行、适当的对齐、顺序的一致性</li>
+<li>好代码&gt;坏代码+好注释。为缺陷加TODO注释。为特殊的地方写注释</li>
+<li>使用明确、恰当、含义丰富的词精确描述函数的行为。注释中可以给出I/O的例子<h3 id="u7B80_u5316_u5FAA_u73AF_u548C_u903B_u8F91"><a href="#u7B80_u5316_u5FAA_u73AF_u548C_u903B_u8F91" class="headerlink" title="简化循环和逻辑"></a>简化循环和逻辑</h3></li>
+<li>形式上嵌套一般不超过2层，能return的尽早return。这个原则可以让你大大降低if-else的嵌套深度</li>
+<li></li>
+</ol>
+
+      
+    </div>
+    <! -- 添加捐赠图标 -->
+    <div class ="post-donate">
+      <div id="donate_guide" class="donate_bar center">
+        <a id="btn_donate" class="btn_donate" href="javascript:;" title="Donate 打赏"></a>
+      </div>  
+  
+    <!-- 支付宝打赏图案 -->
+      <div id="donate_guide" class="donate_bar center hidden">
+          <a href="http://7xrap1.com1.z0.glb.clouddn.com/alipay.png" title="支付宝打赏" class="fancybox" rel="article0"       style="float:left;margin-left:25%;margin-right:2px;">
+          <img src="http://7xrap1.com1.z0.glb.clouddn.com/alipay.png" title="支付宝打赏" height="164px" width="164px">
+          </a> 
+      </div>
+
+    <!-- 微信打赏图案 -->
+      <div id="donate_guide" class="donate_bar center hidden">
+          <a href="http://7xrap1.com1.z0.glb.clouddn.com/mmqrcode1456561751651.png" title="微信打赏" class="fancybox" rel="article0"  >
+          <img src="http://7xrap1.com1.z0.glb.clouddn.com/mmqrcode1456561751651.png" title="微信打赏" height="164px" width="164px">
+          </a> 
+      </div>
+  
+      <script type="text/javascript">
+        document.getElementById('btn_donate').onclick = function(){
+          $('#donate_board').addClass('hidden');
+          $('#donate_guide').removeClass('hidden');
+        }
+      </script>
+    </div>
+<! -- 添加捐赠图标 -->
+    <footer class="article-footer">
+      
+        <a data-url="hhttp://dreamer2008.github.io/2016/03/06/tech/programming/readable-code/" data-id="cimupccox000ay0s6wawiafng" class="article-share-link">分享到</a>
+      
+
+      <!-- 
+      
+        <a href="hhttp://dreamer2008.github.io/2016/03/06/tech/programming/readable-code/#ds-thread" class="article-comment-link">评论</a>
+      
+      -->
+
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/programming/">programming</a></li></ul>
+
+    </footer>
+  </div>
+  
+
+
+</article>
+
+
+  
     <article id="post-essay/change-myself" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/02/13/essay/change-myself/" class="article-date">
@@ -139,9 +266,37 @@
 
       
     </div>
+    <! -- 添加捐赠图标 -->
+    <div class ="post-donate">
+      <div id="donate_guide" class="donate_bar center">
+        <a id="btn_donate" class="btn_donate" href="javascript:;" title="Donate 打赏"></a>
+      </div>  
+  
+    <!-- 支付宝打赏图案 -->
+      <div id="donate_guide" class="donate_bar center hidden">
+          <a href="http://7xrap1.com1.z0.glb.clouddn.com/alipay.png" title="支付宝打赏" class="fancybox" rel="article0"       style="float:left;margin-left:25%;margin-right:2px;">
+          <img src="http://7xrap1.com1.z0.glb.clouddn.com/alipay.png" title="支付宝打赏" height="164px" width="164px">
+          </a> 
+      </div>
+
+    <!-- 微信打赏图案 -->
+      <div id="donate_guide" class="donate_bar center hidden">
+          <a href="http://7xrap1.com1.z0.glb.clouddn.com/mmqrcode1456561751651.png" title="微信打赏" class="fancybox" rel="article0"  >
+          <img src="http://7xrap1.com1.z0.glb.clouddn.com/mmqrcode1456561751651.png" title="微信打赏" height="164px" width="164px">
+          </a> 
+      </div>
+  
+      <script type="text/javascript">
+        document.getElementById('btn_donate').onclick = function(){
+          $('#donate_board').addClass('hidden');
+          $('#donate_guide').removeClass('hidden');
+        }
+      </script>
+    </div>
+<! -- 添加捐赠图标 -->
     <footer class="article-footer">
       
-        <a data-url="hhttp://dreamer2008.github.io/2016/02/13/essay/change-myself/" data-id="cikmomcpi001zecnqmb4y80ku" class="article-share-link">分享到</a>
+        <a data-url="hhttp://dreamer2008.github.io/2016/02/13/essay/change-myself/" data-id="cimupccq10026y0s6wvt02z9j" class="article-share-link">分享到</a>
       
 
       <!-- 
@@ -156,6 +311,8 @@
     </footer>
   </div>
   
+
+
 </article>
 
 
@@ -206,9 +363,37 @@
 
       
     </div>
+    <! -- 添加捐赠图标 -->
+    <div class ="post-donate">
+      <div id="donate_guide" class="donate_bar center">
+        <a id="btn_donate" class="btn_donate" href="javascript:;" title="Donate 打赏"></a>
+      </div>  
+  
+    <!-- 支付宝打赏图案 -->
+      <div id="donate_guide" class="donate_bar center hidden">
+          <a href="http://7xrap1.com1.z0.glb.clouddn.com/alipay.png" title="支付宝打赏" class="fancybox" rel="article0"       style="float:left;margin-left:25%;margin-right:2px;">
+          <img src="http://7xrap1.com1.z0.glb.clouddn.com/alipay.png" title="支付宝打赏" height="164px" width="164px">
+          </a> 
+      </div>
+
+    <!-- 微信打赏图案 -->
+      <div id="donate_guide" class="donate_bar center hidden">
+          <a href="http://7xrap1.com1.z0.glb.clouddn.com/mmqrcode1456561751651.png" title="微信打赏" class="fancybox" rel="article0"  >
+          <img src="http://7xrap1.com1.z0.glb.clouddn.com/mmqrcode1456561751651.png" title="微信打赏" height="164px" width="164px">
+          </a> 
+      </div>
+  
+      <script type="text/javascript">
+        document.getElementById('btn_donate').onclick = function(){
+          $('#donate_board').addClass('hidden');
+          $('#donate_guide').removeClass('hidden');
+        }
+      </script>
+    </div>
+<! -- 添加捐赠图标 -->
     <footer class="article-footer">
       
-        <a data-url="hhttp://dreamer2008.github.io/2016/02/12/essay/2016-spring-festival/" data-id="cikmomcpk0022ecnq8jh7lg6x" class="article-share-link">分享到</a>
+        <a data-url="hhttp://dreamer2008.github.io/2016/02/12/essay/2016-spring-festival/" data-id="cimupccq30029y0s66pygb59u" class="article-share-link">分享到</a>
       
 
       <!-- 
@@ -223,6 +408,125 @@
     </footer>
   </div>
   
+
+
+</article>
+
+
+  
+    <article id="post-reading/book_list" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/01/23/reading/book_list/" class="article-date">
+  <time datetime="2016-01-23T14:51:35.000Z" itemprop="datePublished">2016-01-23</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/读书/">读书</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/01/23/reading/book_list/">我的书单</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="u6280_u672F_u7C7B"><a href="#u6280_u672F_u7C7B" class="headerlink" title="技术类"></a>技术类</h1><h2 id="2016_u5E74_u4E4B_u524D"><a href="#2016_u5E74_u4E4B_u524D" class="headerlink" title="2016年之前"></a>2016年之前</h2><ul>
+<li><p><a href="http://item.jd.com/10058902.html" target="_blank" rel="external">Effective Java中文版（第2版）</a></p>
+</li>
+<li><p><a href="http://item.jd.com/10898799.html" target="_blank" rel="external">编写高质量代码：改善Java程序的151个建议</a></p>
+</li>
+<li><p><a href="http://item.jd.com/11728740.html" target="_blank" rel="external">重构 改善既有代码的设计</a></p>
+</li>
+<li><p><a href="http://item.jd.com/10064006.html" target="_blank" rel="external">代码整洁之道</a></p>
+</li>
+<li><p><a href="http://item.jd.com/10038890.html" target="_blank" rel="external">以色列人：特殊国土上的普通人</a></p>
+</li>
+</ul>
+<h2 id="2016_u5E74"><a href="#2016_u5E74" class="headerlink" title="2016年"></a>2016年</h2><ul>
+<li><p><a href="http://item.jd.com/11020839.html" target="_blank" rel="external">编写可读代码的艺术</a></p>
+</li>
+<li><p><a href="http://item.jd.com/11586611.html" target="_blank" rel="external">程序员必读之软件架构</a></p>
+</li>
+<li><p><a href="http://item.jd.com/11306502.html" target="_blank" rel="external">恰如其分的软件架构</a></p>
+</li>
+<li><p><a href="http://item.jd.com/11754085.html" target="_blank" rel="external">Web全栈工程师的自我修养</a></p>
+</li>
+<li><p><a href="http://item.jd.com/11556827.html" target="_blank" rel="external">高效程序员的45个习惯：敏捷开发修炼之道(修订版)</a></p>
+</li>
+</ul>
+<h1 id="IT_u53F2_u8BDD_u7C7B"><a href="#IT_u53F2_u8BDD_u7C7B" class="headerlink" title="IT史话类"></a>IT史话类</h1><h2 id="2016_u5E74_u4E4B_u524D-1"><a href="#2016_u5E74_u4E4B_u524D-1" class="headerlink" title="2016年之前"></a>2016年之前</h2><ul>
+<li><a href="http://www.spph.com.cn/books/bookspec/view.asp?id=0202010000002932" target="_blank" rel="external">《硅谷108将:150年来硅谷英雄史诗》</a> </li>
+</ul>
+<h1 id="u7ECF_u7BA1_u7C7B"><a href="#u7ECF_u7BA1_u7C7B" class="headerlink" title="经管类"></a>经管类</h1><h2 id="2016_u5E74-1"><a href="#2016_u5E74-1" class="headerlink" title="2016年"></a>2016年</h2><ul>
+<li><p><a href="http://item.jd.com/11706334.html" target="_blank" rel="external">成为技术领导者：掌握全面解决问题的方法</a></p>
+</li>
+<li><p><a href="http://item.jd.com/11715756.html" target="_blank" rel="external">技术管理之巅：如何从零打造高质效互联网技术团队？</a></p>
+</li>
+</ul>
+<h1 id="u5916_u8BED_u7C7B"><a href="#u5916_u8BED_u7C7B" class="headerlink" title="外语类"></a>外语类</h1><h1 id="u6570_u5B66_u7C7B"><a href="#u6570_u5B66_u7C7B" class="headerlink" title="数学类"></a>数学类</h1><h1 id="u4EBA_u6587_u7C7B"><a href="#u4EBA_u6587_u7C7B" class="headerlink" title="人文类"></a>人文类</h1><ul>
+<li><p><a href="http://e.jd.com/30164581.html" target="_blank" rel="external">新加坡的那些事儿</a></p>
+</li>
+<li><p><a href="http://e.jd.com/30000518.html" target="_blank" rel="external">我们台湾这些年：1977年至今</a></p>
+</li>
+</ul>
+
+      
+    </div>
+    <! -- 添加捐赠图标 -->
+    <div class ="post-donate">
+      <div id="donate_guide" class="donate_bar center">
+        <a id="btn_donate" class="btn_donate" href="javascript:;" title="Donate 打赏"></a>
+      </div>  
+  
+    <!-- 支付宝打赏图案 -->
+      <div id="donate_guide" class="donate_bar center hidden">
+          <a href="http://7xrap1.com1.z0.glb.clouddn.com/alipay.png" title="支付宝打赏" class="fancybox" rel="article0"       style="float:left;margin-left:25%;margin-right:2px;">
+          <img src="http://7xrap1.com1.z0.glb.clouddn.com/alipay.png" title="支付宝打赏" height="164px" width="164px">
+          </a> 
+      </div>
+
+    <!-- 微信打赏图案 -->
+      <div id="donate_guide" class="donate_bar center hidden">
+          <a href="http://7xrap1.com1.z0.glb.clouddn.com/mmqrcode1456561751651.png" title="微信打赏" class="fancybox" rel="article0"  >
+          <img src="http://7xrap1.com1.z0.glb.clouddn.com/mmqrcode1456561751651.png" title="微信打赏" height="164px" width="164px">
+          </a> 
+      </div>
+  
+      <script type="text/javascript">
+        document.getElementById('btn_donate').onclick = function(){
+          $('#donate_board').addClass('hidden');
+          $('#donate_guide').removeClass('hidden');
+        }
+      </script>
+    </div>
+<! -- 添加捐赠图标 -->
+    <footer class="article-footer">
+      
+        <a data-url="hhttp://dreamer2008.github.io/2016/01/23/reading/book_list/" data-id="cimupccpq001qy0s6nd3a8vya" class="article-share-link">分享到</a>
+      
+
+      <!-- 
+      
+        <a href="hhttp://dreamer2008.github.io/2016/01/23/reading/book_list/#ds-thread" class="article-comment-link">评论</a>
+      
+      -->
+
+      
+    </footer>
+  </div>
+  
+
+
 </article>
 
 
@@ -348,9 +652,37 @@
 
       
     </div>
+    <! -- 添加捐赠图标 -->
+    <div class ="post-donate">
+      <div id="donate_guide" class="donate_bar center">
+        <a id="btn_donate" class="btn_donate" href="javascript:;" title="Donate 打赏"></a>
+      </div>  
+  
+    <!-- 支付宝打赏图案 -->
+      <div id="donate_guide" class="donate_bar center hidden">
+          <a href="http://7xrap1.com1.z0.glb.clouddn.com/alipay.png" title="支付宝打赏" class="fancybox" rel="article0"       style="float:left;margin-left:25%;margin-right:2px;">
+          <img src="http://7xrap1.com1.z0.glb.clouddn.com/alipay.png" title="支付宝打赏" height="164px" width="164px">
+          </a> 
+      </div>
+
+    <!-- 微信打赏图案 -->
+      <div id="donate_guide" class="donate_bar center hidden">
+          <a href="http://7xrap1.com1.z0.glb.clouddn.com/mmqrcode1456561751651.png" title="微信打赏" class="fancybox" rel="article0"  >
+          <img src="http://7xrap1.com1.z0.glb.clouddn.com/mmqrcode1456561751651.png" title="微信打赏" height="164px" width="164px">
+          </a> 
+      </div>
+  
+      <script type="text/javascript">
+        document.getElementById('btn_donate').onclick = function(){
+          $('#donate_board').addClass('hidden');
+          $('#donate_guide').removeClass('hidden');
+        }
+      </script>
+    </div>
+<! -- 添加捐赠图标 -->
     <footer class="article-footer">
       
-        <a data-url="hhttp://dreamer2008.github.io/2016/01/22/tech/architecture/principles-of-design/" data-id="cikmomcp0001aecnqchrg2we8" class="article-share-link">分享到</a>
+        <a data-url="hhttp://dreamer2008.github.io/2016/01/22/tech/architecture/principles-of-design/" data-id="cimupccpk001jy0s61q5lwa39" class="article-share-link">分享到</a>
       
 
       <!-- 
@@ -360,23 +692,25 @@
       -->
 
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/architecture/">architecture</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/architecture/">architecture</a></li></ul>
 
     </footer>
   </div>
   
+
+
 </article>
 
 
   
-    <article id="post-tech/languages/python-note" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-tech/programming/python-note" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2016/01/17/tech/languages/python-note/" class="article-date">
+    <a href="/2016/01/17/tech/programming/python-note/" class="article-date">
   <time datetime="2016-01-17T14:05:50.000Z" itemprop="datePublished">2016-01-17</time>
 </a>
     
   <div class="article-category">
-    <a class="article-category-link" href="/categories/Python/">Python</a>
+    <a class="article-category-link" href="/categories/编程/">编程</a>
   </div>
 
   </div>
@@ -387,7 +721,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2016/01/17/tech/languages/python-note/">Python学习笔记（一）</a>
+      <a class="article-title" href="/2016/01/17/tech/programming/python-note/">Python学习笔记（一）</a>
     </h1>
   
 
@@ -418,30 +752,60 @@
 
       
     </div>
+    <! -- 添加捐赠图标 -->
+    <div class ="post-donate">
+      <div id="donate_guide" class="donate_bar center">
+        <a id="btn_donate" class="btn_donate" href="javascript:;" title="Donate 打赏"></a>
+      </div>  
+  
+    <!-- 支付宝打赏图案 -->
+      <div id="donate_guide" class="donate_bar center hidden">
+          <a href="http://7xrap1.com1.z0.glb.clouddn.com/alipay.png" title="支付宝打赏" class="fancybox" rel="article0"       style="float:left;margin-left:25%;margin-right:2px;">
+          <img src="http://7xrap1.com1.z0.glb.clouddn.com/alipay.png" title="支付宝打赏" height="164px" width="164px">
+          </a> 
+      </div>
+
+    <!-- 微信打赏图案 -->
+      <div id="donate_guide" class="donate_bar center hidden">
+          <a href="http://7xrap1.com1.z0.glb.clouddn.com/mmqrcode1456561751651.png" title="微信打赏" class="fancybox" rel="article0"  >
+          <img src="http://7xrap1.com1.z0.glb.clouddn.com/mmqrcode1456561751651.png" title="微信打赏" height="164px" width="164px">
+          </a> 
+      </div>
+  
+      <script type="text/javascript">
+        document.getElementById('btn_donate').onclick = function(){
+          $('#donate_board').addClass('hidden');
+          $('#donate_guide').removeClass('hidden');
+        }
+      </script>
+    </div>
+<! -- 添加捐赠图标 -->
     <footer class="article-footer">
       
-        <a data-url="hhttp://dreamer2008.github.io/2016/01/17/tech/languages/python-note/" data-id="cikmomcol000fecnqejfu4pmx" class="article-share-link">分享到</a>
+        <a data-url="hhttp://dreamer2008.github.io/2016/01/17/tech/programming/python-note/" data-id="cimupccp0000fy0s6peoi6ojd" class="article-share-link">分享到</a>
       
 
       <!-- 
       
-        <a href="hhttp://dreamer2008.github.io/2016/01/17/tech/languages/python-note/#ds-thread" class="article-comment-link">评论</a>
+        <a href="hhttp://dreamer2008.github.io/2016/01/17/tech/programming/python-note/#ds-thread" class="article-comment-link">评论</a>
       
       -->
 
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Python/">Python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/programming/">programming</a></li></ul>
 
     </footer>
   </div>
   
+
+
 </article>
 
 
   
-    <article id="post-tech/personal-brand" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-tech/branding/personal-brand" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2016/01/17/tech/personal-brand/" class="article-date">
+    <a href="/2016/01/17/tech/branding/personal-brand/" class="article-date">
   <time datetime="2016-01-17T09:42:22.000Z" itemprop="datePublished">2016-01-17</time>
 </a>
     
@@ -457,7 +821,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2016/01/17/tech/personal-brand/">打造个人品牌</a>
+      <a class="article-title" href="/2016/01/17/tech/branding/personal-brand/">打造个人品牌</a>
     </h1>
   
 
@@ -508,14 +872,42 @@
 
       
     </div>
+    <! -- 添加捐赠图标 -->
+    <div class ="post-donate">
+      <div id="donate_guide" class="donate_bar center">
+        <a id="btn_donate" class="btn_donate" href="javascript:;" title="Donate 打赏"></a>
+      </div>  
+  
+    <!-- 支付宝打赏图案 -->
+      <div id="donate_guide" class="donate_bar center hidden">
+          <a href="http://7xrap1.com1.z0.glb.clouddn.com/alipay.png" title="支付宝打赏" class="fancybox" rel="article0"       style="float:left;margin-left:25%;margin-right:2px;">
+          <img src="http://7xrap1.com1.z0.glb.clouddn.com/alipay.png" title="支付宝打赏" height="164px" width="164px">
+          </a> 
+      </div>
+
+    <!-- 微信打赏图案 -->
+      <div id="donate_guide" class="donate_bar center hidden">
+          <a href="http://7xrap1.com1.z0.glb.clouddn.com/mmqrcode1456561751651.png" title="微信打赏" class="fancybox" rel="article0"  >
+          <img src="http://7xrap1.com1.z0.glb.clouddn.com/mmqrcode1456561751651.png" title="微信打赏" height="164px" width="164px">
+          </a> 
+      </div>
+  
+      <script type="text/javascript">
+        document.getElementById('btn_donate').onclick = function(){
+          $('#donate_board').addClass('hidden');
+          $('#donate_guide').removeClass('hidden');
+        }
+      </script>
+    </div>
+<! -- 添加捐赠图标 -->
     <footer class="article-footer">
       
-        <a data-url="hhttp://dreamer2008.github.io/2016/01/17/tech/personal-brand/" data-id="cikmomcoh000aecnqbne7hu1x" class="article-share-link">分享到</a>
+        <a data-url="hhttp://dreamer2008.github.io/2016/01/17/tech/branding/personal-brand/" data-id="cimupccpa0011y0s6l3q3a3n3" class="article-share-link">分享到</a>
       
 
       <!-- 
       
-        <a href="hhttp://dreamer2008.github.io/2016/01/17/tech/personal-brand/#ds-thread" class="article-comment-link">评论</a>
+        <a href="hhttp://dreamer2008.github.io/2016/01/17/tech/branding/personal-brand/#ds-thread" class="article-comment-link">评论</a>
       
       -->
 
@@ -525,13 +917,15 @@
     </footer>
   </div>
   
+
+
 </article>
 
 
   
-    <article id="post-tech/infoq/infoq-articles" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-tech/branding/infoq-articles" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2016/01/17/tech/infoq/infoq-articles/" class="article-date">
+    <a href="/2016/01/17/tech/branding/infoq-articles/" class="article-date">
   <time datetime="2016-01-17T03:18:20.000Z" itemprop="datePublished">2016-01-17</time>
 </a>
     
@@ -547,7 +941,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2016/01/17/tech/infoq/infoq-articles/">InfoQ文章集</a>
+      <a class="article-title" href="/2016/01/17/tech/branding/infoq-articles/">InfoQ文章集</a>
     </h1>
   
 
@@ -564,28 +958,63 @@
 </li>
 </ul>
 <h3 id="2_u6708"><a href="#2_u6708" class="headerlink" title="2月"></a>2月</h3><ul>
-<li>[The Evolution of Swift’s Standard Library]</li>
+<li><p><a href="https://zybuluo.com/dtstudy/note/285452" target="_blank" rel="external">GitHub Responds to ‘Dear GitHub’ letter</a></p>
+</li>
+<li><p><a href="https://zybuluo.com/dtstudy/note/290095#" target="_blank" rel="external">Google Introduces Cloud Functions</a></p>
+</li>
+<li><p><a href="https://zybuluo.com/dtstudy/note/288175" target="_blank" rel="external">Almost Stable Android Studio 2.0 Beta Improves Instant Run, Emulator, Indexing</a></p>
+</li>
 </ul>
 <h1 id="u4E2D_u6587_u539F_u521B"><a href="#u4E2D_u6587_u539F_u521B" class="headerlink" title="中文原创"></a>中文原创</h1><h2 id="2016_u5E74-1"><a href="#2016_u5E74-1" class="headerlink" title="2016年"></a>2016年</h2><h1 id="Original_in_English"><a href="#Original_in_English" class="headerlink" title="Original in English"></a>Original in English</h1><h2 id="2016"><a href="#2016" class="headerlink" title="2016"></a>2016</h2>
       
     </div>
+    <! -- 添加捐赠图标 -->
+    <div class ="post-donate">
+      <div id="donate_guide" class="donate_bar center">
+        <a id="btn_donate" class="btn_donate" href="javascript:;" title="Donate 打赏"></a>
+      </div>  
+  
+    <!-- 支付宝打赏图案 -->
+      <div id="donate_guide" class="donate_bar center hidden">
+          <a href="http://7xrap1.com1.z0.glb.clouddn.com/alipay.png" title="支付宝打赏" class="fancybox" rel="article0"       style="float:left;margin-left:25%;margin-right:2px;">
+          <img src="http://7xrap1.com1.z0.glb.clouddn.com/alipay.png" title="支付宝打赏" height="164px" width="164px">
+          </a> 
+      </div>
+
+    <!-- 微信打赏图案 -->
+      <div id="donate_guide" class="donate_bar center hidden">
+          <a href="http://7xrap1.com1.z0.glb.clouddn.com/mmqrcode1456561751651.png" title="微信打赏" class="fancybox" rel="article0"  >
+          <img src="http://7xrap1.com1.z0.glb.clouddn.com/mmqrcode1456561751651.png" title="微信打赏" height="164px" width="164px">
+          </a> 
+      </div>
+  
+      <script type="text/javascript">
+        document.getElementById('btn_donate').onclick = function(){
+          $('#donate_board').addClass('hidden');
+          $('#donate_guide').removeClass('hidden');
+        }
+      </script>
+    </div>
+<! -- 添加捐赠图标 -->
     <footer class="article-footer">
       
-        <a data-url="hhttp://dreamer2008.github.io/2016/01/17/tech/infoq/infoq-articles/" data-id="cikmomcor000qecnqb07976fo" class="article-share-link">分享到</a>
+        <a data-url="hhttp://dreamer2008.github.io/2016/01/17/tech/branding/infoq-articles/" data-id="cimupccpe0016y0s6seyadetq" class="article-share-link">分享到</a>
       
 
       <!-- 
       
-        <a href="hhttp://dreamer2008.github.io/2016/01/17/tech/infoq/infoq-articles/#ds-thread" class="article-comment-link">评论</a>
+        <a href="hhttp://dreamer2008.github.io/2016/01/17/tech/branding/infoq-articles/#ds-thread" class="article-comment-link">评论</a>
       
       -->
 
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/BFF/">BFF</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/InfoQ/">InfoQ</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/architecture/">architecture</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mobile/">mobile</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/InfoQ/">InfoQ</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/architecture/">architecture</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/cloud/">cloud</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/github/">github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/google/">google</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mobile/">mobile</a></li></ul>
 
     </footer>
   </div>
   
+
+
 </article>
 
 
@@ -638,9 +1067,37 @@
 
       
     </div>
+    <! -- 添加捐赠图标 -->
+    <div class ="post-donate">
+      <div id="donate_guide" class="donate_bar center">
+        <a id="btn_donate" class="btn_donate" href="javascript:;" title="Donate 打赏"></a>
+      </div>  
+  
+    <!-- 支付宝打赏图案 -->
+      <div id="donate_guide" class="donate_bar center hidden">
+          <a href="http://7xrap1.com1.z0.glb.clouddn.com/alipay.png" title="支付宝打赏" class="fancybox" rel="article0"       style="float:left;margin-left:25%;margin-right:2px;">
+          <img src="http://7xrap1.com1.z0.glb.clouddn.com/alipay.png" title="支付宝打赏" height="164px" width="164px">
+          </a> 
+      </div>
+
+    <!-- 微信打赏图案 -->
+      <div id="donate_guide" class="donate_bar center hidden">
+          <a href="http://7xrap1.com1.z0.glb.clouddn.com/mmqrcode1456561751651.png" title="微信打赏" class="fancybox" rel="article0"  >
+          <img src="http://7xrap1.com1.z0.glb.clouddn.com/mmqrcode1456561751651.png" title="微信打赏" height="164px" width="164px">
+          </a> 
+      </div>
+  
+      <script type="text/javascript">
+        document.getElementById('btn_donate').onclick = function(){
+          $('#donate_board').addClass('hidden');
+          $('#donate_guide').removeClass('hidden');
+        }
+      </script>
+    </div>
+<! -- 添加捐赠图标 -->
     <footer class="article-footer">
       
-        <a data-url="hhttp://dreamer2008.github.io/2016/01/17/tech/architecture/my-view-on-architecture/" data-id="cikmomcp5001fecnq3sfayxgg" class="article-share-link">分享到</a>
+        <a data-url="hhttp://dreamer2008.github.io/2016/01/17/tech/architecture/my-view-on-architecture/" data-id="cimupccpn001ny0s6zfvg7e41" class="article-share-link">分享到</a>
       
 
       <!-- 
@@ -650,11 +1107,13 @@
       -->
 
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/architecture/">architecture</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tech/">tech</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/wikipedia/">wikipedia</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/architecture/">architecture</a></li></ul>
 
     </footer>
   </div>
   
+
+
 </article>
 
 
@@ -697,9 +1156,37 @@
 
       
     </div>
+    <! -- 添加捐赠图标 -->
+    <div class ="post-donate">
+      <div id="donate_guide" class="donate_bar center">
+        <a id="btn_donate" class="btn_donate" href="javascript:;" title="Donate 打赏"></a>
+      </div>  
+  
+    <!-- 支付宝打赏图案 -->
+      <div id="donate_guide" class="donate_bar center hidden">
+          <a href="http://7xrap1.com1.z0.glb.clouddn.com/alipay.png" title="支付宝打赏" class="fancybox" rel="article0"       style="float:left;margin-left:25%;margin-right:2px;">
+          <img src="http://7xrap1.com1.z0.glb.clouddn.com/alipay.png" title="支付宝打赏" height="164px" width="164px">
+          </a> 
+      </div>
+
+    <!-- 微信打赏图案 -->
+      <div id="donate_guide" class="donate_bar center hidden">
+          <a href="http://7xrap1.com1.z0.glb.clouddn.com/mmqrcode1456561751651.png" title="微信打赏" class="fancybox" rel="article0"  >
+          <img src="http://7xrap1.com1.z0.glb.clouddn.com/mmqrcode1456561751651.png" title="微信打赏" height="164px" width="164px">
+          </a> 
+      </div>
+  
+      <script type="text/javascript">
+        document.getElementById('btn_donate').onclick = function(){
+          $('#donate_board').addClass('hidden');
+          $('#donate_guide').removeClass('hidden');
+        }
+      </script>
+    </div>
+<! -- 添加捐赠图标 -->
     <footer class="article-footer">
       
-        <a data-url="hhttp://dreamer2008.github.io/2016/01/03/essay/summary_2015/" data-id="cikmomcpb001qecnqqadaujkr" class="article-share-link">分享到</a>
+        <a data-url="hhttp://dreamer2008.github.io/2016/01/03/essay/summary_2015/" data-id="cimupccpv001xy0s6x9fpozo2" class="article-share-link">分享到</a>
       
 
       <!-- 
@@ -714,131 +1201,8 @@
     </footer>
   </div>
   
-</article>
 
 
-  
-    <article id="post-english/index" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/12/06/english/index/" class="article-date">
-  <time datetime="2015-12-06T09:42:30.000Z" itemprop="datePublished">2015-12-06</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/English/">English</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/06/english/index/">英语系列简介</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><img src="/images/english/english.jpg" alt="dreamer"></p>
-<p><strong>NOTE:</strong> 本人虽然是理工技术男，但对学习外语特别感兴趣。</p>
-<p>英语系列将包括以下几个方面的内容。</p>
-<ul>
-<li>英语学习方法探讨，包括听说读写译</li>
-<li>本人用英语原创或者翻译的资料</li>
-<li>其他语言的学习</li>
-</ul>
-<p>欢迎大家留言和交流，共同学习，共同进步！</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      
-        <a data-url="hhttp://dreamer2008.github.io/2015/12/06/english/index/" data-id="cikmomcnw0000ecnq9cztbl4x" class="article-share-link">分享到</a>
-      
-
-      <!-- 
-      
-        <a href="hhttp://dreamer2008.github.io/2015/12/06/english/index/#ds-thread" class="article-comment-link">评论</a>
-      
-      -->
-
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-tech/internet/internet-giants" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/04/20/tech/internet/internet-giants/" class="article-date">
-  <time datetime="2015-04-20T13:42:30.000Z" itemprop="datePublished">2015-04-20</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/互联网/">互联网</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/04/20/tech/internet/internet-giants/">互联网巨头</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="u5168_u740310_u5927_u4E92_u8054_u7F51_u516C_u53F8"><a href="#u5168_u740310_u5927_u4E92_u8054_u7F51_u516C_u53F8" class="headerlink" title="全球10大互联网公司"></a>全球10大互联网公司</h2><p>首先，祝贺大京东成功跻身全球前10互联网公司。而且前10名中，我朝竟然独占4席，可喜可贺。<br>（以市值排序，2015年4月12日）</p>
-<p><img src="http://i.imgur.com/JFM2bu7.png" alt="全球10大互联网公司"></p>
-<p>更多参考：</p>
-<ul>
-<li><a href="http://www.56lem.com/news/show-633.html" target="_blank" rel="external">2014全球十大互联网公司</a></li>
-<li><a href="http://www.hongjier.cn/news_268.htm" target="_blank" rel="external">世界十大互联网公司中国占四位！</a></li>
-<li><a href="http://finance.ifeng.com/a/20140917/13121077_0.shtml" target="_blank" rel="external">盘点全球十大市值最高互联网公司</a></li>
-</ul>
-<h2 id="GAF_VS_BAT"><a href="#GAF_VS_BAT" class="headerlink" title="GAF VS BAT"></a>GAF VS BAT</h2><p>我还以为是我首创了GAF/GAAF这个缩写，原来早就有了。不过我也算是独立发明的吧。[嘻嘻]</p>
-<p>GAF是Google,Amazon,Facebook三大互联网巨头，加上苹果之后算是”<a href="http://archives.guao.hk/posts/eric-schmidts-gang-of-four-google-apple-amazon-and-facebook.html" target="_blank" rel="external">新四大金刚</a>”-GAAF。</p>
-<p>GAF和BAT正好一一对应，分别是搜索、电商和社交三大领域的巨头，并且都在建立自己的生态系统，都想扩大自己的势力范围。</p>
-<p>更多参考：</p>
-<ul>
-<li><a href="http://36kr.com/p/102774.html" target="_blank" rel="external">六大生态系统的崛起</a></li>
-<li><a href="http://www.zhihu.com/question/27104799" target="_blank" rel="external">知乎上的讨论</a></li>
-<li><a href="http://edu.163.com/15/0413/09/AN2QLI4E00294MA1.html" target="_blank" rel="external">巨头前路占卜</a></li>
-<li><a href="http://www.csdn.net/article/2013-04-01/2814733-scalability-lessons-from-google-7-compannies" target="_blank" rel="external">7大知名互联网的系统扩展经验</a></li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      
-        <a data-url="hhttp://dreamer2008.github.io/2015/04/20/tech/internet/internet-giants/" data-id="cikmomcoo000kecnq7chik8r8" class="article-share-link">分享到</a>
-      
-
-      <!-- 
-      
-        <a href="hhttp://dreamer2008.github.io/2015/04/20/tech/internet/internet-giants/#ds-thread" class="article-comment-link">评论</a>
-      
-      -->
-
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Internet/">Internet</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/京东/">京东</a></li></ul>
-
-    </footer>
-  </div>
-  
 </article>
 
 
@@ -856,7 +1220,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">分类</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/English/">English</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Python/">Python</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/互联网/">互联网</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/其他/">其他</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/工具/">工具</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/总结/">总结</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/技术/">技术</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/架构/">架构</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/随笔/">随笔</a><span class="category-list-count">3</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/English/">English</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/互联网/">互联网</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/其他/">其他</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/开源/">开源</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/总结/">总结</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/技术/">技术</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/架构/">架构</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/编程/">编程</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书/">读书</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/随笔/">随笔</a><span class="category-list-count">3</span></li></ul>
     </div>
   </div>
 
@@ -865,7 +1229,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签云</h3>
     <div class="widget tagcloud">
-      <a href="/tags/BFF/" style="font-size: 10px;">BFF</a> <a href="/tags/InfoQ/" style="font-size: 10px;">InfoQ</a> <a href="/tags/Internet/" style="font-size: 10px;">Internet</a> <a href="/tags/architecture/" style="font-size: 20px;">architecture</a> <a href="/tags/essay/" style="font-size: 20px;">essay</a> <a href="/tags/git/" style="font-size: 15px;">git</a> <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/misc/" style="font-size: 10px;">misc</a> <a href="/tags/mobile/" style="font-size: 10px;">mobile</a> <a href="/tags/python/" style="font-size: 10px;">python</a> <a href="/tags/tech/" style="font-size: 20px;">tech</a> <a href="/tags/wikipedia/" style="font-size: 10px;">wikipedia</a> <a href="/tags/京东/" style="font-size: 15px;">京东</a>
+      <a href="/tags/InfoQ/" style="font-size: 10px;">InfoQ</a> <a href="/tags/Internet/" style="font-size: 10px;">Internet</a> <a href="/tags/Python/" style="font-size: 10px;">Python</a> <a href="/tags/architecture/" style="font-size: 20px;">architecture</a> <a href="/tags/cloud/" style="font-size: 10px;">cloud</a> <a href="/tags/essay/" style="font-size: 20px;">essay</a> <a href="/tags/git/" style="font-size: 15px;">git</a> <a href="/tags/github/" style="font-size: 15px;">github</a> <a href="/tags/google/" style="font-size: 10px;">google</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/misc/" style="font-size: 10px;">misc</a> <a href="/tags/mobile/" style="font-size: 10px;">mobile</a> <a href="/tags/programming/" style="font-size: 15px;">programming</a> <a href="/tags/tech/" style="font-size: 10px;">tech</a> <a href="/tags/京东/" style="font-size: 15px;">京东</a>
     </div>
   </div>
 
@@ -874,7 +1238,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">2016年02月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">2016年01月</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">2015年12月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">2015年04月</a><span class="archive-list-count">5</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">2016年03月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">2016年02月</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">2016年01月</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">2015年12月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">2015年04月</a><span class="archive-list-count">5</span></li></ul>
     </div>
   </div>
 
@@ -886,6 +1250,10 @@
       <ul>
         
           <li>
+            <a href="/2016/03/06/tech/programming/readable-code/">程序员系列（1）—— 程序员，你真的会写代码吗？</a>
+          </li>
+        
+          <li>
             <a href="/2016/02/13/essay/change-myself/">改变自己，从现在做起</a>
           </li>
         
@@ -894,15 +1262,11 @@
           </li>
         
           <li>
+            <a href="/2016/01/23/reading/book_list/">我的书单</a>
+          </li>
+        
+          <li>
             <a href="/2016/01/22/tech/architecture/principles-of-design/">代码设计原则</a>
-          </li>
-        
-          <li>
-            <a href="/2016/01/17/tech/languages/python-note/">Python学习笔记（一）</a>
-          </li>
-        
-          <li>
-            <a href="/2016/01/17/tech/personal-brand/">打造个人品牌</a>
           </li>
         
       </ul>

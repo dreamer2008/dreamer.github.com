@@ -4,7 +4,7 @@
   <subtitle><![CDATA[做懂架构的程序员和写代码的架构师]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="hhttp://dreamer2008.github.io/"/>
-  <updated>2016-02-14T15:03:21.000Z</updated>
+  <updated>2016-04-10T14:46:15.000Z</updated>
   <id>hhttp://dreamer2008.github.io/</id>
   
   <author>
@@ -13,6 +13,70 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[程序员系列（1）—— 程序员，你真的会写代码吗？]]></title>
+    <link href="hhttp://dreamer2008.github.io/2016/03/06/tech/programming/readable-code/"/>
+    <id>hhttp://dreamer2008.github.io/2016/03/06/tech/programming/readable-code/</id>
+    <published>2016-03-06T13:23:33.000Z</published>
+    <updated>2016-04-10T14:46:15.000Z</updated>
+    <content type="html"><![CDATA[<p><a alt="编写可读代码的艺术" href="http://item.jd.com/11020839.html" target="_blank"><img src="http://img14.360buyimg.com/n1/g5/M00/03/09/rBEDik_Zh6oIAAAAAAD30NgwDhkAAApCAC9qh0AAPfo079.jpg"></a></p>
+<blockquote>
+<p>可读性基本定理</p>
+<p>Code should be written to minimize the time it would take for someone else to understand it.</p>
+<p>代码的写法应当使别人理解它所需的时间最小化。</p>
+</blockquote>
+<h2 id="u5F15_u5B50"><a href="#u5F15_u5B50" class="headerlink" title="引子"></a>引子</h2><p>写代码是程序员的基本功。但是，程序员，你真的会写代码吗？今天，我们不谈什么高大上的“架构”，就谈谈怎么写代码。</p>
+<p>作为程序员，你看过、写过、改过、删过的代码可能不计其数。然而，回头想想，真正让你感到赏心悦目、拍手称快的次数又有多少呢？要知道，你读代码的时间远远大于你实际写代码的时间。如果代码可读性不好，你的工作效率肯定会大打折扣。特别是，对于一个团队来说，如果没有良好的、统一的代码规范，协同工作效率必然很受影响，造成不必要的时间浪费。</p>
+<p>《Clean Code》的作者Bob大叔认为“在代码阅读过程中人们说脏话的频率是衡量代码质量的唯一标准。” 哈哈。太TM经典了。</p>
+<p>书的目录如下： <img src="http://images.cnitblog.com/blog2015/449064/201505/141405470644668.jpg" alt="目录">（图片来源：<a href="http://www.cnblogs.com/xing901022/p/4503286.html" target="_blank" rel="external">xingoo</a>的博客）</p>
+<h2 id="u53EF_u8BFB_u6027_u4E3A_u4EC0_u4E48_u91CD_u8981"><a href="#u53EF_u8BFB_u6027_u4E3A_u4EC0_u4E48_u91CD_u8981" class="headerlink" title="可读性为什么重要"></a>可读性为什么重要</h2><h3 id="u4E66_u4E2D_u89C2_u70B9"><a href="#u4E66_u4E2D_u89C2_u70B9" class="headerlink" title="书中观点"></a>书中观点</h3><blockquote>
+<p>软件成本 = 开发成本 + 维护成本。往往，维护成本&gt;&gt;开发成本。这其中耗费的主要成本就是由于理解代码和修改代码造成的。</p>
+<p>——《Structured Design》</p>
+</blockquote>
+<h3 id="u4E2A_u4EBA_u89C2_u70B9"><a href="#u4E2A_u4EBA_u89C2_u70B9" class="headerlink" title="个人观点"></a>个人观点</h3><blockquote>
+<p>可读性永远是第一位的。代码的可读性与效率、架构、易于测试一点也不冲突。<br>代码可读性好、bug少是对程序员的基本要求。</p>
+</blockquote>
+<p>就我亲身经历而言。我”见识“过很多奇葩的代码。主要包括以下几种情形。</p>
+<ol>
+<li><p>职责划分不清</p>
+<ul>
+<li>一个方法超过一百行，一个类一两千行</li>
+<li>各种代码杂糅在一起，该抽取的不抽取，可复用性很低</li>
+<li>不使用MVC之类的模式，代码不分层，甚至所有代码逻辑都写在展示层</li>
+</ul>
+</li>
+<li><p>命名乱七八糟</p>
+<ul>
+<li>有的用英语单词，有的用汉语拼音</li>
+<li>有的方法明明是做更新，名称却是getXXX()</li>
+<li>缩写不规范，容易造成误解</li>
+<li>团队中没有统一的编码规范，每个人风格各异</li>
+</ul>
+</li>
+</ol>
+<h2 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a>前言</h2><blockquote>
+<p><strong>本书旨在帮助你把代码写得更好</strong> 。。。我们希望本书对你每天的编程工作有很多帮助，并且希望你把本书推荐给你团队中的每个人。</p>
+</blockquote>
+<h2 id="u5404_u7AE0_u603B_u7ED3"><a href="#u5404_u7AE0_u603B_u7ED3" class="headerlink" title="各章总结"></a>各章总结</h2><h3 id="u8868_u9762_u5C42_u6B21_u7684_u6539_u8FDB"><a href="#u8868_u9762_u5C42_u6B21_u7684_u6539_u8FDB" class="headerlink" title="表面层次的改进"></a>表面层次的改进</h3><ol>
+<li>一定要让命名可以“自解释”，尽量具体形象。不要用汉语拼音，也不要随便缩写，可读性比变量长短重要的多</li>
+<li>不要使用有二义性的词</li>
+<li>注意代码的美观：分段、锁紧、空行、适当的对齐、顺序的一致性</li>
+<li>好代码&gt;坏代码+好注释。为缺陷加TODO注释。为特殊的地方写注释</li>
+<li>使用明确、恰当、含义丰富的词精确描述函数的行为。注释中可以给出I/O的例子<h3 id="u7B80_u5316_u5FAA_u73AF_u548C_u903B_u8F91"><a href="#u7B80_u5316_u5FAA_u73AF_u548C_u903B_u8F91" class="headerlink" title="简化循环和逻辑"></a>简化循环和逻辑</h3></li>
+<li>形式上嵌套一般不超过2层，能return的尽早return。这个原则可以让你大大降低if-else的嵌套深度</li>
+<li></li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a alt="编写可读代码的艺术" href="http://item.jd.com/11020839.html" target="_blank"><img src="http://img14.360buyimg.com/n1/g5/M00/03/09/rBEDik_Zh]]>
+    </summary>
+    
+      <category term="programming" scheme="hhttp://dreamer2008.github.io/tags/programming/"/>
+    
+      <category term="读书" scheme="hhttp://dreamer2008.github.io/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[改变自己，从现在做起]]></title>
@@ -106,11 +170,65 @@
   </entry>
   
   <entry>
+    <title><![CDATA[我的书单]]></title>
+    <link href="hhttp://dreamer2008.github.io/2016/01/23/reading/book_list/"/>
+    <id>hhttp://dreamer2008.github.io/2016/01/23/reading/book_list/</id>
+    <published>2016-01-23T14:51:35.000Z</published>
+    <updated>2016-04-10T12:54:11.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="u6280_u672F_u7C7B"><a href="#u6280_u672F_u7C7B" class="headerlink" title="技术类"></a>技术类</h1><h2 id="2016_u5E74_u4E4B_u524D"><a href="#2016_u5E74_u4E4B_u524D" class="headerlink" title="2016年之前"></a>2016年之前</h2><ul>
+<li><p><a href="http://item.jd.com/10058902.html" target="_blank" rel="external">Effective Java中文版（第2版）</a></p>
+</li>
+<li><p><a href="http://item.jd.com/10898799.html" target="_blank" rel="external">编写高质量代码：改善Java程序的151个建议</a></p>
+</li>
+<li><p><a href="http://item.jd.com/11728740.html" target="_blank" rel="external">重构 改善既有代码的设计</a></p>
+</li>
+<li><p><a href="http://item.jd.com/10064006.html" target="_blank" rel="external">代码整洁之道</a></p>
+</li>
+<li><p><a href="http://item.jd.com/10038890.html" target="_blank" rel="external">以色列人：特殊国土上的普通人</a></p>
+</li>
+</ul>
+<h2 id="2016_u5E74"><a href="#2016_u5E74" class="headerlink" title="2016年"></a>2016年</h2><ul>
+<li><p><a href="http://item.jd.com/11020839.html" target="_blank" rel="external">编写可读代码的艺术</a></p>
+</li>
+<li><p><a href="http://item.jd.com/11586611.html" target="_blank" rel="external">程序员必读之软件架构</a></p>
+</li>
+<li><p><a href="http://item.jd.com/11306502.html" target="_blank" rel="external">恰如其分的软件架构</a></p>
+</li>
+<li><p><a href="http://item.jd.com/11754085.html" target="_blank" rel="external">Web全栈工程师的自我修养</a></p>
+</li>
+<li><p><a href="http://item.jd.com/11556827.html" target="_blank" rel="external">高效程序员的45个习惯：敏捷开发修炼之道(修订版)</a></p>
+</li>
+</ul>
+<h1 id="IT_u53F2_u8BDD_u7C7B"><a href="#IT_u53F2_u8BDD_u7C7B" class="headerlink" title="IT史话类"></a>IT史话类</h1><h2 id="2016_u5E74_u4E4B_u524D-1"><a href="#2016_u5E74_u4E4B_u524D-1" class="headerlink" title="2016年之前"></a>2016年之前</h2><ul>
+<li><a href="http://www.spph.com.cn/books/bookspec/view.asp?id=0202010000002932" target="_blank" rel="external">《硅谷108将:150年来硅谷英雄史诗》</a> </li>
+</ul>
+<h1 id="u7ECF_u7BA1_u7C7B"><a href="#u7ECF_u7BA1_u7C7B" class="headerlink" title="经管类"></a>经管类</h1><h2 id="2016_u5E74-1"><a href="#2016_u5E74-1" class="headerlink" title="2016年"></a>2016年</h2><ul>
+<li><p><a href="http://item.jd.com/11706334.html" target="_blank" rel="external">成为技术领导者：掌握全面解决问题的方法</a></p>
+</li>
+<li><p><a href="http://item.jd.com/11715756.html" target="_blank" rel="external">技术管理之巅：如何从零打造高质效互联网技术团队？</a></p>
+</li>
+</ul>
+<h1 id="u5916_u8BED_u7C7B"><a href="#u5916_u8BED_u7C7B" class="headerlink" title="外语类"></a>外语类</h1><h1 id="u6570_u5B66_u7C7B"><a href="#u6570_u5B66_u7C7B" class="headerlink" title="数学类"></a>数学类</h1><h1 id="u4EBA_u6587_u7C7B"><a href="#u4EBA_u6587_u7C7B" class="headerlink" title="人文类"></a>人文类</h1><ul>
+<li><p><a href="http://e.jd.com/30164581.html" target="_blank" rel="external">新加坡的那些事儿</a></p>
+</li>
+<li><p><a href="http://e.jd.com/30000518.html" target="_blank" rel="external">我们台湾这些年：1977年至今</a></p>
+</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="u6280_u672F_u7C7B"><a href="#u6280_u672F_u7C7B" class="headerlink" title="技术类"></a>技术类</h1><h2 id="2016_u5E74_u4E4B_u524D"><a href="]]>
+    </summary>
+    
+      <category term="读书" scheme="hhttp://dreamer2008.github.io/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[代码设计原则]]></title>
     <link href="hhttp://dreamer2008.github.io/2016/01/22/tech/architecture/principles-of-design/"/>
     <id>hhttp://dreamer2008.github.io/2016/01/22/tech/architecture/principles-of-design/</id>
     <published>2016-01-22T12:55:24.000Z</published>
-    <updated>2016-01-23T14:08:14.000Z</updated>
+    <updated>2016-04-10T14:42:29.000Z</updated>
     <content type="html"><![CDATA[<h3 id="u7B80_u5355_u539F_u5219"><a href="#u7B80_u5355_u539F_u5219" class="headerlink" title="简单原则"></a>简单原则</h3><ul>
 <li>避免重复原则（DRY - Don’t repeat yourself）</li>
 </ul>
@@ -211,18 +329,16 @@
     
       <category term="architecture" scheme="hhttp://dreamer2008.github.io/tags/architecture/"/>
     
-      <category term="tech" scheme="hhttp://dreamer2008.github.io/tags/tech/"/>
-    
       <category term="架构" scheme="hhttp://dreamer2008.github.io/categories/%E6%9E%B6%E6%9E%84/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Python学习笔记（一）]]></title>
-    <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/languages/python-note/"/>
-    <id>hhttp://dreamer2008.github.io/2016/01/17/tech/languages/python-note/</id>
+    <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/programming/python-note/"/>
+    <id>hhttp://dreamer2008.github.io/2016/01/17/tech/programming/python-note/</id>
     <published>2016-01-17T14:05:50.000Z</published>
-    <updated>2016-01-27T14:46:13.000Z</updated>
+    <updated>2016-04-10T14:43:16.000Z</updated>
     <content type="html"><![CDATA[<p><img src="http://www.kandasoft.com/wp-content/uploads/2014/02/Python-Programming-Language.png" alt="Python"></p>
 <h1 id="Python_u5165_u95E8"><a href="#Python_u5165_u95E8" class="headerlink" title="Python入门"></a>Python入门</h1><h2 id="Python_u7B80_u4ECB"><a href="#Python_u7B80_u4ECB" class="headerlink" title="Python简介"></a>Python简介</h2><p>脚本语言。解释语言。默认的解释器CPython。<br>Python之父—荷兰人Guido van Rossum。诞生于1989年。第一个公开发行版发行于1991年</p>
 <h2 id="Python_u7528_u9014"><a href="#Python_u7528_u9014" class="headerlink" title="Python用途"></a>Python用途</h2><ol>
@@ -249,16 +365,18 @@
 <h1 id="Python_u5165_u95]]>
     </summary>
     
-      <category term="python" scheme="hhttp://dreamer2008.github.io/tags/python/"/>
+      <category term="Python" scheme="hhttp://dreamer2008.github.io/tags/Python/"/>
     
-      <category term="Python" scheme="hhttp://dreamer2008.github.io/categories/Python/"/>
+      <category term="programming" scheme="hhttp://dreamer2008.github.io/tags/programming/"/>
+    
+      <category term="编程" scheme="hhttp://dreamer2008.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[打造个人品牌]]></title>
-    <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/personal-brand/"/>
-    <id>hhttp://dreamer2008.github.io/2016/01/17/tech/personal-brand/</id>
+    <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/branding/personal-brand/"/>
+    <id>hhttp://dreamer2008.github.io/2016/01/17/tech/branding/personal-brand/</id>
     <published>2016-01-17T09:42:22.000Z</published>
     <updated>2016-01-24T03:02:48.000Z</updated>
     <content type="html"><![CDATA[<h1 id="u6458_u8981"><a href="#u6458_u8981" class="headerlink" title="摘要"></a>摘要</h1><p>最近几年，“个人品牌”、“个人影响力”逐渐被人提及。然而他们真的那么重要吗？我们又应该如何打造呢？</p>
@@ -314,10 +432,10 @@
   
   <entry>
     <title><![CDATA[InfoQ文章集]]></title>
-    <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/infoq/infoq-articles/"/>
-    <id>hhttp://dreamer2008.github.io/2016/01/17/tech/infoq/infoq-articles/</id>
+    <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/branding/infoq-articles/"/>
+    <id>hhttp://dreamer2008.github.io/2016/01/17/tech/branding/infoq-articles/</id>
     <published>2016-01-17T03:18:20.000Z</published>
-    <updated>2016-01-31T08:09:43.000Z</updated>
+    <updated>2016-02-19T15:13:29.000Z</updated>
     <content type="html"><![CDATA[<h1 id="u8BD1_u6587"><a href="#u8BD1_u6587" class="headerlink" title="译文"></a>译文</h1><h2 id="2016_u5E74"><a href="#2016_u5E74" class="headerlink" title="2016年"></a>2016年</h2><h3 id="1_u6708"><a href="#1_u6708" class="headerlink" title="1月"></a>1月</h3><ul>
 <li><p><a href="https://zybuluo.com/dtstudy/note/269716" target="_blank" rel="external">A Pattern for API Backends Serving Frontends</a> 参考阅读：<a href="http://samnewman.io/patterns/architectural/bff/" target="_blank" rel="external">Pattern: Backends For Frontends</a></p>
 </li>
@@ -327,18 +445,27 @@
 </li>
 </ul>
 <h3 id="2_u6708"><a href="#2_u6708" class="headerlink" title="2月"></a>2月</h3><ul>
-<li>[The Evolution of Swift’s Standard Library]</li>
+<li><p><a href="https://zybuluo.com/dtstudy/note/285452" target="_blank" rel="external">GitHub Responds to ‘Dear GitHub’ letter</a></p>
+</li>
+<li><p><a href="https://zybuluo.com/dtstudy/note/290095#" target="_blank" rel="external">Google Introduces Cloud Functions</a></p>
+</li>
+<li><p><a href="https://zybuluo.com/dtstudy/note/288175" target="_blank" rel="external">Almost Stable Android Studio 2.0 Beta Improves Instant Run, Emulator, Indexing</a></p>
+</li>
 </ul>
 <h1 id="u4E2D_u6587_u539F_u521B"><a href="#u4E2D_u6587_u539F_u521B" class="headerlink" title="中文原创"></a>中文原创</h1><h2 id="2016_u5E74-1"><a href="#2016_u5E74-1" class="headerlink" title="2016年"></a>2016年</h2><h1 id="Original_in_English"><a href="#Original_in_English" class="headerlink" title="Original in English"></a>Original in English</h1><h2 id="2016"><a href="#2016" class="headerlink" title="2016"></a>2016</h2>]]></content>
     <summary type="html">
     <![CDATA[<h1 id="u8BD1_u6587"><a href="#u8BD1_u6587" class="headerlink" title="译文"></a>译文</h1><h2 id="2016_u5E74"><a href="#2016_u5E74" class="header]]>
     </summary>
     
-      <category term="BFF" scheme="hhttp://dreamer2008.github.io/tags/BFF/"/>
-    
       <category term="InfoQ" scheme="hhttp://dreamer2008.github.io/tags/InfoQ/"/>
     
       <category term="architecture" scheme="hhttp://dreamer2008.github.io/tags/architecture/"/>
+    
+      <category term="cloud" scheme="hhttp://dreamer2008.github.io/tags/cloud/"/>
+    
+      <category term="github" scheme="hhttp://dreamer2008.github.io/tags/github/"/>
+    
+      <category term="google" scheme="hhttp://dreamer2008.github.io/tags/google/"/>
     
       <category term="mobile" scheme="hhttp://dreamer2008.github.io/tags/mobile/"/>
     
@@ -351,7 +478,7 @@
     <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/architecture/my-view-on-architecture/"/>
     <id>hhttp://dreamer2008.github.io/2016/01/17/tech/architecture/my-view-on-architecture/</id>
     <published>2016-01-17T01:41:19.000Z</published>
-    <updated>2016-01-17T10:54:14.000Z</updated>
+    <updated>2016-04-10T14:38:24.000Z</updated>
     <content type="html"><![CDATA[<p><img src="/images/tech/architect.jpg" width="600" height="400" onerror="this.src='http://static.oschina.net/uploads/space/2012/0709/172424_x5hu_28.jpg'"></p>
 <h1 id="u4EC0_u4E48_u662F_u8F6F_u4EF6_u67B6_u6784_28Software_Architecture_29"><a href="#u4EC0_u4E48_u662F_u8F6F_u4EF6_u67B6_u6784_28Software_Architecture_29" class="headerlink" title="什么是软件架构(Software Architecture)"></a>什么是软件架构(Software Architecture)</h1><h2 id="u5B9A_u4E49"><a href="#u5B9A_u4E49" class="headerlink" title="定义"></a>定义</h2><blockquote>
 <p><strong>软件架构</strong>是有关软件整体结构与组件的抽象描述，用于指导大型软件系统各个方面的设计。（原文：(<a href="https://zh.wikipedia.org/wiki/软件架构)）" target="_blank" rel="external">https://zh.wikipedia.org/wiki/软件架构)）</a></p>
@@ -377,10 +504,6 @@
     </summary>
     
       <category term="architecture" scheme="hhttp://dreamer2008.github.io/tags/architecture/"/>
-    
-      <category term="tech" scheme="hhttp://dreamer2008.github.io/tags/tech/"/>
-    
-      <category term="wikipedia" scheme="hhttp://dreamer2008.github.io/tags/wikipedia/"/>
     
       <category term="架构" scheme="hhttp://dreamer2008.github.io/categories/%E6%9E%B6%E6%9E%84/"/>
     
@@ -504,10 +627,10 @@
   
   <entry>
     <title><![CDATA[Github Blogging with Hexo]]></title>
-    <link href="hhttp://dreamer2008.github.io/2015/04/19/tech/github/github-blogging-with-hexo/"/>
-    <id>hhttp://dreamer2008.github.io/2015/04/19/tech/github/github-blogging-with-hexo/</id>
+    <link href="hhttp://dreamer2008.github.io/2015/04/19/tech/opensource/github-blogging-with-hexo/"/>
+    <id>hhttp://dreamer2008.github.io/2015/04/19/tech/opensource/github-blogging-with-hexo/</id>
     <published>2015-04-19T13:42:30.000Z</published>
-    <updated>2016-01-16T03:44:06.000Z</updated>
+    <updated>2016-04-10T14:44:43.000Z</updated>
     <content type="html"><![CDATA[<p>  现在github非常火，很多人（包括很多非程序猿）都在上面开博了。推荐一篇文章：<a href="http://zhuanlan.zhihu.com/cnfeat/19743861" target="_blank" rel="external">为什么你要写博客？</a></p>
 <p>  工具方面，从基于Ruby的Jekyll，Octopress，到基于Python的Pelican，再到基于Node.js的Hexo。经过试用，我最终选择了Hexo。更多的工具，请看<a href="http://www.tuicool.com/articles/rmyuEnm" target="_blank" rel="external">这里</a>。</p>
 <h2 id="Hexo__u7B80_u4ECB"><a href="#Hexo__u7B80_u4ECB" class="headerlink" title="Hexo 简介"></a>Hexo 简介</h2><p>  Hexo 出自一个台湾大学生<a href="https://github.com/tommy351" target="_blank" rel="external">tommy351</a>之手（原来我们大中华区也有世界级的编程牛人啊。赞一个！）。<a href="http://hexo.io/" target="_blank" rel="external">这里</a>是官网。</p>
@@ -590,7 +713,7 @@
     
       <category term="markdown" scheme="hhttp://dreamer2008.github.io/tags/markdown/"/>
     
-      <category term="工具" scheme="hhttp://dreamer2008.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+      <category term="开源" scheme="hhttp://dreamer2008.github.io/categories/%E5%BC%80%E6%BA%90/"/>
     
   </entry>
   
