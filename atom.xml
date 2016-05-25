@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title><![CDATA[追梦人的博客]]></title>
-  <subtitle><![CDATA[做懂架构的程序员和写代码的架构师]]></subtitle>
+  
   <link href="/atom.xml" rel="self"/>
   <link href="hhttp://dreamer2008.github.io/"/>
   <updated>2016-05-07T14:08:07.000Z</updated>
