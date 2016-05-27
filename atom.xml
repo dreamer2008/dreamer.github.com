@@ -507,49 +507,6 @@
   </entry>
   
   <entry>
-    <title><![CDATA[InfoQ文章集]]></title>
-    <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/branding/infoq-articles/"/>
-    <id>hhttp://dreamer2008.github.io/2016/01/17/tech/branding/infoq-articles/</id>
-    <published>2016-01-17T03:18:20.000Z</published>
-    <updated>2016-02-19T15:13:29.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="u8BD1_u6587"><a href="#u8BD1_u6587" class="headerlink" title="译文"></a>译文</h1><h2 id="2016_u5E74"><a href="#2016_u5E74" class="headerlink" title="2016年"></a>2016年</h2><h3 id="1_u6708"><a href="#1_u6708" class="headerlink" title="1月"></a>1月</h3><ul>
-<li><p><a href="https://zybuluo.com/dtstudy/note/269716" target="_blank" rel="external">A Pattern for API Backends Serving Frontends</a> 参考阅读：<a href="http://samnewman.io/patterns/architectural/bff/" target="_blank" rel="external">Pattern: Backends For Frontends</a></p>
-</li>
-<li><p><a href="https://zybuluo.com/dtstudy/note/271763" target="_blank" rel="external">“Dear GitHub…” — An Open Letter to GitHub</a></p>
-</li>
-<li><p><a href="https://zybuluo.com/dtstudy/note/280367" target="_blank" rel="external">Parse will Shut Down their Service</a> 参考阅读：<a href="http://www.infoq.com/cn/news/2016/01/facebook-is-closing-parse" target="_blank" rel="external">Facebook将关闭其移动开发者平台Parse</a></p>
-</li>
-</ul>
-<h3 id="2_u6708"><a href="#2_u6708" class="headerlink" title="2月"></a>2月</h3><ul>
-<li><p><a href="https://zybuluo.com/dtstudy/note/285452" target="_blank" rel="external">GitHub Responds to ‘Dear GitHub’ letter</a></p>
-</li>
-<li><p><a href="https://zybuluo.com/dtstudy/note/290095#" target="_blank" rel="external">Google Introduces Cloud Functions</a></p>
-</li>
-<li><p><a href="https://zybuluo.com/dtstudy/note/288175" target="_blank" rel="external">Almost Stable Android Studio 2.0 Beta Improves Instant Run, Emulator, Indexing</a></p>
-</li>
-</ul>
-<h1 id="u4E2D_u6587_u539F_u521B"><a href="#u4E2D_u6587_u539F_u521B" class="headerlink" title="中文原创"></a>中文原创</h1><h2 id="2016_u5E74-1"><a href="#2016_u5E74-1" class="headerlink" title="2016年"></a>2016年</h2><h1 id="Original_in_English"><a href="#Original_in_English" class="headerlink" title="Original in English"></a>Original in English</h1><h2 id="2016"><a href="#2016" class="headerlink" title="2016"></a>2016</h2>]]></content>
-    <summary type="html">
-    <![CDATA[<h1 id="u8BD1_u6587"><a href="#u8BD1_u6587" class="headerlink" title="译文"></a>译文</h1><h2 id="2016_u5E74"><a href="#2016_u5E74" class="header]]>
-    </summary>
-    
-      <category term="InfoQ" scheme="hhttp://dreamer2008.github.io/tags/InfoQ/"/>
-    
-      <category term="architecture" scheme="hhttp://dreamer2008.github.io/tags/architecture/"/>
-    
-      <category term="cloud" scheme="hhttp://dreamer2008.github.io/tags/cloud/"/>
-    
-      <category term="github" scheme="hhttp://dreamer2008.github.io/tags/github/"/>
-    
-      <category term="google" scheme="hhttp://dreamer2008.github.io/tags/google/"/>
-    
-      <category term="mobile" scheme="hhttp://dreamer2008.github.io/tags/mobile/"/>
-    
-      <category term="技术" scheme="hhttp://dreamer2008.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[架构师之我见]]></title>
     <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/architecture/my-view-on-architecture/"/>
     <id>hhttp://dreamer2008.github.io/2016/01/17/tech/architecture/my-view-on-architecture/</id>
