@@ -193,60 +193,6 @@
   </entry>
   
   <entry>
-    <title><![CDATA[我的书单]]></title>
-    <link href="hhttp://dreamer2008.github.io/2016/01/23/reading/book_list/"/>
-    <id>hhttp://dreamer2008.github.io/2016/01/23/reading/book_list/</id>
-    <published>2016-01-23T14:51:35.000Z</published>
-    <updated>2016-04-10T12:54:11.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="u6280_u672F_u7C7B"><a href="#u6280_u672F_u7C7B" class="headerlink" title="技术类"></a>技术类</h1><h2 id="2016_u5E74_u4E4B_u524D"><a href="#2016_u5E74_u4E4B_u524D" class="headerlink" title="2016年之前"></a>2016年之前</h2><ul>
-<li><p><a href="http://item.jd.com/10058902.html" target="_blank" rel="external">Effective Java中文版（第2版）</a></p>
-</li>
-<li><p><a href="http://item.jd.com/10898799.html" target="_blank" rel="external">编写高质量代码：改善Java程序的151个建议</a></p>
-</li>
-<li><p><a href="http://item.jd.com/11728740.html" target="_blank" rel="external">重构 改善既有代码的设计</a></p>
-</li>
-<li><p><a href="http://item.jd.com/10064006.html" target="_blank" rel="external">代码整洁之道</a></p>
-</li>
-<li><p><a href="http://item.jd.com/10038890.html" target="_blank" rel="external">以色列人：特殊国土上的普通人</a></p>
-</li>
-</ul>
-<h2 id="2016_u5E74"><a href="#2016_u5E74" class="headerlink" title="2016年"></a>2016年</h2><ul>
-<li><p><a href="http://item.jd.com/11020839.html" target="_blank" rel="external">编写可读代码的艺术</a></p>
-</li>
-<li><p><a href="http://item.jd.com/11586611.html" target="_blank" rel="external">程序员必读之软件架构</a></p>
-</li>
-<li><p><a href="http://item.jd.com/11306502.html" target="_blank" rel="external">恰如其分的软件架构</a></p>
-</li>
-<li><p><a href="http://item.jd.com/11754085.html" target="_blank" rel="external">Web全栈工程师的自我修养</a></p>
-</li>
-<li><p><a href="http://item.jd.com/11556827.html" target="_blank" rel="external">高效程序员的45个习惯：敏捷开发修炼之道(修订版)</a></p>
-</li>
-</ul>
-<h1 id="IT_u53F2_u8BDD_u7C7B"><a href="#IT_u53F2_u8BDD_u7C7B" class="headerlink" title="IT史话类"></a>IT史话类</h1><h2 id="2016_u5E74_u4E4B_u524D-1"><a href="#2016_u5E74_u4E4B_u524D-1" class="headerlink" title="2016年之前"></a>2016年之前</h2><ul>
-<li><a href="http://www.spph.com.cn/books/bookspec/view.asp?id=0202010000002932" target="_blank" rel="external">《硅谷108将:150年来硅谷英雄史诗》</a> </li>
-</ul>
-<h1 id="u7ECF_u7BA1_u7C7B"><a href="#u7ECF_u7BA1_u7C7B" class="headerlink" title="经管类"></a>经管类</h1><h2 id="2016_u5E74-1"><a href="#2016_u5E74-1" class="headerlink" title="2016年"></a>2016年</h2><ul>
-<li><p><a href="http://item.jd.com/11706334.html" target="_blank" rel="external">成为技术领导者：掌握全面解决问题的方法</a></p>
-</li>
-<li><p><a href="http://item.jd.com/11715756.html" target="_blank" rel="external">技术管理之巅：如何从零打造高质效互联网技术团队？</a></p>
-</li>
-</ul>
-<h1 id="u5916_u8BED_u7C7B"><a href="#u5916_u8BED_u7C7B" class="headerlink" title="外语类"></a>外语类</h1><h1 id="u6570_u5B66_u7C7B"><a href="#u6570_u5B66_u7C7B" class="headerlink" title="数学类"></a>数学类</h1><h1 id="u4EBA_u6587_u7C7B"><a href="#u4EBA_u6587_u7C7B" class="headerlink" title="人文类"></a>人文类</h1><ul>
-<li><p><a href="http://e.jd.com/30164581.html" target="_blank" rel="external">新加坡的那些事儿</a></p>
-</li>
-<li><p><a href="http://e.jd.com/30000518.html" target="_blank" rel="external">我们台湾这些年：1977年至今</a></p>
-</li>
-</ul>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h1 id="u6280_u672F_u7C7B"><a href="#u6280_u672F_u7C7B" class="headerlink" title="技术类"></a>技术类</h1><h2 id="2016_u5E74_u4E4B_u524D"><a href="]]>
-    </summary>
-    
-      <category term="读书" scheme="hhttp://dreamer2008.github.io/categories/%E8%AF%BB%E4%B9%A6/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[代码设计原则]]></title>
     <link href="hhttp://dreamer2008.github.io/2016/01/22/tech/architecture/principles-of-design/"/>
     <id>hhttp://dreamer2008.github.io/2016/01/22/tech/architecture/principles-of-design/</id>
