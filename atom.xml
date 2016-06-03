@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="hhttp://dreamer2008.github.io/"/>
-  <updated>2016-05-07T14:08:07.000Z</updated>
+  <updated>2016-06-03T09:21:08.000Z</updated>
   <id>hhttp://dreamer2008.github.io/</id>
   
   <author>
@@ -13,6 +13,21 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[hello]]></title>
+    <link href="hhttp://dreamer2008.github.io/2016/06/03/hello/"/>
+    <id>hhttp://dreamer2008.github.io/2016/06/03/hello/</id>
+    <published>2016-06-03T09:20:21.000Z</published>
+    <updated>2016-06-03T09:21:08.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="123"><a href="#123" class="headerlink" title="123"></a>123</h3>]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="123"><a href="#123" class="headerlink" title="123"></a>123</h3>]]>
+    </summary>
+    
+      <category term="abc" scheme="hhttp://dreamer2008.github.io/tags/abc/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[简约之美：软件设计之道]]></title>
@@ -556,10 +571,16 @@
     <link href="hhttp://dreamer2008.github.io/2015/04/19/tech/opensource/github-blogging-with-hexo/"/>
     <id>hhttp://dreamer2008.github.io/2015/04/19/tech/opensource/github-blogging-with-hexo/</id>
     <published>2015-04-19T13:42:30.000Z</published>
-    <updated>2016-04-10T14:44:43.000Z</updated>
-    <content type="html"><![CDATA[<p>  现在github非常火，很多人（包括很多非程序猿）都在上面开博了。推荐一篇文章：<a href="http://zhuanlan.zhihu.com/cnfeat/19743861" target="_blank" rel="external">为什么你要写博客？</a></p>
+    <updated>2016-06-01T15:20:26.000Z</updated>
+    <content type="html"><![CDATA[<p>  现在github非常火，很多人（包括很多爱写作的非程序猿）都在上面开博了。推荐两篇文章：</p>
+<ul>
+<li><p><a href="http://zhuanlan.zhihu.com/cnfeat/19743861" target="_blank" rel="external">为什么你要写博客？</a></p>
+</li>
+<li><p><a href="http://stormzhang.com/android/2016/03/04/why-i-keep-writing-blog/" target="_blank" rel="external">我为什么坚持写博客？</a></p>
+</li>
+</ul>
 <p>  工具方面，从基于Ruby的Jekyll，Octopress，到基于Python的Pelican，再到基于Node.js的Hexo。经过试用，我最终选择了Hexo。更多的工具，请看<a href="http://www.tuicool.com/articles/rmyuEnm" target="_blank" rel="external">这里</a>。</p>
-<h2 id="Hexo__u7B80_u4ECB"><a href="#Hexo__u7B80_u4ECB" class="headerlink" title="Hexo 简介"></a>Hexo 简介</h2><p>  Hexo 出自一个台湾大学生<a href="https://github.com/tommy351" target="_blank" rel="external">tommy351</a>之手（原来我们大中华区也有世界级的编程牛人啊。赞一个！）。<a href="http://hexo.io/" target="_blank" rel="external">这里</a>是官网。</p>
+<h2 id="Hexo__u7B80_u4ECB"><a href="#Hexo__u7B80_u4ECB" class="headerlink" title="Hexo 简介"></a>Hexo 简介</h2><p>  <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>出自一个台湾大学生<a href="https://github.com/tommy351" target="_blank" rel="external">tommy351</a>之手（原来我们大中华区也有世界级的编程牛人啊。赞一个！）。</p>
 <p>  Hexo是一个快速的、强大的Blog框架，主要是由 Node.js 构建出来的。同时支持多线程生成，上百个文件只需要花数秒中就能生成。</p>
 <p>  Hexo还支持GitHub Flavored Markdown 和所有的 Octopress 插件和 高兼容 Jekyll/Octopress。</p>
 <h2 id="Hexo__u5B89_u88C5"><a href="#Hexo__u5B89_u88C5" class="headerlink" title="Hexo 安装"></a>Hexo 安装</h2><p>  Hexo 是一个轻量的静态博客框架。通过Hexo可以快速生成一个静态博客框架,仅需要几条命令就可以完成,相当方便。</p>
@@ -606,9 +627,15 @@
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>  现在github非常火，很多人（包括很多非程序猿）都在上面开博了。推荐一篇文章：<a href="http://zhuanlan.zhihu.com/cnfeat/19743861">为什么你要写博客？</a></p>
+    <![CDATA[<p>  现在github非常火，很多人（包括很多爱写作的非程序猿）都在上面开博了。推荐两篇文章：</p>
+<ul>
+<li><p><a href="http://zhuanlan.zhihu.com/cnfeat/19743861">为什么你要写博客？</a></p>
+</li>
+<li><p><a href="http://stormzhang.com/android/2016/03/04/why-i-keep-writing-blog/">我为什么坚持写博客？</a></p>
+</li>
+</ul>
 <p>  工具方面，从基于Ruby的Jekyll，Octopress，到基于Python的Pelican，再到基于Node.js的Hexo。经过试用，我最终选择了Hexo。更多的工具，请看<a href="http://www.tuicool.com/articles/rmyuEnm">这里</a>。</p>
-<h2 id="Hexo__u7B80_u4ECB"><a href="#Hexo__u7B80_u4ECB" class="headerlink" title="Hexo 简介"></a>Hexo 简介</h2><p>  Hexo 出自一个台湾大学生<a href="https://github.com/tommy351">tommy351</a>之手（原来我们大中华区也有世界级的编程牛人啊。赞一个！）。<a href="http://hexo.io/">这里</a>是官网。</p>
+<h2 id="Hexo__u7B80_u4ECB"><a href="#Hexo__u7B80_u4ECB" class="headerlink" title="Hexo 简介"></a>Hexo 简介</h2><p>  <a href="http://hexo.io/">Hexo</a>出自一个台湾大学生<a href="https://github.com/tommy351">tommy351</a>之手（原来我们大中华区也有世界级的编程牛人啊。赞一个！）。</p>
 <p>  Hexo是一个快速的、强大的Blog框架，主要是由 Node.js 构建出来的。同时支持多线程生成，上百个文件只需要花数秒中就能生成。</p>
 <p>  Hexo还支持GitHub Flavored Markdown 和所有的 Octopress 插件和 高兼容 Jekyll/Octopress。</p>
 <h2 id="Hexo__u5B89_u88C5"><a href="#Hexo__u5B89_u88C5" class="headerlink" title="Hexo 安装"></a>Hexo 安装</h2><p>  Hexo 是一个轻量的静态博客框架。通过Hexo可以快速生成一个静态博客框架,仅需要几条命令就可以完成,相当方便。</p>
