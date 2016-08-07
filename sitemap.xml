@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>hhttp://dreamer2008.github.io/about/index.html</loc>
+    <lastmod>2016-08-07T14:29:15.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>hhttp://dreamer2008.github.io/reading/index.html</loc>
     <lastmod>2016-06-28T00:04:56.000Z</lastmod>
   </url>
@@ -9,11 +14,6 @@
   <url>
     <loc>hhttp://dreamer2008.github.io/2015/04/19/tech/opensource/github-blogging-with-hexo/</loc>
     <lastmod>2016-06-01T15:20:26.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>hhttp://dreamer2008.github.io/about/index.html</loc>
-    <lastmod>2016-05-25T15:31:20.000Z</lastmod>
   </url>
   
   <url>

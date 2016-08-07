@@ -27,25 +27,3 @@ SMART原则
  - [《马斯克：AlphaGo战胜李世石让人工智能早熟10年》](https://www.inverse.com/article/12620-elon-musk-says-google-deepmind-s-go-victory-is-a-10-year-jump-for-a-i)
 
 
-
- 会议记录：
-
- 周会
- 1、因61暂时未上线的需求：要收尾，准备好下周上线
- 2、进行中的需求：Themis2期、试衣间可以分多次上线、物品编码中心要更积极主动和政府部门沟通、考虑Themis和正阳门的融合
- 3、大数据相关要目：积极学习，准备考试
-
- 
-
-
- 代码
-
- 1、关于Java中读取文件：使用绝对路径移植性更好
- 2、几种解决思路：
- 1）Yanjie 思路比较好。bitmap思想
- 2）多数人是用三个数，然后遍历其余的数，插入到相应位置
- 3）Python和Shell脚本语法简洁
-
- 分享
-
- 刘阳分享：VIM。启发：大家VIM水平都处在生存阶段，还需要提升
