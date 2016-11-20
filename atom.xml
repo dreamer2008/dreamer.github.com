@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[追梦人的博客]]></title>
-  
+  <title><![CDATA[涛哥的黑板报]]></title>
+  <subtitle><![CDATA[做现实的理想主义者。没有最好，只有更好]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="hhttp://dreamer2008.github.io/"/>
   <updated>2016-05-07T14:08:07.000Z</updated>
   <id>hhttp://dreamer2008.github.io/</id>
   
   <author>
-    <name><![CDATA[dreamer2008]]></name>
+    <name><![CDATA[dev2arch]]></name>
     
   </author>
   
@@ -67,7 +67,7 @@
     <link href="hhttp://dreamer2008.github.io/2016/03/06/tech/programming/readable-code/"/>
     <id>hhttp://dreamer2008.github.io/2016/03/06/tech/programming/readable-code/</id>
     <published>2016-03-06T13:23:33.000Z</published>
-    <updated>2016-05-07T12:25:38.000Z</updated>
+    <updated>2016-11-07T14:17:49.000Z</updated>
     <content type="html"><![CDATA[<p><a alt="编写可读代码的艺术" href="http://item.jd.com/11020839.html" target="_blank"><img src="http://img14.360buyimg.com/n1/g5/M00/03/09/rBEDik_Zh6oIAAAAAAD30NgwDhkAAApCAC9qh0AAPfo079.jpg"></a></p>
 <h1 id="u5F15_u5B50"><a href="#u5F15_u5B50" class="headerlink" title="引子"></a>引子</h1><p>写代码是程序员的基本功。但是，程序员，你真的会写代码吗？今天，我们不谈什么高大上的“架构”，就谈谈怎么写代码。</p>
 <p>作为程序员，你看过、写过、改过、删过的代码可能不计其数。然而，回头想想，真正让你感到赏心悦目、拍手称快的代码又有多少呢？要知道，你读代码的时间远远大于你实际写代码的时间。如果代码可读性不好，你的工作效率肯定会大打折扣。特别是，对于一个团队来说，如果没有良好的、统一的代码规范，协同工作效率必然很受影响，造成不必要的时间浪费。</p>
@@ -83,24 +83,6 @@
 <h2 id="u4E2A_u4EBA_u89C2_u70B9"><a href="#u4E2A_u4EBA_u89C2_u70B9" class="headerlink" title="个人观点"></a>个人观点</h2><blockquote>
 <p>可读性永远是第一位的。代码的可读性与效率、架构、易于测试一点也不冲突。<br>代码可读性好、bug少是对程序员的基本要求。</p>
 </blockquote>
-<p>就我亲身经历而言。我”见识“过很多奇葩的代码。主要包括以下几种情形。</p>
-<ol>
-<li><p>职责划分不清</p>
-<ul>
-<li>一个方法超过一百行，一个类一两千行</li>
-<li>各种代码杂糅在一起，该抽取的不抽取，可复用性很低</li>
-<li>不使用MVC之类的模式，代码不分层，甚至所有代码逻辑都写在展示层</li>
-</ul>
-</li>
-<li><p>命名乱七八糟</p>
-<ul>
-<li>有的用英语单词，有的用汉语拼音，有的二者混用</li>
-<li>有的方法明明是做更新，名称却是getXXX()</li>
-<li>缩写不规范，容易造成误解</li>
-<li>团队中没有统一的编码规范，每个人风格各异</li>
-</ul>
-</li>
-</ol>
 <h1 id="u524D_u8A00"><a href="#u524D_u8A00" class="headerlink" title="前言"></a>前言</h1><blockquote>
 <p><strong>本书旨在帮助你把代码写得更好</strong> 。。。我们希望本书对你每天的编程工作有很多帮助，并且希望你把本书推荐给你团队中的每个人。</p>
 </blockquote>
