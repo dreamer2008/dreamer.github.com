@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title><![CDATA[涛哥的黑板报]]></title>
-  <subtitle><![CDATA[做现实的理想主义者。没有最好，只有更好]]></subtitle>
+  <subtitle><![CDATA[关注架构、互联网、人工智能。做更好的自己]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="hhttp://dreamer2008.github.io/"/>
-  <updated>2016-05-07T14:08:07.000Z</updated>
+  <updated>2016-11-20T06:34:48.000Z</updated>
   <id>hhttp://dreamer2008.github.io/</id>
   
   <author>
@@ -15,9 +15,59 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[微信公众号推荐]]></title>
+    <link href="hhttp://dreamer2008.github.io/2016/12/20/misc/mp/"/>
+    <id>hhttp://dreamer2008.github.io/2016/12/20/misc/mp/</id>
+    <published>2016-12-20T05:39:50.000Z</published>
+    <updated>2016-11-20T06:34:48.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="u7EFC_u5408_u7C7B"><a href="#u7EFC_u5408_u7C7B" class="headerlink" title="综合类"></a>综合类</h3><ul>
+<li>InfoQ       (infoqchina)</li>
+<li>EGONetworks（egonetworks）</li>
+<li>肉饼铺子    （robbinthoughts）</li>
+</ul>
+<h3 id="u6280_u672F_u67B6_u6784_u7C7B"><a href="#u6280_u672F_u67B6_u6784_u7C7B" class="headerlink" title="技术架构类"></a>技术架构类</h3><ul>
+<li>高可用架构 （ArchNotes）</li>
+<li>聊聊架构   （archtime）</li>
+<li>架构师    （JiaGouX）</li>
+<li>性能与架构 （yogoup）</li>
+<li>顶级程序员  (redhadoop)</li>
+<li>论码农的自我修养（bit_tiger）</li>
+<li>程序人生   （programmer_life）</li>
+<li>程序员的那些事（iProgrammer）</li>
+<li>程序员日志  （IT_log）</li>
+<li>程序视界   （programmer_sight）</li>
+<li>码农翻身   （coderising）</li>
+<li>开涛的博客  (kaitao-1234567)</li>
+</ul>
+<h3 id="u79FB_u52A8_u5F00_u53D1"><a href="#u79FB_u52A8_u5F00_u53D1" class="headerlink" title="移动开发"></a>移动开发</h3><ul>
+<li>移动开发前线 （bornmobile）</li>
+<li>AndroidDeveloper （googdev）</li>
+<li>APP架构师         （appjiagou）</li>
+</ul>
+<h3 id="IT_u7F51_u7EA2_u7C7B"><a href="#IT_u7F51_u7EA2_u7C7B" class="headerlink" title="IT网红类"></a>IT网红类</h3><ul>
+<li>MacTalk （sagacity-mac）</li>
+<li>小道消息  （WebNotes）</li>
+<li>嘀嗒嘀嗒  （AngelaTalk）</li>
+<li>道哥的黑板报 （taosay）</li>
+<li>精进学堂  （zenpark）</li>
+</ul>
+<h3 id="u5065_u5EB7_u4FDD_u5065_u7C7B"><a href="#u5065_u5EB7_u4FDD_u5065_u7C7B" class="headerlink" title="健康保健类"></a>健康保健类</h3><ul>
+<li>健康头条（baojiandaifu）</li>
+<li>健康朝九晚五(Health_Guokr)</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="u7EFC_u5408_u7C7B"><a href="#u7EFC_u5408_u7C7B" class="headerlink" title="综合类"></a>综合类</h3><ul>
+<li>InfoQ       (infoqchina)</li>
+<l]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[简约之美：软件设计之道]]></title>
-    <link href="hhttp://dreamer2008.github.io/2016/05/07/code-simplicity/"/>
-    <id>hhttp://dreamer2008.github.io/2016/05/07/code-simplicity/</id>
+    <link href="hhttp://dreamer2008.github.io/2016/05/07/tech/methodology/code-simplicity/"/>
+    <id>hhttp://dreamer2008.github.io/2016/05/07/tech/methodology/code-simplicity/</id>
     <published>2016-05-07T12:08:19.000Z</published>
     <updated>2016-05-07T14:08:07.000Z</updated>
     <content type="html"><![CDATA[<p><a alt="简约之美：软件设计之道" href="http://item.jd.com/11151358.html" target="_blank"><img src="http://img13.360buyimg.com/n1/g8/M02/11/05/rBEHZ1DSycYIAAAAAAheBv036AcAADWtQHupY8ACF4e003.jpg"></a></p>
@@ -64,8 +114,8 @@
   
   <entry>
     <title><![CDATA[编写可读代码的艺术]]></title>
-    <link href="hhttp://dreamer2008.github.io/2016/03/06/tech/programming/readable-code/"/>
-    <id>hhttp://dreamer2008.github.io/2016/03/06/tech/programming/readable-code/</id>
+    <link href="hhttp://dreamer2008.github.io/2016/03/06/tech/methodology/readable-code/"/>
+    <id>hhttp://dreamer2008.github.io/2016/03/06/tech/methodology/readable-code/</id>
     <published>2016-03-06T13:23:33.000Z</published>
     <updated>2016-11-07T14:17:49.000Z</updated>
     <content type="html"><![CDATA[<p><a alt="编写可读代码的艺术" href="http://item.jd.com/11020839.html" target="_blank"><img src="http://img14.360buyimg.com/n1/g5/M00/03/09/rBEDik_Zh6oIAAAAAAD30NgwDhkAAApCAC9qh0AAPfo079.jpg"></a></p>
@@ -248,8 +298,8 @@
   
   <entry>
     <title><![CDATA[Python学习笔记（一）]]></title>
-    <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/programming/python-note/"/>
-    <id>hhttp://dreamer2008.github.io/2016/01/17/tech/programming/python-note/</id>
+    <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/python/python-note/"/>
+    <id>hhttp://dreamer2008.github.io/2016/01/17/tech/python/python-note/</id>
     <published>2016-01-17T14:05:50.000Z</published>
     <updated>2016-04-10T14:43:16.000Z</updated>
     <content type="html"><![CDATA[<p><img src="http://www.kandasoft.com/wp-content/uploads/2014/02/Python-Programming-Language.png" alt="Python"></p>
@@ -436,8 +486,8 @@
   
   <entry>
     <title><![CDATA[互联网巨头]]></title>
-    <link href="hhttp://dreamer2008.github.io/2015/04/20/tech/internet/internet-giants/"/>
-    <id>hhttp://dreamer2008.github.io/2015/04/20/tech/internet/internet-giants/</id>
+    <link href="hhttp://dreamer2008.github.io/2015/04/20/internet/internet-giants/"/>
+    <id>hhttp://dreamer2008.github.io/2015/04/20/internet/internet-giants/</id>
     <published>2015-04-20T13:42:30.000Z</published>
     <updated>2016-01-22T13:24:18.000Z</updated>
     <content type="html"><![CDATA[<h2 id="u5168_u740310_u5927_u4E92_u8054_u7F51_u516C_u53F8"><a href="#u5168_u740310_u5927_u4E92_u8054_u7F51_u516C_u53F8" class="headerlink" title="全球10大互联网公司"></a>全球10大互联网公司</h2><p>首先，祝贺大京东成功跻身全球前10互联网公司。而且前10名中，我朝竟然独占4席，可喜可贺。<br>（以市值排序，2015年4月12日）</p>
