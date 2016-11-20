@@ -4,7 +4,7 @@
   <subtitle><![CDATA[关注架构、互联网、人工智能。做更好的自己]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="hhttp://dreamer2008.github.io/"/>
-  <updated>2016-11-20T06:34:48.000Z</updated>
+  <updated>2016-11-20T13:16:20.000Z</updated>
   <id>hhttp://dreamer2008.github.io/</id>
   
   <author>
@@ -16,20 +16,25 @@
   
   <entry>
     <title><![CDATA[微信公众号推荐]]></title>
-    <link href="hhttp://dreamer2008.github.io/2016/12/20/misc/mp/"/>
-    <id>hhttp://dreamer2008.github.io/2016/12/20/misc/mp/</id>
-    <published>2016-12-20T05:39:50.000Z</published>
-    <updated>2016-11-20T06:34:48.000Z</updated>
-    <content type="html"><![CDATA[<h3 id="u7EFC_u5408_u7C7B"><a href="#u7EFC_u5408_u7C7B" class="headerlink" title="综合类"></a>综合类</h3><ul>
+    <link href="hhttp://dreamer2008.github.io/2016/11/20/misc/mp/"/>
+    <id>hhttp://dreamer2008.github.io/2016/11/20/misc/mp/</id>
+    <published>2016-11-20T13:13:24.000Z</published>
+    <updated>2016-11-20T13:16:20.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="u7EFC_u5408"><a href="#u7EFC_u5408" class="headerlink" title="综合"></a>综合</h3><ul>
 <li>InfoQ       (infoqchina)</li>
 <li>EGONetworks（egonetworks）</li>
 <li>肉饼铺子    （robbinthoughts）</li>
+<li>CoolShell   (<a href="http://coolshell.cn/" target="_blank" rel="external">http://coolshell.cn/</a>) 建议每天读几篇</li>
+<li>Tim Yang    (<a href="http://timyang.net/" target="_blank" rel="external">http://timyang.net/</a>)  建议每天读几篇</li>
 </ul>
-<h3 id="u6280_u672F_u67B6_u6784_u7C7B"><a href="#u6280_u672F_u67B6_u6784_u7C7B" class="headerlink" title="技术架构类"></a>技术架构类</h3><ul>
+<h3 id="u67B6_u6784"><a href="#u67B6_u6784" class="headerlink" title="架构"></a>架构</h3><ul>
 <li>高可用架构 （ArchNotes）</li>
 <li>聊聊架构   （archtime）</li>
 <li>架构师    （JiaGouX）</li>
 <li>性能与架构 （yogoup）</li>
+<li>开涛的博客  (kaitao-1234567)</li>
+</ul>
+<h3 id="u7F16_u7A0B_u6280_u672F"><a href="#u7F16_u7A0B_u6280_u672F" class="headerlink" title="编程技术"></a>编程技术</h3><ul>
 <li>顶级程序员  (redhadoop)</li>
 <li>论码农的自我修养（bit_tiger）</li>
 <li>程序人生   （programmer_life）</li>
@@ -37,29 +42,37 @@
 <li>程序员日志  （IT_log）</li>
 <li>程序视界   （programmer_sight）</li>
 <li>码农翻身   （coderising）</li>
-<li>开涛的博客  (kaitao-1234567)</li>
+<li>ImportNew  (importnew)</li>
+</ul>
+<h3 id="u6570_u636E_u5E93"><a href="#u6570_u636E_u5E93" class="headerlink" title="数据库"></a>数据库</h3><ul>
+<li>数据库开发 （DBDevs）</li>
+<li>InsideMySQL (InsideMySQL) </li>
+</ul>
+<h3 id="u5927_u6570_u636E_u4E0E_u673A_u5668_u5B66_u4E60"><a href="#u5927_u6570_u636E_u4E0E_u673A_u5668_u5B66_u4E60" class="headerlink" title="大数据与机器学习"></a>大数据与机器学习</h3><ul>
+<li>大数据杂谈 （BigdataTina2016）</li>
+<li>大数据    （hzdashuju）</li>
+<li>机器之心  （almosthuman2014）</li>
+<li>新智元    （AI_era）</li>
+<li>董老师在硅谷 (donglaoshi-123)</li>
 </ul>
 <h3 id="u79FB_u52A8_u5F00_u53D1"><a href="#u79FB_u52A8_u5F00_u53D1" class="headerlink" title="移动开发"></a>移动开发</h3><ul>
 <li>移动开发前线 （bornmobile）</li>
 <li>AndroidDeveloper （googdev）</li>
 <li>APP架构师         （appjiagou）</li>
+<li>iOS开发     (iOSDevTips)</li>
 </ul>
-<h3 id="IT_u7F51_u7EA2_u7C7B"><a href="#IT_u7F51_u7EA2_u7C7B" class="headerlink" title="IT网红类"></a>IT网红类</h3><ul>
+<h3 id="IT_u7F51_u7EA2"><a href="#IT_u7F51_u7EA2" class="headerlink" title="IT网红"></a>IT网红</h3><ul>
 <li>MacTalk （sagacity-mac）</li>
 <li>小道消息  （WebNotes）</li>
 <li>嘀嗒嘀嗒  （AngelaTalk）</li>
 <li>道哥的黑板报 （taosay）</li>
 <li>精进学堂  （zenpark）</li>
 </ul>
-<h3 id="u5065_u5EB7_u4FDD_u5065_u7C7B"><a href="#u5065_u5EB7_u4FDD_u5065_u7C7B" class="headerlink" title="健康保健类"></a>健康保健类</h3><ul>
-<li>健康头条（baojiandaifu）</li>
-<li>健康朝九晚五(Health_Guokr)</li>
-</ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h3 id="u7EFC_u5408_u7C7B"><a href="#u7EFC_u5408_u7C7B" class="headerlink" title="综合类"></a>综合类</h3><ul>
+    <![CDATA[<h3 id="u7EFC_u5408"><a href="#u7EFC_u5408" class="headerlink" title="综合"></a>综合</h3><ul>
 <li>InfoQ       (infoqchina)</li>
-<l]]>
+<li>EGONetworks（]]>
     </summary>
     
   </entry>
