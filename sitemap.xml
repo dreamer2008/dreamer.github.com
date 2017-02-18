@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>hhttp://dreamer2008.github.io/2015/04/19/influence/github-blogging-with-hexo/</loc>
+    <lastmod>2017-02-18T08:48:28.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>hhttp://dreamer2008.github.io/2015/04/19/tech/tool/git-ten-years/</loc>
+    <lastmod>2017-02-18T08:45:33.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>hhttp://dreamer2008.github.io/2016/01/17/tech/python/python-note/</loc>
+    <lastmod>2017-02-18T08:45:07.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>hhttp://dreamer2008.github.io/2016/03/06/tech/dev/readable-code/</loc>
+    <lastmod>2017-02-18T08:44:03.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>hhttp://dreamer2008.github.io/2016/05/07/tech/dev/code-simplicity/</loc>
+    <lastmod>2017-02-18T08:43:44.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>hhttp://dreamer2008.github.io/2016/01/17/tech/architecture/my-view-on-architecture/</loc>
+    <lastmod>2017-02-18T08:40:31.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>hhttp://dreamer2008.github.io/2015/04/20/misc/internet-giants/</loc>
+    <lastmod>2017-02-18T08:32:34.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>hhttp://dreamer2008.github.io/2016/01/17/influence/personal-brand/</loc>
+    <lastmod>2017-02-18T08:31:24.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>hhttp://dreamer2008.github.io/2016/01/03/essay/summary_2015/</loc>
+    <lastmod>2017-02-18T08:27:01.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>hhttp://dreamer2008.github.io/about/index.html</loc>
     <lastmod>2017-02-18T07:53:33.000Z</lastmod>
   </url>
@@ -12,53 +57,13 @@
   </url>
   
   <url>
-    <loc>hhttp://dreamer2008.github.io/2016/01/22/tech/architecture/principles-of-design/</loc>
-    <lastmod>2017-02-18T06:20:24.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>hhttp://dreamer2008.github.io/2016/11/20/misc/mp/</loc>
     <lastmod>2016-11-20T13:16:20.000Z</lastmod>
   </url>
   
   <url>
-    <loc>hhttp://dreamer2008.github.io/2016/03/06/tech/methodology/readable-code/</loc>
-    <lastmod>2016-11-07T14:17:49.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>hhttp://dreamer2008.github.io/2015/04/19/tech/opensource/github-blogging-with-hexo/</loc>
-    <lastmod>2016-06-01T15:20:26.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>hhttp://dreamer2008.github.io/2016/05/07/tech/methodology/code-simplicity/</loc>
-    <lastmod>2016-05-07T14:08:07.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>hhttp://dreamer2008.github.io/2016/01/17/tech/python/python-note/</loc>
-    <lastmod>2016-04-10T14:43:16.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>hhttp://dreamer2008.github.io/2016/01/17/tech/architecture/my-view-on-architecture/</loc>
-    <lastmod>2016-04-10T14:38:24.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>hhttp://dreamer2008.github.io/2016/01/17/tech/branding/personal-brand/</loc>
-    <lastmod>2016-01-24T03:02:48.000Z</lastmod>
-  </url>
-  
-  <url>
     <loc>hhttp://dreamer2008.github.io/2015/04/20/essay/realistic-idealist/</loc>
     <lastmod>2016-01-23T08:34:17.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>hhttp://dreamer2008.github.io/2015/04/20/internet/internet-giants/</loc>
-    <lastmod>2016-01-22T13:24:18.000Z</lastmod>
   </url>
   
   <url>
@@ -69,16 +74,6 @@
   <url>
     <loc>hhttp://dreamer2008.github.io/2015/12/06/english/index/</loc>
     <lastmod>2016-01-17T14:59:56.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>hhttp://dreamer2008.github.io/2016/01/03/essay/summary_2015/</loc>
-    <lastmod>2016-01-17T03:05:09.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>hhttp://dreamer2008.github.io/2015/04/19/tech/tool/git-ten-years/</loc>
-    <lastmod>2015-12-08T00:52:10.000Z</lastmod>
   </url>
   
 </urlset>

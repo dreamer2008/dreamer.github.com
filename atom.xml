@@ -79,10 +79,10 @@
   
   <entry>
     <title><![CDATA[简约之美：软件设计之道]]></title>
-    <link href="hhttp://dreamer2008.github.io/2016/05/07/tech/methodology/code-simplicity/"/>
-    <id>hhttp://dreamer2008.github.io/2016/05/07/tech/methodology/code-simplicity/</id>
+    <link href="hhttp://dreamer2008.github.io/2016/05/07/tech/dev/code-simplicity/"/>
+    <id>hhttp://dreamer2008.github.io/2016/05/07/tech/dev/code-simplicity/</id>
     <published>2016-05-07T12:08:19.000Z</published>
-    <updated>2016-05-07T14:08:07.000Z</updated>
+    <updated>2017-02-18T08:43:44.000Z</updated>
     <content type="html"><![CDATA[<p><a alt="简约之美：软件设计之道" href="http://item.jd.com/11151358.html" target="_blank"><img src="http://img13.360buyimg.com/n1/g8/M02/11/05/rBEHZ1DSycYIAAAAAAheBv036AcAADWtQHupY8ACF4e003.jpg"></a></p>
 <h1 id="u5F15_u5B50"><a href="#u5F15_u5B50" class="headerlink" title="引子"></a>引子</h1><p>正如译者所言。在软件的生命周期中，往往维护成本&gt;&gt;开发成本。而维护成本又会随着软件复杂度的降低而降低，所有，我们要尽量降低软件的复杂度。</p>
 <h1 id="u5185_u5BB9_u7B80_u4ECB"><a href="#u5185_u5BB9_u7B80_u4ECB" class="headerlink" title="内容简介"></a>内容简介</h1><blockquote>
@@ -119,18 +119,20 @@
     <![CDATA[<p><a alt="简约之美：软件设计之道" href="http://item.jd.com/11151358.html" target="_blank"><img src="http://img13.360buyimg.com/n1/g8/M02/11/05/rBEHZ1D]]>
     </summary>
     
-      <category term="programming" scheme="hhttp://dreamer2008.github.io/tags/programming/"/>
+      <category term="开发" scheme="hhttp://dreamer2008.github.io/tags/%E5%BC%80%E5%8F%91/"/>
     
-      <category term="读书" scheme="hhttp://dreamer2008.github.io/categories/%E8%AF%BB%E4%B9%A6/"/>
+      <category term="读书" scheme="hhttp://dreamer2008.github.io/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="开发" scheme="hhttp://dreamer2008.github.io/categories/%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[编写可读代码的艺术]]></title>
-    <link href="hhttp://dreamer2008.github.io/2016/03/06/tech/methodology/readable-code/"/>
-    <id>hhttp://dreamer2008.github.io/2016/03/06/tech/methodology/readable-code/</id>
+    <link href="hhttp://dreamer2008.github.io/2016/03/06/tech/dev/readable-code/"/>
+    <id>hhttp://dreamer2008.github.io/2016/03/06/tech/dev/readable-code/</id>
     <published>2016-03-06T13:23:33.000Z</published>
-    <updated>2016-11-07T14:17:49.000Z</updated>
+    <updated>2017-02-18T08:44:03.000Z</updated>
     <content type="html"><![CDATA[<p><a alt="编写可读代码的艺术" href="http://item.jd.com/11020839.html" target="_blank"><img src="http://img14.360buyimg.com/n1/g5/M00/03/09/rBEDik_Zh6oIAAAAAAD30NgwDhkAAApCAC9qh0AAPfo079.jpg"></a></p>
 <h1 id="u5F15_u5B50"><a href="#u5F15_u5B50" class="headerlink" title="引子"></a>引子</h1><p>写代码是程序员的基本功。但是，程序员，你真的会写代码吗？今天，我们不谈什么高大上的“架构”，就谈谈怎么写代码。</p>
 <p>作为程序员，你看过、写过、改过、删过的代码可能不计其数。然而，回头想想，真正让你感到赏心悦目、拍手称快的代码又有多少呢？要知道，你读代码的时间远远大于你实际写代码的时间。如果代码可读性不好，你的工作效率肯定会大打折扣。特别是，对于一个团队来说，如果没有良好的、统一的代码规范，协同工作效率必然很受影响，造成不必要的时间浪费。</p>
@@ -193,119 +195,11 @@
     <![CDATA[<p><a alt="编写可读代码的艺术" href="http://item.jd.com/11020839.html" target="_blank"><img src="http://img14.360buyimg.com/n1/g5/M00/03/09/rBEDik_Zh]]>
     </summary>
     
-      <category term="programming" scheme="hhttp://dreamer2008.github.io/tags/programming/"/>
+      <category term="开发" scheme="hhttp://dreamer2008.github.io/tags/%E5%BC%80%E5%8F%91/"/>
     
-      <category term="读书" scheme="hhttp://dreamer2008.github.io/categories/%E8%AF%BB%E4%B9%A6/"/>
+      <category term="读书" scheme="hhttp://dreamer2008.github.io/tags/%E8%AF%BB%E4%B9%A6/"/>
     
-  </entry>
-  
-  <entry>
-    <title><![CDATA[代码设计原则]]></title>
-    <link href="hhttp://dreamer2008.github.io/2016/01/22/tech/architecture/principles-of-design/"/>
-    <id>hhttp://dreamer2008.github.io/2016/01/22/tech/architecture/principles-of-design/</id>
-    <published>2016-01-22T12:55:24.000Z</published>
-    <updated>2017-02-18T06:20:24.000Z</updated>
-    <content type="html"><![CDATA[<h3 id="u7B80_u5355_u539F_u5219"><a href="#u7B80_u5355_u539F_u5219" class="headerlink" title="简单原则"></a>简单原则</h3><ul>
-<li>避免重复原则（DRY - Don’t repeat yourself）</li>
-</ul>
-<p>又叫一次且仅一次（once and only once，简称OAOO)。编程的最基本原则是避免重复。在程序代码中总会有很多结构体，如循环、函数、类等等。一旦你重复某个语句或概念，就会很容易形成一个抽象体。</p>
-<ul>
-<li>抽象原则（Abstraction Principle）</li>
-</ul>
-<p>与DRY原则相关。要记住，程序代码中每一个重要的功能，只能出现在源代码的一个位置。</p>
-<ul>
-<li>简单原则（Keep It Simple and Stupid）</li>
-</ul>
-<p>简单是软件设计的目标，简单的代码占用时间少，漏洞少，并且易于修改。</p>
-<ul>
-<li>避免创建你不要的代码 Avoid Creating a YAGNI (You aren’t going to need it)</li>
-</ul>
-<p>除非你需要它，否则别创建新功能。</p>
-<ul>
-<li>尽可能做可运行的最简单的事（Do the simplest thing that could possibly work）</li>
-</ul>
-<p>尽可能做可运行的最简单的事。在编程中，一定要保持简单原则。作为一名程序员不断的反思“如何在工作中做到简化呢？”这将有助于在设计中保持简单的路径。</p>
-<ul>
-<li>别让我思考(Don’t make me think)</li>
-</ul>
-<p>这是Steve Krug一本书的标题，同时也和编程有关。所编写的代码一定要易于读易于理解，这样别人才会欣赏，也能够给你提出合理化的建议。相反，若是繁杂难解的程序，其他人总是会避而远之的。</p>
-<ul>
-<li>Rule of three 称为”三次原则”</li>
-</ul>
-<p>指的是当某个功能第三次出现时，才进行”抽象化”。</p>
-<ul>
-<li>代码维护(Write Code for the Maintainer)</li>
-</ul>
-<p>一个优秀的代码，应当使本人或是他人在将来都能够对它继续编写或维护。代码维护时，或许本人会比较容易，但对他人却比较麻烦。因此你写的代码要尽可能保证他人能够容易维护。用书中原话说“如果一个维护者不再继续维护你的代码，很可能他就有想杀了你的冲动。”</p>
-<ul>
-<li>最小惊讶原则(Principle of least astonishment)</li>
-</ul>
-<p>最小惊讶原则通常是在用户界面方面引用，但同样适用于编写的代码。代码应该尽可能减少让读者惊喜。也就是说，你编写的代码只需按照项目的要求来编写。其他华丽的功能就不必了，以免弄巧成拙。</p>
-<ul>
-<li>隐藏实现细节（Hide Implementation Details）</li>
-</ul>
-<p>隐藏实现细节原则，当其他功能部分发生变化时，能够尽可能降低对其他组件的影响。</p>
-<ul>
-<li>避免过早优化(Avoid Premature Optimization)</li>
-</ul>
-<p>除非你的代码运行的比你想像中的要慢，否则别去优化。假如你真的想优化，就必须先想好如何用数据证明，它的速度变快了。<br>“过早的优化是一切罪恶的根源”——Donald Knuth</p>
-<ul>
-<li>代码重用原则（Code Reuse is Good）</li>
-</ul>
-<p>重用代码能提高代码的可读性，缩短开发时间。</p>
-<ul>
-<li>关注点分离（Separation of Concerns）</li>
-</ul>
-<p>不同领域的功能，应该由不同的代码和最小重迭的模块组成。</p>
-<ul>
-<li>拥抱改变（Embrace Change）</li>
-</ul>
-<p>这是Kent Beck一本书的标题，同时也被认为是极限编程和敏捷方法的宗旨。</p>
-<p>许多其他原则都是基于这个概念的，即你应该积极面对变化。事实上，一些较老的编程原则如最小化耦合原则都是为了使代码能够容易变化。无论你是否是个极限编程者，基于这个原则去编写代码会让你的工作变得更有意义。</p>
-<h3 id="u8BBE_u8BA1_u6A21_u5F0F_u539F_u5219"><a href="#u8BBE_u8BA1_u6A21_u5F0F_u539F_u5219" class="headerlink" title="设计模式原则"></a>设计模式原则</h3><ul>
-<li>OCP(Open/Close Principle,开闭原则)</li>
-</ul>
-<p>你所编写的软件实体（类、模块、函数等）最好是开源的，这样别人可以拓展开发。不过，对于你的代码，得限定别人不得修改。换句话说，别人可以基于你的代码进行拓展编写，但却不能修改你的代码。</p>
-<p>开闭原则就是说对扩展开放，对修改关闭。在程序需要进行拓展的时候，不能去修改原有的代码，实现一个热插拔的效果。所以一句话概括就是：为了使程序的扩展性好，易于维护和升级。想要达到这样的效果，我们需要使用接口和抽象类。</p>
-<ul>
-<li>SRP(Single responsibility principle，单一职责原则)</li>
-</ul>
-<p>一个类，只有一个引起它变化的原因。应该只有一个职责。每一个职责都是变化的一个轴线，如果一个类有一个以上的职责，这些职责就耦合在了一起。这会导致脆弱的设计。当一个职责发生变化时，可能会影响其它的职责。另外，多个职责耦合在一起，会影响复用性。例如：要实现逻辑和界面的分离。</p>
-<ul>
-<li>LSP(Liskov Substitution Principle LSP,里氏替换原则)</li>
-</ul>
-<p>面向对象设计的基本原则之一。 里氏代换原则中说，任何基类可以出现的地方，子类一定可以出现。<br>LSP是继承复用的基石，只有当衍生类可以替换掉基类，软件单位的功能不受到影响时，基类才能真正被复用，而衍生类也能够在基类的基础上增加新的行为。<br>里氏代换原则是对“开-闭”原则的补充。实现“开-闭”原则的关键步骤就是抽象化。而基类与子类的继承关系就是抽象化的具体实现，所以里氏代换原则是对实现抽象化的具体步骤的规范。</p>
-<ul>
-<li>DIP（Dependence Inversion Principle,依赖倒置原则）</li>
-</ul>
-<p>就是要依赖于抽象，不要依赖于具体。简单的说就是要求对抽象进行编程，不要对实现进行编程，这样就降低了客户与实现模块间的耦合。<br>实现开闭原则的关键是抽象化，并且从抽象化导出具体化实现，如果说开闭原则是面向对象设计的目标的话，那么依赖倒转原则就是面向对象设计的主要手段。</p>
-<ul>
-<li>ISP(Interface Segregation Principle，即接口隔离原则)</li>
-</ul>
-<p>这个原则的意思是：使用多个隔离的接口，比使用单个接口要好。还是一个降低类之间的耦合度的意思，从这儿我们看出，其实设计模式就是一个软件的设计思想，从大型软件架构出发，为了升级和维护方便。所以上文中多次出现：降低依赖，降低耦合。</p>
-<ul>
-<li>CRP(Composite Reuse Principle，合成复用原则)</li>
-</ul>
-<p>合成复用原则就是指在一个新的对象里通过关联关系（包括组合关系和聚合关系）来使用一些已有的对象，使之成为新对象的一部分；新对象通过委派调用已有对象的方法达到复用其已有功能的目的。简言之：要尽量使用组合/聚合关系，少用继承。</p>
-<ul>
-<li>迪米特法则(Law of Demeter)<br>又叫最少知道原则(Least Knowledge Principle)。<br>为什么叫最少知道原则，就是说：一个实体应当尽量少的与其他实体之间发生相互作用，使得系统功能模块相对独立。也就是说一个软件实体应当尽可能少的与其他实体发生相互作用。这样，当一个模块修改时，就会尽量少的影响其他的模块，扩展会相对容易，这是对软件实体之间通信的限制，它要求限制软件实体之间通信的宽度和深度。</li>
-</ul>
-<p>参考资料：</p>
-<ol>
-<li><p><a href="http://www.csdn.net/article/2011-07-29/302424" target="_blank" rel="external">优秀程序设计的18大原则</a></p>
-</li>
-<li><p><a href="http://www.jianshu.com/p/b8d10cb19d23" target="_blank" rel="external">代码设计原则</a></p>
-</li>
-</ol>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h3 id="u7B80_u5355_u539F_u5219"><a href="#u7B80_u5355_u539F_u5219" class="headerlink" title="简单原则"></a>简单原则</h3><ul>
-<li>避免重复原则（DRY - Don’t]]>
-    </summary>
-    
-      <category term="architecture" scheme="hhttp://dreamer2008.github.io/tags/architecture/"/>
-    
-      <category term="架构" scheme="hhttp://dreamer2008.github.io/categories/%E6%9E%B6%E6%9E%84/"/>
+      <category term="开发" scheme="hhttp://dreamer2008.github.io/categories/%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
@@ -314,7 +208,7 @@
     <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/python/python-note/"/>
     <id>hhttp://dreamer2008.github.io/2016/01/17/tech/python/python-note/</id>
     <published>2016-01-17T14:05:50.000Z</published>
-    <updated>2016-04-10T14:43:16.000Z</updated>
+    <updated>2017-02-18T08:45:07.000Z</updated>
     <content type="html"><![CDATA[<p><img src="http://www.kandasoft.com/wp-content/uploads/2014/02/Python-Programming-Language.png" alt="Python"></p>
 <h1 id="Python_u5165_u95E8"><a href="#Python_u5165_u95E8" class="headerlink" title="Python入门"></a>Python入门</h1><h2 id="Python_u7B80_u4ECB"><a href="#Python_u7B80_u4ECB" class="headerlink" title="Python简介"></a>Python简介</h2><p>脚本语言。解释语言。默认的解释器CPython。<br>Python之父—荷兰人Guido van Rossum。诞生于1989年。第一个公开发行版发行于1991年</p>
 <h2 id="Python_u7528_u9014"><a href="#Python_u7528_u9014" class="headerlink" title="Python用途"></a>Python用途</h2><ol>
@@ -343,18 +237,18 @@
     
       <category term="Python" scheme="hhttp://dreamer2008.github.io/tags/Python/"/>
     
-      <category term="programming" scheme="hhttp://dreamer2008.github.io/tags/programming/"/>
+      <category term="开发" scheme="hhttp://dreamer2008.github.io/tags/%E5%BC%80%E5%8F%91/"/>
     
-      <category term="编程" scheme="hhttp://dreamer2008.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
+      <category term="开发" scheme="hhttp://dreamer2008.github.io/categories/%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[打造个人品牌]]></title>
-    <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/branding/personal-brand/"/>
-    <id>hhttp://dreamer2008.github.io/2016/01/17/tech/branding/personal-brand/</id>
+    <link href="hhttp://dreamer2008.github.io/2016/01/17/influence/personal-brand/"/>
+    <id>hhttp://dreamer2008.github.io/2016/01/17/influence/personal-brand/</id>
     <published>2016-01-17T09:42:22.000Z</published>
-    <updated>2016-01-24T03:02:48.000Z</updated>
+    <updated>2017-02-18T08:31:24.000Z</updated>
     <content type="html"><![CDATA[<h1 id="u6458_u8981"><a href="#u6458_u8981" class="headerlink" title="摘要"></a>摘要</h1><p>最近几年，“个人品牌”、“个人影响力”逐渐被人提及。然而他们真的那么重要吗？我们又应该如何打造呢？</p>
 <h1 id="u6B63_u6587"><a href="#u6B63_u6587" class="headerlink" title="正文"></a>正文</h1><p>首先是一篇泼冷水的文章，发人深省，引以为戒。</p>
 <p><a href="http://www.fortunechina.com/career/c/2014-11/11/content_227415.htm" target="_blank" rel="external">打造个人品牌的重要性被高估了</a></p>
@@ -400,9 +294,9 @@
     <![CDATA[<h1 id="u6458_u8981"><a href="#u6458_u8981" class="headerlink" title="摘要"></a>摘要</h1><p>最近几年，“个人品牌”、“个人影响力”逐渐被人提及。然而他们真的那么重要吗？我们又应该如何打造呢？</p]]>
     </summary>
     
-      <category term="tech" scheme="hhttp://dreamer2008.github.io/tags/tech/"/>
+      <category term="influence" scheme="hhttp://dreamer2008.github.io/tags/influence/"/>
     
-      <category term="技术" scheme="hhttp://dreamer2008.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="影响力" scheme="hhttp://dreamer2008.github.io/categories/%E5%BD%B1%E5%93%8D%E5%8A%9B/"/>
     
   </entry>
   
@@ -411,7 +305,7 @@
     <link href="hhttp://dreamer2008.github.io/2016/01/17/tech/architecture/my-view-on-architecture/"/>
     <id>hhttp://dreamer2008.github.io/2016/01/17/tech/architecture/my-view-on-architecture/</id>
     <published>2016-01-17T01:41:19.000Z</published>
-    <updated>2016-04-10T14:38:24.000Z</updated>
+    <updated>2017-02-18T08:40:31.000Z</updated>
     <content type="html"><![CDATA[<p><img src="/images/tech/architect.jpg" width="600" height="400" onerror="this.src='http://static.oschina.net/uploads/space/2012/0709/172424_x5hu_28.jpg'"></p>
 <h1 id="u4EC0_u4E48_u662F_u8F6F_u4EF6_u67B6_u6784_28Software_Architecture_29"><a href="#u4EC0_u4E48_u662F_u8F6F_u4EF6_u67B6_u6784_28Software_Architecture_29" class="headerlink" title="什么是软件架构(Software Architecture)"></a>什么是软件架构(Software Architecture)</h1><h2 id="u5B9A_u4E49"><a href="#u5B9A_u4E49" class="headerlink" title="定义"></a>定义</h2><blockquote>
 <p><strong>软件架构</strong>是有关软件整体结构与组件的抽象描述，用于指导大型软件系统各个方面的设计。（原文：(<a href="https://zh.wikipedia.org/wiki/软件架构)）" target="_blank" rel="external">https://zh.wikipedia.org/wiki/软件架构)）</a></p>
@@ -419,7 +313,7 @@
 <h2 id="u8D77_u6E90"><a href="#u8D77_u6E90" class="headerlink" title="起源"></a>起源</h2><p>1960年代，Dijkstra（别告诉我你不知道他是谁）等人就已提出这个概念。1990年代以来，由于Rational和Microsoft内部的相关活动，逐渐开始流行起来。</p>
 <h1 id="u4EC0_u4E48_u662F_u67B6_u6784_u5E08_28Architect_29"><a href="#u4EC0_u4E48_u662F_u67B6_u6784_u5E08_28Architect_29" class="headerlink" title="什么是架构师(Architect)"></a>什么是架构师(Architect)</h1><h2 id="u7CFB_u7EDF_u67B6_u6784_u5E08_28System_Architect_29"><a href="#u7CFB_u7EDF_u67B6_u6784_u5E08_28System_Architect_29" class="headerlink" title="系统架构师(System Architect)"></a>系统架构师(System Architect)</h2><p>其实，<a href="https://zh.wikipedia.org/wiki/系统架构师" target="_blank" rel="external">系统架构师</a>分为很多种，企业架构师、软件架构师、硬件架构师、网络架构师、解决方案架构师等等。更多请参见：<a href="https://en.wikipedia.org/wiki/Software_architect" target="_blank" rel="external">https://en.wikipedia.org/wiki/Software_architect</a>.</p>
 <p>当然本文的重点是关注软件架构师，尤其是互联网软件架构师</p>
-<h2 id="u8F6F_u4EF6_u67B6_u6784_u5E08"><a href="#u8F6F_u4EF6_u67B6_u6784_u5E08" class="headerlink" title="软件架构师"></a>软件架构师</h2><p>软件架构师当然就是负责设计上面所说的软件架构的人了。（这不废话嘛。呵呵）</p>
+<h2 id="u8F6F_u4EF6_u67B6_u6784_u5E08"><a href="#u8F6F_u4EF6_u67B6_u6784_u5E08" class="headerlink" title="软件架构师"></a>软件架构师</h2><p>软件架构师当然就是负责设计上面所说的软件架构的人。（这不废话嘛。呵呵）</p>
 <h1 id="u6211_u5BF9_u67B6_u6784_u5E08_u7684_u7406_u89E3"><a href="#u6211_u5BF9_u67B6_u6784_u5E08_u7684_u7406_u89E3" class="headerlink" title="我对架构师的理解"></a>我对架构师的理解</h1><h2 id="u5DE5_u4F5C_u804C_u8D23"><a href="#u5DE5_u4F5C_u804C_u8D23" class="headerlink" title="工作职责"></a>工作职责</h2><blockquote>
 <p>系统架构师，是技术的长期演进的远见，和主持系统各个部分的集成整合。职责是架构可否顺利实施、对核心部分质量的承担和框架搭建。 (原文：<a href="https://zh.wikipedia.org/wiki/系统架构师" target="_blank" rel="external">https://zh.wikipedia.org/wiki/系统架构师</a>)</p>
 </blockquote>
@@ -436,6 +330,8 @@
     <![CDATA[<p><img src="/images/tech/architect.jpg" width="600" height="400" onerror="this.src='http://static.oschina.net/uploads/space/2012/0709/17242]]>
     </summary>
     
+      <category term="OOD" scheme="hhttp://dreamer2008.github.io/tags/OOD/"/>
+    
       <category term="architecture" scheme="hhttp://dreamer2008.github.io/tags/architecture/"/>
     
       <category term="架构" scheme="hhttp://dreamer2008.github.io/categories/%E6%9E%B6%E6%9E%84/"/>
@@ -447,14 +343,13 @@
     <link href="hhttp://dreamer2008.github.io/2016/01/03/essay/summary_2015/"/>
     <id>hhttp://dreamer2008.github.io/2016/01/03/essay/summary_2015/</id>
     <published>2016-01-03T11:56:29.000Z</published>
-    <updated>2016-01-17T03:05:09.000Z</updated>
+    <updated>2017-02-18T08:27:01.000Z</updated>
     <content type="html"><![CDATA[<p><img src="/images/essay/2016.jpg" width="507" height="338"></p>
 <p>2015年对我来说，是不平常的一年。因为我回到了3年前离开的公司 —— 京东商城。希望这是我这辈子唯一的一次”二进宫”。呵呵。</p>
-<p>2015年4月份，我离开了Demandforce(an Intuit company)中国团队。坦白讲，我自己感觉被忽悠了。因为面谈的时候说好的SaaS云平台，在我入职半年多以后就被放弃了。看来，被收购的公司，命运从被收购的那一刻就注定不被自己掌握了。既然高大上的SaaS不做了，就只能维护老代码了。从看到代码的第一眼，我就一直惊讶于如此陈旧、垃圾的代码，还能继续存活着，为投资者赚取利润。我也没想到，美国硅谷公司里，也有这么垃圾的代码。业务逻辑，直接写在JSP里面，想必国内的程序员大部分也没见识过。而且，我竟然坚持了两年，简直不是我的个性。</p>
-<p>回顾过去的两年，我在技术上，确实没有大的进步。一方面，是因为日常工作中确实没用到牛叉的技术，另一方面，我把业余时间用在了别的事情上，比如英语、吉他、年会唱歌。尤其是英语，我发起了ELP(English Learning Program)，现学现卖，反响很好。从此以后，我也可以张口飚英语了。嘿嘿。</p>
+<p>回顾过去的三年，我在技术上，并没有质的飞跃。一方面，是因为日常工作中确实没用到牛叉的技术，另一方面，我把业余时间用在了别的事情上，比如英语、吉他、年会唱歌。尤其是英语，我发起了ELP(English Learning Program)，现学现卖，反响很好。从此以后，我也可以张口飚英语了。嘿嘿。</p>
 <p>另外，我有幸认识了一些有趣的人。<br><a href="https://cn.linkedin.com/in/yuen-nam-choi-33335838/zh-cn" target="_blank" rel="external">Yuen</a>, a charming lady and professional product manager with amazing personalities, which includes straightness and gentleness. She was the first one that has international background I’ve met. She always smiles to everyone around her and was also very patient and her sense of humor impressed me a lot(although in a US way many times) . I enjoyed working with her in the past two years.</p>
 <p>The other guy was <a href="https://cn.linkedin.com/in/helix-guan-00b5b636/zh-cn" target="_blank" rel="external">Helix</a>. He is a System Administrator. But, more importantly, he is very versatile and has diverse hobbies,like,reading different books,playing pingpong and many other games, playing several musical instruments, and speaking several foreign languages in a strange and funny way. I’ve never seen such a kowledgeable man ever before. In a way, he is the ideal version of me. Her negative attitude to overworking also impressed me. (just like <a href="http://coolshell.cn/haoel" target="_blank" rel="external">陈皓</a>。哈哈)</p>
-<p>2015年5月，我回到了曾经战斗过的地方-京东POP。三年河东，三年河西。三年之后的今天，早已物是人非。新面孔，新业务，新技术迎面扑来，虽然核心的概念，我仍然了然于胸，但仍然感觉变化好大。到目前为止，POP商品组的大部分系统我都参与过了。其中两个系统，基本上是我独立开发的。但是，显然，在架构设计方面，我还有很长的路要走。希望，在新的一年，能有大的进步，从读书计划开始。</p>
+<p>2015年5月，我回到了曾经战斗过的地方-京东POP。三年河东，三年河西。三年之后的今天，早已物是人非。新面孔，新业务，新技术迎面扑来，变化很大。到目前为止，POP商品组的大部分系统我都参与过了。其中两个系统，基本上是我独立开发的。但是，显然，在架构设计方面，我还有很多需要学习的东西。希望，在新的一年，能有新的进步，从读书计划开始。</p>
 <p>2016年，我最大的希望是，能在技术和职业发展上找到新的突破点，更加快乐地工作、进步、成长！</p>
 <p>2016, I’m coming. Onwards and upwards!</p>
 ]]></content>
@@ -466,7 +361,7 @@
     
       <category term="京东" scheme="hhttp://dreamer2008.github.io/tags/%E4%BA%AC%E4%B8%9C/"/>
     
-      <category term="总结" scheme="hhttp://dreamer2008.github.io/categories/%E6%80%BB%E7%BB%93/"/>
+      <category term="随笔" scheme="hhttp://dreamer2008.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
@@ -499,10 +394,10 @@
   
   <entry>
     <title><![CDATA[互联网巨头]]></title>
-    <link href="hhttp://dreamer2008.github.io/2015/04/20/internet/internet-giants/"/>
-    <id>hhttp://dreamer2008.github.io/2015/04/20/internet/internet-giants/</id>
+    <link href="hhttp://dreamer2008.github.io/2015/04/20/misc/internet-giants/"/>
+    <id>hhttp://dreamer2008.github.io/2015/04/20/misc/internet-giants/</id>
     <published>2015-04-20T13:42:30.000Z</published>
-    <updated>2016-01-22T13:24:18.000Z</updated>
+    <updated>2017-02-18T08:32:34.000Z</updated>
     <content type="html"><![CDATA[<h2 id="u5168_u740310_u5927_u4E92_u8054_u7F51_u516C_u53F8"><a href="#u5168_u740310_u5927_u4E92_u8054_u7F51_u516C_u53F8" class="headerlink" title="全球10大互联网公司"></a>全球10大互联网公司</h2><p>首先，祝贺大京东成功跻身全球前10互联网公司。而且前10名中，我朝竟然独占4席，可喜可贺。<br>（以市值排序，2015年4月12日）</p>
 <p><img src="http://i.imgur.com/JFM2bu7.png" alt="全球10大互联网公司"></p>
 <p>更多参考：</p>
@@ -526,11 +421,9 @@
     <![CDATA[<h2 id="u5168_u740310_u5927_u4E92_u8054_u7F51_u516C_u53F8"><a href="#u5168_u740310_u5927_u4E92_u8054_u7F51_u516C_u53F8" class="headerlink" t]]>
     </summary>
     
-      <category term="Internet" scheme="hhttp://dreamer2008.github.io/tags/Internet/"/>
-    
       <category term="京东" scheme="hhttp://dreamer2008.github.io/tags/%E4%BA%AC%E4%B8%9C/"/>
     
-      <category term="互联网" scheme="hhttp://dreamer2008.github.io/categories/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+      <category term="其他" scheme="hhttp://dreamer2008.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
   </entry>
   
@@ -560,10 +453,10 @@
   
   <entry>
     <title><![CDATA[Github Blogging with Hexo]]></title>
-    <link href="hhttp://dreamer2008.github.io/2015/04/19/tech/opensource/github-blogging-with-hexo/"/>
-    <id>hhttp://dreamer2008.github.io/2015/04/19/tech/opensource/github-blogging-with-hexo/</id>
+    <link href="hhttp://dreamer2008.github.io/2015/04/19/influence/github-blogging-with-hexo/"/>
+    <id>hhttp://dreamer2008.github.io/2015/04/19/influence/github-blogging-with-hexo/</id>
     <published>2015-04-19T13:42:30.000Z</published>
-    <updated>2016-06-01T15:20:26.000Z</updated>
+    <updated>2017-02-18T08:48:28.000Z</updated>
     <content type="html"><![CDATA[<p>  现在github非常火，很多人（包括很多爱写作的非程序猿）都在上面开博了。推荐两篇文章：</p>
 <ul>
 <li><p><a href="http://zhuanlan.zhihu.com/cnfeat/19743861" target="_blank" rel="external">为什么你要写博客？</a></p>
@@ -658,7 +551,7 @@
     
       <category term="markdown" scheme="hhttp://dreamer2008.github.io/tags/markdown/"/>
     
-      <category term="开源" scheme="hhttp://dreamer2008.github.io/categories/%E5%BC%80%E6%BA%90/"/>
+      <category term="影响力" scheme="hhttp://dreamer2008.github.io/categories/%E5%BD%B1%E5%93%8D%E5%8A%9B/"/>
     
   </entry>
   
@@ -667,7 +560,7 @@
     <link href="hhttp://dreamer2008.github.io/2015/04/19/tech/tool/git-ten-years/"/>
     <id>hhttp://dreamer2008.github.io/2015/04/19/tech/tool/git-ten-years/</id>
     <published>2015-04-19T12:40:14.000Z</published>
-    <updated>2015-12-08T00:52:10.000Z</updated>
+    <updated>2017-02-18T08:45:33.000Z</updated>
     <content type="html"><![CDATA[<p>Git已经10岁了。如果你还没玩git，那就真的out了。</p>
 <p><a href="http://www.admin10000.com/document/6162.html" target="_blank" rel="external">原文</a> <a href="http://www.linux.com/news/featured-blogs/185-jennifer-cloer/821541-10-years-of-git-an-interview-with-git-creator-linus-torvalds" target="_blank" rel="external">英文原文</a></p>
 <p><a href="http://www.ruanyifeng.com/blog/2015/08/git-use-process.html" target="_blank" rel="external">Git入门教程</a></p>
@@ -681,7 +574,9 @@
     
       <category term="git" scheme="hhttp://dreamer2008.github.io/tags/git/"/>
     
-      <category term="互联网" scheme="hhttp://dreamer2008.github.io/categories/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+      <category term="工具" scheme="hhttp://dreamer2008.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="工具" scheme="hhttp://dreamer2008.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
