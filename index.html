@@ -78,6 +78,100 @@
     <div class="outer">
       <section id="main">
   
+    <article id="post-tech/architecture/design-principles" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/02/19/tech/architecture/design-principles/" class="article-date">
+  <time datetime="2017-02-19T11:41:53.000Z" itemprop="datePublished">2017-02-19</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/架构/">架构</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/02/19/tech/architecture/design-principles/">design_principles</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="u4EC0_u4E48_u662F_u4F18_u79C0_u7684_u9762_u5411_u5BF9_u8C61_u8BBE_u8BA1"><a href="#u4EC0_u4E48_u662F_u4F18_u79C0_u7684_u9762_u5411_u5BF9_u8C61_u8BBE_u8BA1" class="headerlink" title="什么是优秀的面向对象设计"></a>什么是优秀的面向对象设计</h2><p>众所周知，通常来说，在一个软件系统的生命周期中，软件维护的时间&gt;&gt;软件原始开发的时间。注：维护包括bug修复、各种优化和添加新功能。</p>
+<p>所以，个人认为，优秀设计的终极目标是提高软件的可维护性(Maintainability)。不考虑可维护性的设计都是耍流氓。</p>
+<p>除了这个终极目标之外，还有可复用性，可扩展性（甚至还有健壮性、灵活性，可插拔性等等），这些目标虽然含义不完全相同，但都是为了可维护性服务的。而所有这一切的基础，就是可读性。离开可读性，其他目标要么无法完成，要么代价特别大。它们的关系如下。</p>
+<h2 id="u9762_u5411_u5BF9_u8C61_u7684_u4E09_u5927_u7279_u6027"><a href="#u9762_u5411_u5BF9_u8C61_u7684_u4E09_u5927_u7279_u6027" class="headerlink" title="面向对象的三大特性"></a>面向对象的三大特性</h2><p><strong>封装、继承、多态</strong>是面向对象的三个基本特性。这是面向对象的语言为了提高可复用性和可维护性而具有的基本特性，也是OO语言相对于非OO语言的优势。</p>
+<h2 id="u9762_u5411_u5BF9_u8C61_u8BBE_u8BA1_u7684_u57FA_u672C_u539F_u5219"><a href="#u9762_u5411_u5BF9_u8C61_u8BBE_u8BA1_u7684_u57FA_u672C_u539F_u5219" class="headerlink" title="面向对象设计的基本原则"></a>面向对象设计的基本原则</h2><p>提到面向对象设计(OOD)，很多人会想到设计模式，但真正能把具体的设计模式信手拈来的又有多少呢？另一方面，其实这些设计模式只是具体的招数，不是内功。真正的内功心法更加重要，有了它们，你学习招数将更加顺手，即使不会具体的设计模式也能将软件设计得比较优雅，甚至你还可以在它们的指导下自创一些招数出来，做到“无招胜有招”。</p>
+<h3 id="SOLID_u539F_u5219"><a href="#SOLID_u539F_u5219" class="headerlink" title="SOLID原则"></a>SOLID原则</h3><p><a href="https://en.wikipedia.org/wiki/SOLID_(object-oriented_design" target="_blank" rel="external">SOLID</a>最早是由俗称「Uncle Bob」的Robert C. Martin提出。他也是”Clean Code”这本书的作者。SOLID代表以下5大设计原则。</p>
+<ul>
+<li><p>Single Responsibility Principle(SRP,单一职责原则): 一个类应该有且只有一个去改变它的理由，这意味着一个类应该只有一个职责</p>
+</li>
+<li><p>Open/Closed Principle(OCP,开闭原则): 对象或实体应该对扩展开放，对修改封闭。在程序需要进行拓展的时候，不能去修改原有的代码，实现一个热插拔的效果。所以一句话概括就是：为了使程序的扩展性好，易于维护和升级。想要达到这样的效果，我们需要使用接口和抽象类</p>
+</li>
+<li><p>Liskov Substitution Principle(LSP,里氏替换原则): 任何基类可以出现的地方，子类一定可以出现。在对象 x 为类型 T 时 q(x) 成立，那么当 S 是 T 的子类时，对象 y 为类型 S 时 q(y) 也应成立。（即对父类的调用同样适用于子类）</p>
+</li>
+<li><p>Interface Segregation Principle(ISP,接口隔离原则): 使用多个隔离/客户端相关的接口，比使用单个通用接口要好</p>
+</li>
+<li><p>Dependency Inversion Principle(DIP,依赖反转原则): 实体必须依靠抽象而不是具体实现。它表示高层次的模块不应该依赖于低层次的模块，它们都应该依赖于抽象</p>
+</li>
+<li><p>Composite Reuse Principle(CRP,合成复用原则):尽量使用合成/聚合的方式，而不是使用继承</p>
+</li>
+<li><p>迪米特法则(Law of Demeter)<br>又叫最少知道原则(Least Knowledge Principle)。一个实体应当尽量少地与其他实体之间发生相互作用，使得系统功能模块相对独立</p>
+</li>
+</ul>
+<h3 id="u5176_u4ED6_u5E38_u7528_u539F_u5219"><a href="#u5176_u4ED6_u5E38_u7528_u539F_u5219" class="headerlink" title="其他常用原则"></a>其他常用原则</h3><p>除了SOLID原则，还有一些其他原则会经常被提到。</p>
+<ul>
+<li>避免重复原则（DRY - Don’t Repeat Yourself）</li>
+</ul>
+<p>又叫一次且仅一次（once and only once，简称OAOO)。编程的最基本原则是避免重复。在程序代码中总会有很多结构体，如循环、函数、类等等。一旦你重复某个语句或概念，就会很容易形成一个抽象体</p>
+<ul>
+<li>简单原则（Keep It Simple and Stupid）</li>
+</ul>
+<p>简单是软件设计的目标，简单的代码占用时间少，漏洞少，并且易于修改</p>
+<ul>
+<li>避免过早优化(Avoid Premature Optimization)</li>
+</ul>
+<p>除非你的代码运行的比你想像中的要慢，否则别去优化。假如你真的想优化，就必须先想好如何用数据证明，它的速度变快了。<br>“过早的优化是一切罪恶的根源”——Donald Knuth</p>
+<h2 id="u53C2_u8003_u8D44_u6599"><a href="#u53C2_u8003_u8D44_u6599" class="headerlink" title="参考资料"></a>参考资料</h2><ol>
+<li><p><a href="http://www.csdn.net/article/2011-07-29/302424" target="_blank" rel="external">优秀程序设计的18大原则</a></p>
+</li>
+<li><p><a href="http://blog.jobbole.com/86267/" target="_blank" rel="external">S.O.L.I.D：面向对象设计的头 5 大原则</a></p>
+</li>
+</ol>
+
+      
+    </div>
+    
+    <footer class="article-footer">
+      
+        <a data-url="hhttp://dreamer2008.github.io/2017/02/19/tech/architecture/design-principles/" data-id="cizclv9rt000z19nqqy00kw53" class="article-share-link">分享到</a>
+      
+
+      <!-- 
+      
+        <a href="hhttp://dreamer2008.github.io/2017/02/19/tech/architecture/design-principles/#ds-thread" class="article-comment-link">评论</a>
+      
+      -->
+
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/OOD/">OOD</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/architecture/">architecture</a></li></ul>
+
+    </footer>
+  </div>
+  
+
+
+</article>
+
+
+  
     <article id="post-misc/mp" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/11/20/misc/mp/" class="article-date">
@@ -154,7 +248,7 @@
     
     <footer class="article-footer">
       
-        <a data-url="hhttp://dreamer2008.github.io/2016/11/20/misc/mp/" data-id="cizb069yl000zf4s66s2hndqq" class="article-share-link">分享到</a>
+        <a data-url="hhttp://dreamer2008.github.io/2016/11/20/misc/mp/" data-id="cizclv9rw001319nqm8ly3ff5" class="article-share-link">分享到</a>
       
 
       <!-- 
@@ -236,7 +330,7 @@
     
     <footer class="article-footer">
       
-        <a data-url="hhttp://dreamer2008.github.io/2016/05/07/tech/dev/code-simplicity/" data-id="cizb069ye000of4s6jlv2ztq1" class="article-share-link">分享到</a>
+        <a data-url="hhttp://dreamer2008.github.io/2016/05/07/tech/dev/code-simplicity/" data-id="cizclv9rn000o19nq2slzpubd" class="article-share-link">分享到</a>
       
 
       <!-- 
@@ -346,7 +440,7 @@
     
     <footer class="article-footer">
       
-        <a data-url="hhttp://dreamer2008.github.io/2016/03/06/tech/dev/readable-code/" data-id="cizb069ya000jf4s6dzbd3xfv" class="article-share-link">分享到</a>
+        <a data-url="hhttp://dreamer2008.github.io/2016/03/06/tech/dev/readable-code/" data-id="cizclv9rj000j19nqcinheu70" class="article-share-link">分享到</a>
       
 
       <!-- 
@@ -419,7 +513,7 @@
     
     <footer class="article-footer">
       
-        <a data-url="hhttp://dreamer2008.github.io/2016/01/17/tech/python/python-note/" data-id="cizb069y7000cf4s6ctrm3isc" class="article-share-link">分享到</a>
+        <a data-url="hhttp://dreamer2008.github.io/2016/01/17/tech/python/python-note/" data-id="cizclv9rh000c19nq2j73kyoe" class="article-share-link">分享到</a>
       
 
       <!-- 
@@ -512,7 +606,7 @@
     
     <footer class="article-footer">
       
-        <a data-url="hhttp://dreamer2008.github.io/2016/01/17/influence/personal-brand/" data-id="cizb069yv0019f4s6au5hrmx0" class="article-share-link">分享到</a>
+        <a data-url="hhttp://dreamer2008.github.io/2016/01/17/influence/personal-brand/" data-id="cizclv9s4001d19nq3p11ghuc" class="article-share-link">分享到</a>
       
 
       <!-- 
@@ -584,7 +678,7 @@
     
     <footer class="article-footer">
       
-        <a data-url="hhttp://dreamer2008.github.io/2016/01/17/tech/architecture/my-view-on-architecture/" data-id="cizb069yh000sf4s68rf47m3s" class="article-share-link">分享到</a>
+        <a data-url="hhttp://dreamer2008.github.io/2016/01/17/tech/architecture/my-view-on-architecture/" data-id="cizclv9rq000s19nqrovvv7zo" class="article-share-link">分享到</a>
       
 
       <!-- 
@@ -645,7 +739,7 @@
     
     <footer class="article-footer">
       
-        <a data-url="hhttp://dreamer2008.github.io/2016/01/03/essay/summary_2015/" data-id="cizb069z1001nf4s692qlk2e9" class="article-share-link">分享到</a>
+        <a data-url="hhttp://dreamer2008.github.io/2016/01/03/essay/summary_2015/" data-id="cizclv9sc001r19nqc6i9mnbl" class="article-share-link">分享到</a>
       
 
       <!-- 
@@ -707,7 +801,7 @@
     
     <footer class="article-footer">
       
-        <a data-url="hhttp://dreamer2008.github.io/2015/12/06/english/index/" data-id="cizb069xe0000f4s6nwiieyjq" class="article-share-link">分享到</a>
+        <a data-url="hhttp://dreamer2008.github.io/2015/12/06/english/index/" data-id="cizclv9qo000019nq0gnkv59s" class="article-share-link">分享到</a>
       
 
       <!-- 
@@ -776,7 +870,7 @@
     
     <footer class="article-footer">
       
-        <a data-url="hhttp://dreamer2008.github.io/2015/04/20/misc/internet-giants/" data-id="cizb069yo0010f4s6d2d5t8at" class="article-share-link">分享到</a>
+        <a data-url="hhttp://dreamer2008.github.io/2015/04/20/misc/internet-giants/" data-id="cizclv9ry001419nq62nbpi05" class="article-share-link">分享到</a>
       
 
       <!-- 
@@ -787,65 +881,6 @@
 
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/京东/">京东</a></li></ul>
-
-    </footer>
-  </div>
-  
-
-
-</article>
-
-
-  
-    <article id="post-essay/realistic-idealist" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2015/04/20/essay/realistic-idealist/" class="article-date">
-  <time datetime="2015-04-19T16:05:00.000Z" itemprop="datePublished">2015-04-20</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/随笔/">随笔</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/04/20/essay/realistic-idealist/">做现实的理想主义者</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><img src="http://www.xjy.cn/wp-content/uploads/2012/08/4b09eac0t7a5ec1a9f402690.jpg" alt=""></p>
-<p>— 节选自<a href="http://www.zreading.cn/archives/3178.html" title="做现实的理想主义者" target="_blank" rel="external">做现实的理想主义者</a></p>
-<p>世界不属于理想主义者，因为他们懦弱，没有勇气面对真相; </p>
-<p>世界也不属于现实主义者，因为他们只是在重复别人的生活。 </p>
-<p>世界属于我们这样的现实的理想主义者。因为他们深深的知道，梦想越纯粹，手段就越要现实。</p>
-<p>世界越不看好你，你就要越看好自己。环境越冷清，我们就越要笑得怒力！我们就是这样改变世界！</p>
-
-      
-    </div>
-    
-    <footer class="article-footer">
-      
-        <a data-url="hhttp://dreamer2008.github.io/2015/04/20/essay/realistic-idealist/" data-id="cizb069z4001rf4s67ulklo3e" class="article-share-link">分享到</a>
-      
-
-      <!-- 
-      
-        <a href="hhttp://dreamer2008.github.io/2015/04/20/essay/realistic-idealist/#ds-thread" class="article-comment-link">评论</a>
-      
-      -->
-
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/essay/">essay</a></li></ul>
 
     </footer>
   </div>
@@ -869,7 +904,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">分类</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/English/">English</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/其他/">其他</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/工具/">工具</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/开发/">开发</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/影响力/">影响力</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/架构/">架构</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/随笔/">随笔</a><span class="category-list-count">2</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/English/">English</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/其他/">其他</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/工具/">工具</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/开发/">开发</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/影响力/">影响力</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/架构/">架构</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/随笔/">随笔</a><span class="category-list-count">2</span></li></ul>
     </div>
   </div>
 
@@ -878,7 +913,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签云</h3>
     <div class="widget tagcloud">
-      <a href="/tags/OOD/" style="font-size: 10px;">OOD</a> <a href="/tags/Python/" style="font-size: 10px;">Python</a> <a href="/tags/architecture/" style="font-size: 10px;">architecture</a> <a href="/tags/essay/" style="font-size: 10px;">essay</a> <a href="/tags/git/" style="font-size: 15px;">git</a> <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/influence/" style="font-size: 10px;">influence</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/misc/" style="font-size: 10px;">misc</a> <a href="/tags/京东/" style="font-size: 15px;">京东</a> <a href="/tags/工具/" style="font-size: 10px;">工具</a> <a href="/tags/开发/" style="font-size: 20px;">开发</a> <a href="/tags/读书/" style="font-size: 15px;">读书</a>
+      <a href="/tags/OOD/" style="font-size: 15px;">OOD</a> <a href="/tags/Python/" style="font-size: 10px;">Python</a> <a href="/tags/architecture/" style="font-size: 15px;">architecture</a> <a href="/tags/essay/" style="font-size: 10px;">essay</a> <a href="/tags/git/" style="font-size: 15px;">git</a> <a href="/tags/github/" style="font-size: 10px;">github</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/influence/" style="font-size: 10px;">influence</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a> <a href="/tags/misc/" style="font-size: 10px;">misc</a> <a href="/tags/京东/" style="font-size: 15px;">京东</a> <a href="/tags/工具/" style="font-size: 10px;">工具</a> <a href="/tags/开发/" style="font-size: 20px;">开发</a> <a href="/tags/读书/" style="font-size: 15px;">读书</a>
     </div>
   </div>
 
@@ -887,7 +922,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">2016年11月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">2016年05月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">2016年03月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">2016年01月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">2015年12月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">2015年04月</a><span class="archive-list-count">5</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">2017年02月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">2016年11月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">2016年05月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">2016年03月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">2016年01月</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">2015年12月</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">2015年04月</a><span class="archive-list-count">5</span></li></ul>
     </div>
   </div>
 
@@ -897,6 +932,10 @@
     <h3 class="widget-title">近期文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2017/02/19/tech/architecture/design-principles/">design_principles</a>
+          </li>
         
           <li>
             <a href="/2016/11/20/misc/mp/">微信公众号推荐</a>
@@ -912,10 +951,6 @@
         
           <li>
             <a href="/2016/01/17/tech/python/python-note/">Python学习笔记（一）</a>
-          </li>
-        
-          <li>
-            <a href="/2016/01/17/influence/personal-brand/">打造个人品牌</a>
           </li>
         
       </ul>
